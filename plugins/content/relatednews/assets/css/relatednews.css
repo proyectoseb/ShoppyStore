@@ -1,0 +1,7 @@
+h3.related-title {font-size: 18px;margin: 2em 0 1em;font-weight: normal;}
+
+ul.related-items {list-style: none;padding: 0;}
+ul.related-items li .img-fulltext {margin: 0 15px 15px 0;}
+ul.related-items li a.related-item-image-link {display: block;margin-bottom: 10px;}
+ul.related-items li .related-item-date {color: #999;}
+ul.related-items li h3.related-item-title{font-size: 100%;}

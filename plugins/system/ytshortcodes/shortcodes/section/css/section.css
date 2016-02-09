@@ -1,0 +1,60 @@
+.yt-section-wrapper {
+	position: relative;
+}
+.yt-section {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-position: top center;
+	background-repeat: repeat;
+	background-color: #FFF;
+	background-attachment: scroll;
+	background-size: cover;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	transform-style: preserve-3d;
+	backface-visibility: hidden;
+}
+.yt-section-overlay {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 2;
+}
+.yt-sp-transition {
+	-webkit-transition: background-position 1s cubic-bezier(0, 0, 0, 0.93);
+	-moz-transition: background-position 1s cubic-bezier(0, 0, 0, 0.93);
+	-ms-transition: background-position 1s cubic-bezier(0, 0, 0, 0.93);
+	-o-transition: background-position 1s cubic-bezier(0, 0, 0, 0.93);
+	transition: background-position 1s cubic-bezier(0, 0, 0, 0.93);
+}
+.yt-section-content {
+	max-width: 90%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 3;
+	padding: 30px 10px;
+}
+.yt-section-forcefullwidth {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.yt-section-content h1,
+.yt-section-content h2,
+.yt-section-content h3,
+.yt-section-content h4,
+.yt-section-content h5,
+.yt-section-content h6 { 
+	color: inherit;
+}
+
+.yt-section-video {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+}

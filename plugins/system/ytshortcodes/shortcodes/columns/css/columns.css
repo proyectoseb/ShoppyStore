@@ -1,0 +1,157 @@
+.yt-show-grid {
+  margin-bottom: 20px;
+}
+.yt-show-grid h1{
+  margin-bottom: 15px;
+}
+.yt-show-grid .col-xs-1,.yt-show-grid .col-sm-1,.yt-show-grid .col-md-1,.yt-show-grid .col-lg-1{
+	width: 7.333%;
+	margin-left: 1%;
+	float: left;
+}
+.yt-show-grid .col-xs-1:first-child,.yt-show-grid .col-sm-1:first-child,.yt-show-grid .col-md-1:first-child,.yt-show-grid .col-lg-1:first-child{
+	margin-left: 0;
+}
+.yt-show-grid .col-xs-2,.yt-show-grid .col-sm-2,.yt-show-grid .col-md-2,.yt-show-grid .col-lg-2{
+	width: 14.6666%;
+	margin-left: 2%;
+	float: left;
+}
+.yt-show-grid .col-xs-2:first-child,.yt-show-grid .col-sm-2:first-child,.yt-show-grid .col-md-2:first-child,.yt-show-grid .col-lg-2:first-child{
+	margin-left: 0;
+}
+.yt-show-grid .col-xs-3,.yt-show-grid .col-sm-3,.yt-show-grid .col-md-3,.yt-show-grid .col-lg-3{
+	width: 22.5%;
+	margin-left: 3%;
+	float: left;
+}
+.yt-show-grid .col-xs-3:first-child,.yt-show-grid .col-sm-3:first-child,.yt-show-grid .col-md-3:first-child,.yt-show-grid .col-lg-3:first-child{
+	margin-left: 0;
+}
+.yt-show-grid .col-xs-4,.yt-show-grid .col-sm-4,.yt-show-grid .col-md-4,.yt-show-grid .col-lg-4{
+	width: 32.5%;
+	margin-left: 1%;
+	float: left;
+}
+.yt-show-grid .col-xs-4:first-child,.yt-show-grid .col-sm-4:first-child,.yt-show-grid .col-md-4:first-child,.yt-show-grid .col-lg-4:first-child{
+	margin-left: 0;
+}
+.yt-show-grid .col-xs-5,.yt-show-grid .col-sm-5,.yt-show-grid .col-md-5,.yt-show-grid .col-lg-5{
+	width: 38.6666%;
+	margin-left: 3%;
+	float: left;
+}
+.yt-show-grid .col-xs-5:first-child,.yt-show-grid .col-sm-5:first-child,.yt-show-grid .col-md-5:first-child,.yt-show-grid .col-lg-5:first-child{
+	margin-left: 0;
+}
+.yt-show-grid .col-xs-6,.yt-show-grid .col-sm-6,.yt-show-grid .col-md-6,.yt-show-grid .col-lg-6{
+	width: 49%;
+	margin-left: 1%;
+	float: left;
+}
+.yt-show-grid .col-xs-6:first-child,.yt-show-grid .col-sm-6:first-child,.yt-show-grid .col-md-6:first-child,.yt-show-grid .col-lg-6:first-child{
+	margin-left: 0;
+}
+.yt-show-grid .col-xs-7,.yt-show-grid .col-sm-7,.yt-show-grid .col-md-7,.yt-show-grid .col-lg-7{
+	width: 55.333%;
+	margin-left: 3%;
+	float: left;
+}
+.yt-show-grid .col-xs-7:first-child,.yt-show-grid .col-sm-7:first-child,.yt-show-grid .col-md-7:first-child,.yt-show-grid .col-lg-7:first-child{
+	margin-left: 0;
+}
+.yt-show-grid .col-xs-8,.yt-show-grid .col-sm-8,.yt-show-grid .col-md-8,.yt-show-grid .col-lg-8{
+	width: 63.6666%;
+	margin-left: 3%;
+	float: left;
+}
+.yt-show-grid .col-xs-8:first-child,.yt-show-grid .col-sm-8:first-child,.yt-show-grid .col-md-8:first-child,.yt-show-grid .col-lg-8:first-child{
+	margin-left: 0;
+}
+.yt-show-grid .col-xs-9,.yt-show-grid .col-sm-9,.yt-show-grid .col-md-9,.yt-show-grid .col-lg-9{
+	width: 72%;
+	margin-left: 3%;
+	float: left;
+}
+.yt-show-grid .col-xs-9:first-child,.yt-show-grid .col-sm-9:first-child,.yt-show-grid .col-md-9:first-child,.yt-show-grid .col-lg-9:first-child{
+	margin-left: 0;
+}
+.yt-show-grid .col-xs-10,.yt-show-grid .col-sm-10,.yt-show-grid .col-md-10,.yt-show-grid .col-lg-10{
+	width: 80.333%;
+	margin-left: 3%;
+	float: left;
+}
+.yt-show-grid .col-xs-10:first-child,.yt-show-grid .col-sm-10:first-child,.yt-show-grid .col-md-10:first-child,.yt-show-grid .col-lg-10:first-child{
+	margin-left: 0;
+}
+.yt-show-grid .col-xs-11,.yt-show-grid .col-sm-11,.yt-show-grid .col-md-11,.yt-show-grid .col-lg-11{
+	width: 88.6666%;
+	margin-left: 3%;
+	float: left;
+}
+.yt-show-grid .col-xs-11:first-child,.yt-show-grid .col-sm-11:first-child,.yt-show-grid .col-md-11:first-child,.yt-show-grid .col-lg-11:first-child{
+	margin-left: 0;
+}
+.yt-show-grid .col-xs-12,.yt-show-grid .col-sm-12,.yt-show-grid .col-md-12,.yt-show-grid .col-lg-12{
+	width: 100%;
+}
+.yt-show-grid.show-grid  .col-xs-1,.yt-show-grid.show-grid  .col-sm-1,.yt-show-grid.show-grid  .col-md-1,.yt-show-grid .show-grid .col-lg-1{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yt-show-grid.show-grid  .col-xs-2,.yt-show-grid.show-grid  .col-sm-2,.yt-show-grid.show-grid  .col-md-2,.yt-show-grid .show-grid .col-lg-2{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yt-show-grid.show-grid  .col-xs-3,.yt-show-grid.show-grid  .col-sm-3,.yt-show-grid.show-grid  .col-md-3,.yt-show-grid .show-grid .col-lg-3{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yt-show-grid.show-grid  .col-xs-4,.yt-show-grid.show-grid  .col-sm-4,.yt-show-grid.show-grid  .col-md-4,.yt-show-grid .show-grid .col-lg-4{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yt-show-grid.show-grid  .col-xs-5,.yt-show-grid.show-grid  .col-sm-5,.yt-show-grid.show-grid  .col-md-5,.yt-show-grid .show-grid .col-lg-5{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yt-show-grid.show-grid  .col-xs-6,.yt-show-grid.show-grid  .col-sm-6,.yt-show-grid.show-grid  .col-md-6,.yt-show-grid .show-grid .col-lg-6{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yt-show-grid.show-grid  .col-xs-7,.yt-show-grid.show-grid  .col-sm-7,.yt-show-grid.show-grid  .col-md-7,.yt-show-grid .show-grid .col-lg-7{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yt-show-grid.show-grid  .col-xs-8,.yt-show-grid.show-grid  .col-sm-8,.yt-show-grid.show-grid  .col-md-8,.yt-show-grid .show-grid .col-lg-8{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yt-show-grid.show-grid  .col-xs-9,.yt-show-grid.show-grid  .col-sm-9,.yt-show-grid.show-grid  .col-md-9,.yt-show-grid .show-grid .col-lg-9{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yt-show-grid.show-grid  .col-xs-10,.yt-show-grid.show-grid  .col-sm-10,.yt-show-grid.show-grid  .col-md-10,.yt-show-grid .show-grid .col-lg-10{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yt-show-grid.show-grid  .col-xs-11,.yt-show-grid.show-grid  .col-sm-11,.yt-show-grid.show-grid  .col-md-11,.yt-show-grid .show-grid .col-lg-11{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.yt-show-grid.show-grid  .col-xs-12,.yt-show-grid.show-grid  .col-sm-12,.yt-show-grid.show-grid  .col-md-12,.yt-show-grid .show-grid .col-lg-12{
+	background-color: rgba(86,61,124,0.15);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}

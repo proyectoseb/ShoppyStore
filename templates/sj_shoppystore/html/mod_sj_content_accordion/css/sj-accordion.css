@@ -1,0 +1,89 @@
+/*------------------------------------------------------------------------
+ # Sj Accordion - Version 1.0
+ # Copyright (C) 2011 YouTech Company. All Rights Reserved.
+ # @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ # Author: YouTech Company
+ # Websites: http://www.smartaddons.com/
+ -------------------------------------------------------------------------*/
+.sj-accordion  {
+	padding:0;
+	overflow: hidden;
+}
+
+.sj-accordion .acd-items {margin:0;}
+
+.sj-accordion .acd-items .acd-item{
+	margin:0;
+	padding:0;
+	
+}
+
+.sj-accordion .acd-items .acd-item .acd-header{
+	cursor: pointer ;
+	border: 1px solid #ddd;
+	margin:2px 0;
+	padding: 5px 8px 5px 8px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.sj-accordion .acd-items .acd-item.selected .acd-header {
+	font-weight: bold;
+}
+.sj-accordion .acd-items .acd-item .acd-content-wrap .acd-content .acd-description{display: inline;}
+/* .sj-accordion .acd-items .acd-item.selected .acd-content-wrap{
+	height: auto;
+} */
+
+.sj-accordion .acd-items .acd-item .acd-content-wrap{
+ 	overflow: hidden; 
+  	height: 0; 
+	width:100%;
+}
+
+.sj-accordion .acd-content-wrap .acd-content-wrap-inner{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	display: block;
+}
+
+.sj-accordion .acd-content-wrap .acd-content-wrap-inner .acd-image{
+	overflow: hidden;margin: 10px 0;
+	position: relative;
+	/*padding: 4px;
+	border: 1px solid #ddd;*/
+	
+}
+
+.sj-accordion .acd-content-wrap .acd-content-wrap-inner .acd-image a{
+	
+}
+
+.sj-accordion .acd-content-wrap .acd-content-wrap-inner .acd-image img{
+	float:left;
+	max-width: 100%;
+	width:100%;
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+.sj-accordion .acd-items .acd-item .acd-content-wrap .acd-content{
+	margin-bottom: 10px;
+}
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+

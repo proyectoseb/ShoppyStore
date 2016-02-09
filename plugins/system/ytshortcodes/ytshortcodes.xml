@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>YT Shortcodes</name>
+	<author>YouTech Company</author>
+	<creationDate>10 March 2015</creationDate>
+	<copyright>Copyright (C) 2015 YouTech Company</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@ytcvn.com</authorEmail>
+	<authorUrl>http://www.smartaddons.com</authorUrl>
+	<version>3.0.0</version>
+	<description>YT_DESC</description>
+	<files>
+		<filename plugin="ytshortcodes">ytshortcodes.php</filename>
+		<filename plugin="ytshortcodes">index.html</filename>
+		<folder plugin="ytshortcodes">assets</folder>
+		<folder plugin="ytshortcodes">includes</folder>
+		<folder plugin="ytshortcodes">core</folder>
+		<folder plugin="ytshortcodes">language</folder>
+		<folder plugin="ytshortcodes">other</folder>
+		<folder plugin="ytshortcodes">shortcodes</folder>
+	</files>
+	<languages folder="language/en-GB">
+		<language tag="en-GB">en-GB.plg_system_ytshortcodes.ini</language>
+		<language tag="en-GB">en-GB.plg_system_ytshortcodes.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				
+				
+				<field name="show_sjbootstrap" type="radio" class="btn-group" default="0" filter="integer" label="SHOW_BOOT_LABEL" description="SHOW_BOOT_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNo</option>
+				</field>
+				
+				<field name="show_sjfont-awesome" type="radio" class="btn-group" default="1" filter="integer" label="SHOW_AWESOME_LABEL" description="SHOW_AWESOME_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNo</option>
+				</field>
+				
+				<field name="show_sjjquery" type="radio" class="btn-group" default="0" filter="integer" label="SHOW_JQUERY_LABEL" description="SHOW_JQUERY_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNo</option>
+				</field>
+				
+				<field name="show_sjprettify" type="radio" class="btn-group" default="1" filter="integer" label="SHOW_PRETTIFY_LABEL" description="SHOW_PRETTIFY_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNo</option>
+				</field>
+				
+			</fieldset>
+		</fields>
+	</config>
+	
+	<updateservers>
+	   <server type="collection">http://smartaddons.com/update_server/products.xml</server>
+	</updateservers>
+</extension>

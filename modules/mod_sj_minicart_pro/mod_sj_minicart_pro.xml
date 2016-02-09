@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site" method="upgrade">
+	<name>Sj Minicart Pro for Virtuemart</name>
+	<creationDate>January 2015</creationDate>
+	<author>You Tech Company</author>
+	<authorUrl>http://www.smartaddons.com</authorUrl>
+	<copyright>Copyright (C) 2015 http://www.smartaddons.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
+	<version>3.0.0</version>
+	<description>TPL_YTFRAMEWORK_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_sj_minicart_pro">mod_sj_minicart_pro.php</filename>
+		<filename>index.html</filename>
+		<folder>assets</folder>
+		<folder>core</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages/>
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_sj_minicart_pro/core/fields">
+			<fieldset name="basic">
+				<field name="item_link_target" type="list" class="btn-group" default="_self" label="Open Link"
+				       description="The Type shows when you click on the link">
+					<option value="_blank">New Window</option>
+					<option value="_self">Same Window</option>
+					<option value="_windowopen">Popup window</option>
+				</field>
+				<field name="cart_detail_width" type="text" default="492" label="CART_DETAIL_WIDTH_LABEL" description="CART_DETAIL_WIDTH_DESC"/>
+			</fieldset>
+			<fieldset name="layout_options" label="LAYOUT_LABEL">
+				<field name="header" type="sjheading" class="text" label="Product List Options"/>
+				<field name="product_list_display" type="radio" default="1" label="PRODUCT_LIST_LABEL"
+				       description="PRODUCT_LIST_DESC" class="btn-group">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="product_max_height" type="text" default="270" label="PRODUCT_MAX_HEIGHT_LABEL" description="PRODUCT_MAX_HEIGHT_DESC"/>
+				<field name="product_label_display" type="radio" default="1" label="PRODUCT_LABEL_LABEL"
+				       class="btn-group"
+				       description="PRODUCT_LABEL_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="product_attribute_display" type="radio" default="1" label="PRODUCT_ATTRIBUTE_LABEL"
+				       description="PRODUCT_ATTRIBUTE_DESC" class="btn-group">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="header1" type="sjheading" class="text" label="Coupon Form Options"/>
+				<field name="coupon_form_display" type="radio" default="1" label="COUPON_DISPLAY_LABEL" description="COUPON_DISPLAY_DESC"
+				       class="btn-group">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="coupon_label_display" type="radio" default="1" label="COUPON_LABEL_LABEL" description="COUPON_LABEL_DESC"
+				       class="btn-group">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="header2" type="sjheading" class="text" label="Footer Cart Options"/>
+				<field name="goto_cart_display" type="radio" default="1" label="GOTO_CART_DISPLAY_LABEL" description="GOTO_CART_DISPLAY_DESC"
+				       class="btn-group">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="checkout_display" type="radio" default="1" label="CHECKOUT_DISPLAY_LABEL" description="CHECKOUT_DISPLAY_LABEL"
+				       class="btn-group">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="total_price_display" type="radio" default="1" label="TOTAL_PRICE_LABEL" description="TOTAL_PRICE_DESC" class="btn-group">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="header3" type="sjheading" class="text" label="Images Options"/>
+				<field name="imgcfg_function" type="list"
+				       label="Resize Mode" description="Resize Mode">
+					<option value="none">None</option>
+					<option value="resize_center">Center</option>
+					<option value="resize_fill">Fill</option>
+					<option value="resize_fit">Fit</option>
+					<option value="resize_stretch">Stretch</option>
+				</field>
+				<field name="imgcfg_type" type="list" default="" label="Output Format" description="Output Format after Resizing">
+					<option value="">Default</option>
+					<option value="1">GIF</option>
+					<option value="2">JPEG</option>
+					<option value="3">PNG</option>
+				</field>
+				<field name="imgcfg_transparency" label="Keep Transparency" class="btn-group"
+				       description="Keep Transparency. Applied for GIF/PNG format" type="radio" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="imgcfg_width" type="text" default="100" label="Image Width" description="Image Width"/>
+				<field name="imgcfg_height" type="text" default="100" label="Image Height" description="Image Height"/>
+				<field name="imgcfg_background" type="color" default="#000000" label="Background" description="Background"/>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text" default="" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+				       description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"/>
+				<field name="layout" type="modulelayout"
+				       label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC"/>
+				<field name="include_jquery" type="radio" default="0" class="btn-group"
+				       label="Include jQuery" description="Do you want include jQuery library?">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

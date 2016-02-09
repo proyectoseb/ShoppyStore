@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE extension>
+<extension type="file" version="2.5" method="upgrade">
+	<name>Kunena Media Files</name>
+	<version>3.0.7</version>
+	<versionname>Galah</versionname>
+	<creationDate>2015-02-01</creationDate>
+	<author>Kunena Team</author>
+	<authorEmail>kunena@kunena.org</authorEmail>
+	<authorUrl>http://www.kunena.org</authorUrl>
+	<copyright>(C) 2008 - 2015 Kunena Team. All rights reserved.</copyright>
+	<license>GNU/GPLv3 or later</license>
+	<description>Kunena media files.</description>
+	<fileset>
+		<files target="media/kunena">
+			<folder>attachments</folder>
+			<folder>avatars</folder>
+			<folder>category_images</folder>
+			<folder>emoticons</folder>
+			<folder>icons</folder>
+			<folder>images</folder>
+			<folder>js</folder>
+			<folder>less</folder>
+			<folder>ranks</folder>
+			<folder>topicicons</folder>
+			<filename>index.html</filename>
+		</files>
+	</fileset>
+</extension>

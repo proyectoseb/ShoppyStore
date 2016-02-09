@@ -1,0 +1,15 @@
+
+.rtl .article-header,
+.rtl h3.modtitle,
+.rtl .tab,
+.rtl h2.basicnews-title,
+.rtl .acd-header,
+.rtl h3.related-title,
+.rtl h3.related-item-title,
+.rtl .page-header,
+.rtl .carousel-caption h4,
+.rtl a.more,
+.rtl .bsn-wrap h2,
+.rtl .item-title {
+  font-family: "arial";
+}

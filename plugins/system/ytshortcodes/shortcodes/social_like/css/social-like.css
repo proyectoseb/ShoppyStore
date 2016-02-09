@@ -1,0 +1,138 @@
+.social-like .sl_button{
+	background:#DCE0E0;
+	position:relative;
+	display:block;
+	float:left;
+	height:40px;
+	margin:0 15px 0 0;
+	overflow:hidden;
+	width:150px;
+	border-radius:3px;
+	-o-border-radius:3px;
+	-ms-border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+.social-like .sl_icon{
+	display:block;
+	float:left;
+	position:relative;
+	z-index:3;
+	height:100%;
+	vertical-align:top;
+	width:38px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:0px;
+	-moz-border-radius-bottomright:0px;
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-radius:3px 0px 0px 3px;
+	border-radius:3px 0px 0px 3px;
+	text-align:center;
+}
+.social-like .sl_icon i{
+	color:#fff;
+	line-height:42px;
+}
+.social-like .sl_slide{
+	z-index:2;
+	display:block;
+	margin:0;
+	height:100%;
+	left:38px;
+	top: 0;
+	position:absolute;
+	width:112px;
+	-moz-border-radius-topleft:0px;
+	-moz-border-radius-topright:3px;
+	-moz-border-radius-bottomright:3px;
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-radius:0px 3px 3px 0px;
+	border-radius:0px 3px 3px 0px;
+}
+.social-like .sl_slide p {
+	font-weight:400;
+	border-left:1px solid #fff;
+	border-left:1px solid rgba(255,255,255,0.35);
+	color:#fff;
+	font-size:16px;
+	left:0;
+	margin:0;
+	position:absolute;
+	text-align:center;
+	top:10px;
+	width:100%;
+	line-height:1.2em;
+}
+.social-like .sl_button .sl_slide{
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-ms-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	transition:all 0.2s ease-in-out;
+}
+.social-like .sl_facebook .fb-like{
+	display:block;
+	position:absolute;
+	right:16px;
+	top:10px;
+	z-index:1;
+}
+.social-like .sl_twitter .twitter-share-button{
+	width:90px !important;
+	right:5px;
+	top:10px;
+	z-index:1;
+	display:block;
+	position:absolute;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+.social-like .sl_google [id*="___plusone"] {
+	width:70px !important;
+	top:10px;
+	right:15px;
+	position:absolute;
+	display:block;
+	z-index:1;
+}
+.social-like .sl_linkedin .IN-widget{
+	top:10px;
+	right:22px;
+	position:absolute;
+	display:block;
+	z-index:1;
+}
+.social-like.to_left .sl_button:hover .sl_slide {
+	left:280px;
+}
+.social-like.to_top .sl_button:hover .sl_slide {
+	top:-40px;
+}
+.social-like.to_bottom .sl_button:hover .sl_slide {
+	top: 40px;
+}
+.social-like.to_right .sl_button:hover .sl_slide {
+	left:-150px;
+}
+
+.social-like .sl_facebook .sl_icon,
+.social-like .sl_facebook .sl_slide {
+	background:#305c99;
+}
+
+.social-like .sl_twitter .sl_icon,
+.social-like .sl_twitter .sl_slide {
+	background:#00cdff;
+}
+
+.social-like .sl_google .sl_icon,
+.social-like .sl_google .sl_slide {
+	background:#d24228;
+}
+
+.social-like .sl_linkedin .sl_icon,
+.social-like .sl_linkedin .sl_slide {
+	background:#007bb6;
+}
+.fb_iframe_widget span { width: 90px !important; }
+.fb-like-box iframe { width: 90px !important; }

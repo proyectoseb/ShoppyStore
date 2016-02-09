@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="params" addfieldpath="/plugins/system/x_menu_params/x_menu_params/elements">
+    
+        <fieldset name="params"  label="SmartAddons: extra menu options">
+        
+            <field type="spacer" label="&lt;div style=&quot;font-size:12px;font-weight:bold;color:#0D9FC4;&quot;&gt;Options for this item&lt;/div&gt;" />        
+            <field name="xmp_desc" type="textarea" rows="5" cols="40" default="" label="Description" description="Description for this item" />
+            <field name="xmp_contenttype" type="list" default="" label="Content Type" description="Content type display">
+                <option value="">Default</option>
+                <option value="divider">Divider</option>
+                <option value="mod">Module</option>
+            </field>
+            <field name="xmp_modules" type="modules" default="" label="Module" description="Module Select if content type is module" />
+            <field name="xmp_showlink" type="radio" class="btn-group" default="1" label="Show Link" description=" for module type and display is mega-pinned">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </field>
+            
+            <field name="xmp_tag_id" type="text" default="" label="Item Id" description="Add id for this menu" /> 
+            <field name="xmp_tag_class" type="text" default="" label="Item Class" description="Add class for this menu (ex:col6)" /> 
+            <field name="xmp_float" type="radio" class="btn-group" default="left" label="Float Right" description="for large screen only, and level 1 only">
+                <option value="right">Yes</option>
+                <option value="left">No</option>
+            </field>                                    
+                        
+            <field type="spacer" label="&lt;div style=&quot;font-size:12px;font-weight:bold;color:#0D9FC4;&quot;&gt;Option for dropdown box&lt;/div&gt;" />  
+            <field name="xmp_fixed_width" type="text" size="30" default="" label="Fixed Width" description="width for dropdown width" />              
+            <field name="xmp_cols" type="text" size="30" default="" label="Columns Class" description="Columns class (ex:cols12)" />     
+            
+            <field name="xmp_show_as" type="radio" class="btn-group" default="mega-dropofly" label="Show As" description="Dropdown for level1 and Flyout for level 2 or gt">
+                <option value="mega-dropofly">Dropdown or Flyout</option>
+                <option value="mega-pinned">Pinned</option>   
+            </field>          
+            <field name="xmp_fly_dir" type="radio" class="btn-group" default="right" label="Fly" description="Fly left or right when show as flyout box">
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+            </field>
+            
+<!--             <field name="xmp_events" type="radio" class="btn-group" default="hover" label="Appear on " description="show dropdown or fly when hover or click event. JS enabled require"> -->
+<!--                 <option value="hover">Hover</option> -->
+<!--                 <option value="click">Click</option> -->
+<!--             </field> -->
+        </fieldset>
+        
+    </fields>
+</form>

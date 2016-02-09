@@ -1,0 +1,36 @@
+.table.table-striped.table-hover tbody tr:hover > td,.table.table-striped.table-hover tbody tr:hover > th 
+{
+  background-color: #e6e6e6 !important;
+}
+.table.table-striped2 tbody tr th{
+	background-color: #656565 !important;
+	color: #fff
+}
+.table.table-striped2 tbody tr:nth-child(2n+1) td{
+	background-color: #e6e6e6;
+}
+.table.table-bordered.table-hover tr td:hover,.table.table-bordered.table-hover tr th:hover{
+	background-color: #ddd;
+	color:#000;
+}
+.table-responsive
+{
+    overflow-x: auto;
+}
+.table.table-striped tbody tr
+{
+  border-top:#ddd 1px solid !important;
+}
+.table.table-striped tbody tr:last-child
+{
+  border-bottom:#ddd 1px solid !important;
+}
+.table.table-bordered tbody tr td
+{
+  border:#ddd 1px solid !important;
+  border-collapse: collapse;
+}
+.table.table-bordered tbody tr th
+{
+  border-bottom:#ddd 5px solid !important;
+}

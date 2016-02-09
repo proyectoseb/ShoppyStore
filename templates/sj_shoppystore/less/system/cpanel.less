@@ -1,0 +1,71 @@
+/*******************************************
+***          YT Framework: less          ***
+*******************************************/
+@import "../../asset/bootstrap/less/mixins.less";
+@import "../system/variables.less";
+@import "../color/variables_color.less";
+
+/* 1.Control Cpanel
+--------------------------------------------------------- */
+#cpanel_wrapper{
+    background:#333333;
+    position: fixed;width: 300px;top: 170px;right:-300px;padding:8px;z-index: 999;font-size: 11px;
+    
+    #cpanel_btn{
+	position:absolute;width:45px;height:38px;left:-45px;top:18px;padding: 10px;cursor:pointer;overflow: hidden;
+	background:#3D3D3D;.border-radius(3px 0 0 3px); box-shadow: -2px 0 3px rgba(0, 0, 0, 0.4) inset;
+	&.isDown{background:@background1;box-shadow: none;}
+        i{font-size: 18px;margin: 0 0 0 4px;color: #fff;text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);}
+	
+    }
+    #ytcpanel_accordion{margin-bottom: 0;
+        .cpanel-head{font-size:15px;font-weight:bold;text-transform:uppercase;padding:8px 15px 8px 18px ;color: #fff;margin: 0 -8px 8px ; background: #444;
+		  
+	    .cpanel-reset{ float: right; margin: -8px -15px 0;position: relative;z-index: 1;
+		&:before{content: "";position: absolute;border-width: 8px 8px 8px 0px ;left: -7px;top: 9px; border-style: solid;border-color: transparent @background1 transparent transparent;}
+		
+		.btn{
+		    background: @background1; padding: 9px 15px;text-transform: none;border: none;border-radius:0;.transition(all 0.3s ease 0s );
+		    .fa{display: none;}
+		    
+		    //Focus Button
+		    &:focus{
+			.fa{display: block; float: left;margin: 3px 5px 0 0;}
+		    }
+		}
+		
+		
+	    }
+        }
+	
+        .cpanel-theme{padding: 0 10px 10px; overflow: hidden; color: white;
+            .panel-group{display: inline-block; width: 100%;}
+            .panel-heading{margin: 0 0 5px;padding: 0; font-weight: normal;font-size: 13px;}
+	   
+	    
+	    .panel-theme-color{
+		.theme-color{
+		    width: 30px;height: 30px;cursor: pointer; 
+		    float: left;overflow: hidden; text-indent: 100%; white-space: nowrap; margin: 5px 10px 0 0;
+		    
+		    &.active,&:hover{box-shadow: 0 0 0px 2px white inset;}
+		}   
+	    }
+	    .panel-layout{
+		.layout-item{border-radius: 0;border: 1px solid #555; color:#ccc; background: #444;font-size: 12px;margin-right: 5px; padding: 5px 8px;
+		    &.active{box-shadow: 0 0 0px 2px #333 inset;color: white;}
+			&:hover{color: white;border-color:#666;}
+		}
+	    }
+	    .body-bg{
+		.pattern{
+		    height: 25px; width: 25px; float:left; text-indent:-999em; margin-bottom: 5px;margin: 0 8px 5px 0;cursor:pointer;
+		    &.active,&:hover{box-shadow: 0 0 0px 2px white inset;}
+		}
+		
+	    }
+        }
+    }
+    
+}
+

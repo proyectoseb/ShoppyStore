@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.4.0" method="upgrade" client="site">
+    <name>SJ Search Pro for VirtueMart</name>
+    <creationDate>Octorber 2015</creationDate>
+    <author>YouTech Company</author>
+    <copyright>Copyright (c) 2015 YouTech Company</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>contact@ytcvn.com</authorEmail>
+    <authorUrl>http://www.smartaddons.com</authorUrl>
+    <version>1.0.0</version>
+    <description>TPL_YTFRAMEWORK_XML_DESCRIPTION</description>
+    <files>
+        <filename module="mod_sj_vm_search_pro">mod_sj_vm_search_pro.php</filename>
+        <filename>index.html</filename>
+        <folder>assets</folder>
+        <folder>core</folder>
+        <folder>language</folder>
+        <folder>tmpl</folder>
+    </files>
+    <languages/>
+    <config>
+        <fields name="params" addfieldpath="/modules/mod_sj_vm_search_pro/core/fields">
+            <fieldset name="basic">
+                <field name="limit" type="text" default="5" label="LIMIT_LABEL"
+                       description="LIMIT_DESC"/>
+				<field name="character" type="text" default="3" label="CHARACTER_LABEL"
+                       description="CHARACTER_DESC"/>
+				<field name="show_form_category" type="radio" class="btn-group" default="1"
+                       label="SHOW_FORM_CATEGORY_LABEl" description="SHOW_FORM_CATEGORY_DESC">
+                    <option value="1">Yes</option>
+					<option value="0">No</option>
+                </field>
+				<field name="show_image" class="btn-group" label="SHOW_IMAGE_LABEL"
+                       description="SHOW_IMAGE_DES" type="radio" default="1">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+				<field name="show_price" type="radio" class="btn-group" default="1"
+                       label="SHOW_PRICE_LABEl" description="SHOW_PRICE_DESC">
+					<option value="1">Yes</option>
+                    <option value="0">No</option>
+                    
+                </field>
+				<field name="show_catename" type="radio" class="btn-group" default="1"
+                       label="SHOW_CATEGORY_NAME_LABEl" description="SHOW_CATEGORY_NAME_DESC">
+					<option value="1">Yes</option>
+                    <option value="0">No</option>
+                    
+                </field>
+            </fieldset>
+			<fieldset name="IMAGE_OPTIONS_LABEL" label="IMAGE_OPTIONS_LABEL">
+				<field type="sjheading" label="Get Images From Product Image"/>
+                <field name="imgcfg_from_image_product" class="btn-group" label="PRODUCT_IMAGE_LABEL"
+                       description="PRODUCT_IMAGE_DES" type="radio" default="1">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+				<field type="sjheading" label="Get Images From Product Description"/>
+                <field name="imgcfg_from_description" label="Description" class="btn-group"
+                       description="Get Images From Product Description" type="radio" default="1">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+				<field type="sjheading" label="Get images From Extend Folder"/>
+                <field name="imgcfg_from_external" label="EXTEND_FOLDER_LABEL" class="btn-group"
+                       description="EXTEND_FOLDER_DESC" type="radio" default="1">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+                <field name="imgcfg_external_url" type="text" default="images/vm/{virtuemart_product_id}.jpg" label="EXTEND_FOLDER_LABEL"
+                       description="EXTEND_FOLDER_DESC"/>
+                <field name="imgcfg_order" type="text" default="image_product, description, external"
+                       label="ORDER_GET_LABEL" description="ORDER_GET_DESC"/>
+                <field name="imgcfg_function" default="resize_stretch" type="list" label="RESIZE_MODE_LABEL"
+                       description="RESIZE_MODE_DESC">
+                    <option value="none">None</option>
+                    <option value="resize_center">Center</option>
+                    <option value="resize_fill">Fill</option>
+                    <option value="resize_fit">Fit</option>
+                    <option value="resize_stretch">Stretch</option>
+                </field>
+                <field name="imgcfg_type" type="list" default="" label="IMAGE_TYPE_LABEL" description="IMAGE_TYPE_DESC">
+                      <option value="1">GIF</option>
+                    <option value="2">JPEG</option>
+                    <option value="3">PNG</option>
+                </field>
+                <field name="imgcfg_transparency" label="KEEP_TRANSPARENCY_LABEL" class="btn-group"
+                       description="KEEP_TRANSPARENCY_DESC" type="radio" default="1">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+                <field name="imgcfg_width" type="text" default="50" label="IMAGE_WIDTH_LABEL"
+                       description="IMAGE_WIDTH_DESC"/>
+                <field name="imgcfg_height" type="text" default="50" label="IMAGE_HEIGHT_LABEL"
+                       description="IMAGE_HEIGHT_DESC"/>
+                <field name="imgcfg_background" type="color" default="#FFFFFF" label="BACKGROUND_LABEL"
+                       description="BACKGROUND_DESC"/>
+                <field name="imgcfg_placeholder_path" type="text"
+                       default="modules/mod_sj_vm_search_pro/assets/images/nophoto.jpg"
+                       label="PLACE_HOLDER_PATH_LABEL"
+                       description="PLACE_HOLDER_PATH_DESC"/>
+			</fieldset>
+            <fieldset name="advanced">
+                <field name="moduleclass_sfx" type="text"
+                       label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                       description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"/>
+                <field name="layout" type="modulelayout"
+                       label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC"/>
+                <field name="include_jquery" type="radio" class="btn-group" default="0"
+                       label="INCLUDE_JQUERY_LABEl" description="INCLUDE_JQUERY_DESC">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+                <field name="pretext" type="textarea" default="" label="PRE_TEXT_LABEL"
+                       description="PRE_TEXT_DESC" cols="40" rows="4" filter="raw"/>
+                <field name="posttext" type="textarea" default="" label="POST_TEXT_LABEL"
+                       description="POST_TEXT_DESC" cols="40" rows="4" filter="raw"/>
+                <field name="owncache" type="list" default="1"
+                       label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+                <field name="cache_time" type="text" default="900"
+                       label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

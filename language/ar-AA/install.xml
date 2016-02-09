@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="3.4" client="site" type="language" method="upgrade">
+	<name>Arabic_Unitag_ar_AA</name>
+	<tag>ar-AA</tag>
+	<version>3.4.4.1</version>
+	<creationDate>09/09/2015</creationDate>
+	<author>Dr. Ashraf Damra/Abu Nidal</author>
+	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
+	<authorUrl>http://www.jarabic.com</authorUrl>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>ar-AAsite language</description>
+	<files>
+		<filename>ar-AA.ini</filename>
+		<filename>ar-AA.com_ajax.ini</filename>
+		<filename>ar-AA.com_config.ini</filename>
+		<filename>ar-AA.com_contact.ini</filename>
+		<filename>ar-AA.com_content.ini</filename>
+		<filename>ar-AA.com_finder.ini</filename>
+		<filename>ar-AA.com_mailto.ini</filename>
+		<filename>ar-AA.com_media.ini</filename>
+		<filename>ar-AA.com_messages.ini</filename>
+		<filename>ar-AA.com_newsfeeds.ini</filename>
+		<filename>ar-AA.com_search.ini</filename>
+		<filename>ar-AA.com_tags.ini</filename>
+		<filename>ar-AA.com_users.ini</filename>
+		<filename>ar-AA.com_weblinks.ini</filename>
+		<filename>ar-AA.com_wrapper.ini</filename>
+		<filename>ar-AA.files_joomla.sys.ini</filename>
+		<filename>ar-AA.finder_cli.ini</filename>
+		<filename>ar-AA.lib_fof.sys.ini</filename>
+		<filename>ar-AA.lib_idna_convert.sys.ini</filename>
+		<filename>ar-AA.lib_joomla.ini</filename>
+		<filename>ar-AA.lib_joomla.sys.ini</filename>
+		<filename>ar-AA.lib_phpass.sys.ini</filename>
+		<filename>ar-AA.lib_phputf8.sys.ini</filename>
+		<filename>ar-AA.lib_simplepie.sys.ini</filename>
+		<filename>ar-AA.mod_articles_archive.ini</filename>
+		<filename>ar-AA.mod_articles_archive.sys.ini</filename>
+		<filename>ar-AA.mod_articles_categories.ini</filename>
+		<filename>ar-AA.mod_articles_categories.sys.ini</filename>
+		<filename>ar-AA.mod_articles_category.ini</filename>
+		<filename>ar-AA.mod_articles_category.sys.ini</filename>
+		<filename>ar-AA.mod_articles_latest.ini</filename>
+		<filename>ar-AA.mod_articles_latest.sys.ini</filename>
+		<filename>ar-AA.mod_articles_news.ini</filename>
+		<filename>ar-AA.mod_articles_news.sys.ini</filename>
+		<filename>ar-AA.mod_articles_popular.ini</filename>
+		<filename>ar-AA.mod_articles_popular.sys.ini</filename>
+		<filename>ar-AA.mod_banners.ini</filename>
+		<filename>ar-AA.mod_banners.sys.ini</filename>
+		<filename>ar-AA.mod_breadcrumbs.ini</filename>
+		<filename>ar-AA.mod_breadcrumbs.sys.ini</filename>
+		<filename>ar-AA.mod_custom.ini</filename>
+		<filename>ar-AA.mod_custom.sys.ini</filename>
+		<filename>ar-AA.mod_feed.ini</filename>
+		<filename>ar-AA.mod_feed.sys.ini</filename>
+		<filename>ar-AA.mod_finder.ini</filename>
+		<filename>ar-AA.mod_finder.sys.ini</filename>
+		<filename>ar-AA.mod_footer.ini</filename>
+		<filename>ar-AA.mod_footer.sys.ini</filename>
+		<filename>ar-AA.mod_languages.ini</filename>
+		<filename>ar-AA.mod_languages.sys.ini</filename>
+		<filename>ar-AA.mod_login.ini</filename>
+		<filename>ar-AA.mod_login.sys.ini</filename>
+		<filename>ar-AA.mod_menu.ini</filename>
+		<filename>ar-AA.mod_menu.sys.ini</filename>
+		<filename>ar-AA.mod_random_image.ini</filename>
+		<filename>ar-AA.mod_random_image.sys.ini</filename>
+		<filename>ar-AA.mod_related_items.ini</filename>
+		<filename>ar-AA.mod_related_items.sys.ini</filename>
+		<filename>ar-AA.mod_search.ini</filename>
+		<filename>ar-AA.mod_search.sys.ini</filename>
+		<filename>ar-AA.mod_stats.ini</filename>
+		<filename>ar-AA.mod_stats.sys.ini</filename>
+		<filename>ar-AA.mod_syndicate.ini</filename>
+		<filename>ar-AA.mod_syndicate.sys.ini</filename>
+		<filename>ar-AA.mod_tags_popular.ini</filename>
+		<filename>ar-AA.mod_tags_popular.sys.ini</filename>
+		<filename>ar-AA.mod_tags_similar.ini</filename>
+		<filename>ar-AA.mod_tags_similar.sys.ini</filename>
+		<filename>ar-AA.mod_users_latest.ini</filename>
+		<filename>ar-AA.mod_users_latest.sys.ini</filename>
+		<filename>ar-AA.mod_weblinks.ini</filename>
+		<filename>ar-AA.mod_weblinks.sys.ini</filename>
+		<filename>ar-AA.mod_whosonline.ini</filename>
+		<filename>ar-AA.mod_whosonline.sys.ini</filename>
+		<filename>ar-AA.mod_wrapper.ini</filename>
+		<filename>ar-AA.mod_wrapper.sys.ini</filename>
+		<filename>ar-AA.tpl_beez3.ini</filename>
+		<filename>ar-AA.tpl_beez3.sys.ini</filename>
+		<filename>ar-AA.tpl_protostar.ini</filename>
+		<filename>ar-AA.tpl_protostar.sys.ini</filename>
+		<filename>ar-AA.localise.php</filename>
+		<filename file="meta">install.xml</filename>
+		<filename file="meta">ar-AA.xml</filename>
+		<filename>index.html</filename>
+	</files>
+	<params />
+</extension>

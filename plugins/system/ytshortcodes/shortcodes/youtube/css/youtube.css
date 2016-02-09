@@ -1,0 +1,29 @@
+
+div.yt-youtube {
+  overflow: hidden;
+  -webkit-box-shadow:  0 1px 4px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow:  0 1px 4px rgba(0, 0, 0, 0.3);
+  box-shadow:  0 1px 4px rgba(0, 0, 0, 0.3);
+}
+div.yt-youtube.pull-none {
+  margin-bottom: 2em;
+}
+div.yt-youtube.pull-left {
+  margin: 0 1em 1em 0;
+}
+div.yt-youtube.pull-right {
+  margin: 0 0 1em 1em;
+}
+div.yt-youtube iframe {
+  border: none;
+  float: left;
+}
+div.yt-youtube iframe {
+  border: none;
+}
+.yt-responsive-media-yes {position: relative;padding-bottom: 56.25%;height: 0;overflow: hidden;}
+.yt-responsive-media-yes iframe,
+.yt-responsive-media-yes object,
+.yt-responsive-media-yes embed {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+.yt-youtube { margin: 0 0 1.5em 0 }
+.yt-youtube iframe { border: none !important }

@@ -1,0 +1,405 @@
+/*******************************************
+ ***          YT Framework: less          ***
+ *******************************************/
+// --* Module Templates *------------------
+// ----------------------------------------
+/*   1.Module variations
+ *   2.Module Joomla default
+ *   3.Module Xhtml
+ *   4.Module Smartaddons
+ */
+/* 1.Module Variations
+ --------------------------------------------------------- */
+.suffix strong { display: inline-block; }
+
+// Mod Default Style
+.module_menu, div.module { margin: 0 0 30px; }
+
+.module {
+    background: #fff;
+    border: #ddd 1px solid;
+    h3.modtitle {
+        font-size: 14px;
+        font-weight: 700;
+        position: relative;
+        background: #fff;
+        border-bottom: #ddd 1px solid;
+        text-transform: uppercase;
+        color: #444444; margin-bottom: 0;
+        padding: 12px 20px;
+    }
+    div.modcontent {
+        padding: 15px 20px;
+    }
+    //Box Style
+    &.box1 {
+        border: #eee 1px solid;
+        h3.modtitle {
+            background: #eeeeee;
+            border-bottom: @linkColor 1px solid;
+        }
+        div.modcontent {
+            padding: 15px 20px;
+        }
+    }
+
+    &.box2 {
+        background: @white;
+        border: none;
+        h3.modtitle {
+            position: relative;
+            padding: 12px 0;
+            &:after {
+                height: 1px;
+                width: 40%;
+                content: "";
+                background: @background1;
+                display: block;
+                position: absolute;
+                left: 0; bottom: -1px;
+            }
+        }
+        div.modcontent {
+            padding: 15px 0;
+        }
+    }
+
+    &.box3 {
+        border: 1px solid #ddd;
+        box-shadow: 0 0 0 4px #EDEDED;
+        background: @white;
+    }
+
+    //Bg  Style
+    .bg-style(@background1) {
+        background: @background1;
+        color: @white; border: none;
+
+        h3.modtitle {
+            background: none;
+            color: #fff;
+            border-bottom-color: rgba(255,255,255,0.3);
+        }
+
+        .modcontent {
+            a {
+                color: #ededed;
+                &:hover { color: @white; }
+            }
+
+            .button {
+                border: 1px solid rgba(255,255,255,0.3);
+                background: transparent;
+
+                &:hover { background: rgba(255,255,255,0.2); }
+            }
+        }
+    }
+
+    &.bg1 { .bg-style(@background1); }
+
+    &.bg2 { .bg-style(#67b0d1); }
+
+    &.bg3 { .bg-style(#e87352); }
+
+    &.bg4 { .bg-style(#393c42); }
+
+    &.blank {
+        background: transparent;
+        border: none;
+        padding: 0;
+        h3.modtitle { border: none; padding: 0; margin: 0; }
+        div.modcontent { padding: 0; margin: 0; }
+    }
+
+    //Icon style
+
+    &.style-icon {
+        h3.modtitle {
+            padding: 12px 0;
+            i {
+                display: inline-block;
+                margin: -12px 0px; float: left;
+                padding: 12px; font-size: 16px;
+            }
+        }
+        &.box1 {
+            h3.modtitle {
+                i {
+                    background: @background1;
+                    color: #fff;margin: -12px 12px -12px 0px;
+                }
+            }
+        }
+    }
+
+    // Menu Style
+    &._menu {
+        .modcontent {
+            ul.menu {
+                li {
+                    a {
+                        color: #666;
+                        &:hover {
+                            color: @linkColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Table Style
+table.variations {
+    width: 100%;
+    clear: both;
+    margin: 1em 0 2em;
+    border: 1px solid @paginationBorder;
+    font-size: 91%;
+
+    tr {
+        &.odd {
+            background: none;
+            border: none;
+
+            td { text-shadow: 0 1px 1px rgba(255,255,255,0.6); }
+        }
+
+        td {
+            border: 1px solid @inputBorder;
+            padding: 5px 10px;
+
+            &.bold {
+                font-weight: bold;
+                background: @dropdownDividerTop;
+            }
+        }
+    }
+}
+/* 2.Module Joomla Default
+ --------------------------------------------------------- */
+//breadcumb
+.breadcrumb {
+    margin: 0; padding: 0 0 10px;
+    background: none; border-bottom: #eee 1px solid;
+    li {
+        &:before {display: none;}
+        a, span {color: #444;}
+        .divider {margin: 0 5px;&.icon-location {display: none;}}
+        &.active {
+            a, span {color: @linkColor;}
+        }
+    }
+}
+
+/* 3.Module Html
+ --------------------------------------------------------- */
+
+
+/* 4.Module Smartaddons
+ --------------------------------------------------------- */
+
+//Menu Style
+// Flat Menu
+.module._menu {
+    // Side Menu
+    &.side-menu {
+        // Show All Submenu
+        .modcontent ul.menu {
+            > li.parent {
+                >a, span {
+                    &:after {
+                        content: "\f0da";
+                        font-family: FontAwesome;
+                        float: right;
+                    }
+                }
+                ul {
+                    left: -100%;
+                    .transition(transform 0.2s ease-in-out 0s);
+                    li.parent > span {
+                        color: @linkColor2;
+                        cursor: pointer;
+                        &:after {
+                            content: "\f0da";
+                            font-family: FontAwesome;
+                            position: relative;
+                            float: right;
+                        }
+                        &:hover { color: @linkColor; }
+                    }
+                    //Menu lelel 3
+                    li ul {
+                        display: none;
+                        width: 220px;
+                    }
+                }
+                &:hover ul {
+                    top: 0;
+                    background: #fff;
+                    border: 1px solid #ccc;
+                    padding: 15px;
+                    li {
+                        position: relative;
+                        border-bottom: 1px solid #e5e5e5;
+                        padding: 4px 10px;
+                        &:last-child { border: none; }
+                        &.parent > a {
+                            &:after {
+                                content: "\f0da";
+                                font-family: FontAwesome;
+                                position: relative;
+                                float: right;
+                            }
+                        }
+                    }
+                    li:hover ul {
+                        display: block;
+                        left: -220px;
+                        position: absolute;
+                        top: 0;
+                        z-index: 10;
+                        background: #fff;
+                        li { padding: 4px 5px; }
+                    }
+                }
+            }
+            li a.fa-home:before { margin-right: 10px; }
+        }
+    }
+    // Tree Menu
+    &.tree-menu {
+        // Show All Submenu
+        .modcontent ul.menu {
+            > li.parent.active {
+                > a:after { display: inline-block; }
+                ul {
+                    background: #fff;
+                    display: block;
+                    position: static;
+                    border: 0;
+                    li.parent > span, a {
+                        color: #666;
+                        cursor: pointer;
+                        &:hover { color: @linkColor; }
+                    }
+                    //Menu lelel 3
+                }
+            }
+            li a.fa-home:before { margin-right: 10px; }
+        }
+    }
+}
+
+.module {
+    &.sjflatmenu {
+        border: 1px solid #ddd;
+        background: #fff;
+        position: relative;
+        .modcontent {
+         padding: 0px 20px;
+            ul.sj-flat-menu{
+                padding: 0;
+                ul{
+                    padding: 0;
+                }
+                 li {
+                        padding: 10px 0;
+                }
+            }
+            .pretext, .posttext { display: none; }
+            .flyout-menu {
+                border: none;
+                background: #fff;
+                li {
+                    background: #fff; z-index: 1;
+                    border-bottom: #ddd 1px solid;
+                    a {
+                        color: #666;
+                        &:hover {color: @linkColor;}
+                    }
+                    > .fm-container {
+                            background: #fff;
+                            padding: 15px 20px;
+                            border: #ddd 1px solid;
+                        ul {
+                            min-width: 160px;
+                            .fm-item > .fm-link a {
+                                color: #666;
+                                &:hover {color: @linkColor;}
+                            }
+                        }
+                    }
+                    &.fm-last { border: none; }
+                }
+            }
+            .accordion-menu{
+                border: none;
+                background: #fff;
+                li {
+                    background: #fff;
+                    border-bottom: #ddd 1px solid;
+                    a {
+                        color: #666;
+                        img { display: none; }
+                    }
+                    &.fm-last { border-bottom: none; }
+                    &.fm-opened {
+                        > .fm-item { border-bottom: none; }
+                        .fm-container ul {
+                            list-style-type: none;
+                            margin-left: 20px;
+                            li {
+                                border: none;
+                                padding: 2px 0;
+                                .fm-item {
+                                    position: relative;
+                                    top: 6px;
+                                }
+                                a {
+                                    padding-left: 0;
+                                    line-height: normal;
+                                }
+                            }
+                        }
+                    }
+                    .fm-item a {
+                        background: none;
+                        padding-left: none;
+                        font-weight: normal;
+                    }
+                    &:hover {
+                        a { color:@linkColor; }
+                    }
+                    &.fm-opened {
+                        &:hover {
+                            background: #fff;
+                            li:hover { background: #fff; }
+                            a {
+                                color: #666;
+                                &:hover { color: @linkColor; }
+                            }
+                        }
+                        .fm-item {
+                            a { color: #666; }
+                            &:hover a { color: @linkColor; }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+&.rtl {
+    .module {
+        &.box2 { h3.modtitle { &:after { left: auto; right: 0; } } }
+
+        &.style-icon {
+            h3.modtitle { i { float: right; } }
+            &.box1 { h3.modtitle { i { margin: -12px 0px -12px 12px; } } }
+        }
+    }
+}
+

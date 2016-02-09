@@ -1,0 +1,206 @@
+/*******************************************
+***          YT Framework: less          ***
+*******************************************/
+
+// --* Generic Base Joomla  *----------------------
+// -----------------------------------------------
+/*   1.Links Website
+ *   2.Icons, Badge
+ *   3.Images Element
+ *   4.List Element
+ *   5.Form Elements
+ *   6.Tooltip
+ *   7.Table Elements
+ *   8.System Message
+ */
+
+// 1.Links Website
+// -------------------------
+a{color: @linkColor;}
+a:hover{color: @linkColorHover;text-decoration: none;}
+a:focus{outline: none;text-decoration: none;}
+
+*::selection  {background: @background1;color:@white;}
+*::-moz-selection  {background: @background1;color:@white;}
+// 2.Icons, Badge
+// -------------------------
+
+.badge,.label{display: inline-block;}
+.page-header{margin: 0 0 20px;}
+pre{border: none;border-left: 3px solid @background1;line-height: 30px;border-radius: 0;font-size: 110%;padding: 20px;margin: 2em 0;}
+.textColor{color: @linkColor!important;}
+
+// 3.Images Element
+// ------------------------
+img{max-width:100%}
+div.img_caption {position: relative;
+    &.left{margin: 0 1em 1em 0;}
+    p.img_caption{font-size: 92%;font-weight: bold;padding: 5px 0 0;margin: 0;.box-sizing(border-box);background: @grayLighter;border: 1px solid @paginationBorder; border-top:none;box-shadow: 0 -1px 0 @white inset;  }
+}
+div.caption{margin: 0 1em 1em 0;float: left;}
+div.yt-lightbox a img{width: auto;}
+pre.highlighter:before{background-color:@background1;}
+.no-modal{position: static;margin: 0;padding: 0;border: 0; box-shadow: none;display:inline-block; width: auto;}
+// 4.List Element
+// ------------------------
+ul,ol{padding-left: 12px;}
+ul li{line-height: 24px;}
+ul ul{list-style: disc;}
+ul.blank{list-style: none;margin: 0;padding: 0;}
+ul.latestnews.yt-list{margin: -10px -15px;
+    li:last-child{border-bottom: none;}
+    li{border-bottom: 1px solid @tableBackgroundHover;padding: 4px 15px;
+        &:hover{color: @linkColor;background: @tableBackgroundHover;}
+            a{color: @gray;
+            &:hover{color: @linkColor;}
+        }
+    }
+}
+ul.category{list-style: none;padding: 0;
+    li{border-bottom: 1px solid #ddd;}
+}
+
+// 5.Form Elements
+// -------------------------
+iframe{border: none;}
+select{padding: 5px ;}
+#modlgn-remember{margin-top: 0;}
+input[type="radio"], input[type="checkbox"]{margin-top: 3px;}
+input:focus:required:invalid:focus,
+textarea:focus:required:invalid:focus,
+select:focus:required:invalid:focus{
+    border-color: lighten(@linkColor,20%);
+}
+input[type="text"]:focus ,textarea:focus, input[type="password"]:focus, input[type="datetime"]:focus,
+input[type="datetime-local"], input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus,
+input[type="week"]:focus, input[type="number"]:focus,input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus,
+input[type="tel"]:focus, input[type="submit"]:focus,select:focus, input[type="file"]:focus,
+input[type="radio"]:focus, input[type="checkbox"]:focus,.btn:focus,
+button[type="submit"]{
+  outline: 0 none;
+}
+label, input, button, select, textarea {font-size: 12px;}
+textarea, input[type="text"], input[type="password"], input[type="datetime"],
+input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"],
+input[type="week"], input[type="number"],input[type="email"], input[type="url"], input[type="search"],
+input[type="tel"], input[type="color"], .uneditable-input{
+    border-radius: 0;font-size: 12px;background: #fff;
+    padding: 4px 6px;border:solid 1px @inputBorder;min-height: 36px;
+
+}
+
+fieldset{
+    legend{padding-bottom: 10px;border-bottom-color:#ccc;}
+}
+
+
+.form-horizontal .control-group{margin-bottom: 15px;}
+
+.label {padding: 3px 5px;margin-right: 5px;}
+.button,button,.btReverse {
+        background: @background1;color: @white;padding: 8px 20px; display: inline-block;vertical-align: top;font-size: 14px;border: none;border-radius: 0px;
+}
+.button:hover,button:hover{background:@linkColorHover;color:@white ;
+    span {color: #fff;}
+}
+.btReverse{background:@linkColorHover;
+    &:hover{background:@background1;color:@white;}
+}
+
+.form-horizontal .control-label{text-align: left;}
+form.box {
+    fieldset {border: 1px solid @inputBorder;padding: 0 10px 10px;}
+    legend{background: @white;padding: 0 10px;width: auto;border: none;margin: 0;font-size: 110%;line-height: 100%;}
+}
+.display-limit{padding: 1em 0;overflow: hidden;}
+.form-inline .input-append .add-on i{margin: 0 !important;}
+
+.form-inline .btn-primary .icon-search{vertical-align: 1px;}
+
+// 6.Tooltip
+// -----------------------
+.tooltip{background: none;border: none;}
+div.tooltip.fade {background: transparent;border: none;}
+.tip-wrap{z-index: 999;
+    .tip {max-width: 350px;padding: 0px;border: 1px solid @gray;background: @grayLighter;
+        &.badge-info{background-color: @btnInfoBackgroundHighlight;padding: 2px 6px;border: none;box-shadow: 0;display: inline-block;position: relative;top:-2px;}
+        .tip-title {background: @gray;font-size: 12px;color:@white;line-height: 20px;padding: 5px 10px;font-weight: bold;}
+        .tip-text {color: @grayDark;font-size: 108%;padding: 5px 10px;}
+    }
+}
+
+// 7.Table Elements
+// --------------------------
+
+table.category{width:100%;.table();margin-top: 20px;
+    thead{background:@grayLighter;
+        tr{
+            th{background: @gray;border-bottom: 2px solid @grayDark;font-size: 118%;color: @white;padding: 8px;text-align: left;
+                a{color: @white;}
+            }
+        }
+     }
+     tbody{
+            tr{
+            &:hover td{background-color:@tableBackgroundHover ;}
+          td{padding: 8px;border-bottom: 1px solid @paginationBorder;
+            &.list-hits,&.hits{font-weight: bold;}
+           }
+         }
+    }
+
+}
+#recaptcha_response_field{border-color: @paginationBorder !important;}
+
+
+// 8.System Messages
+// --------------------------
+#system-message {margin: 0;
+    .alert {background: @background1;color: #fff;}
+    .message {margin-bottom: 1.5em;
+        > ul{margin: 0;background-position: 5px 40%;}
+    }
+}
+.system-unpublished .system-unpublished {margin: -10px;padding: 10px;border-top: 16px solid;border-bottom: 5px solid;position: relative;}
+.system-unpublished .system-unpublished:before {content: 'Unpublished';text-transform: uppercase;top: -19px;left: 10px;position: absolute;font-size: 0.8em;font-weight: bold;}
+span.highlight{background-color: @orange !important;.border-radius(3px);color: @grayDark;}
+.form-vertical .btn-toolbar{margin-bottom: 1em;}
+
+//9. Upgrade Joomla3.4
+[class*="col-"] > .col-sm-12{padding: 0px;}
+.form-validate{
+    .controls select{display: block !important;}
+    .accordion-group{}
+    .hasTooltip{display: inline-block !important;}
+    .modal-button{background: #999;color: #fff;}
+    .modal{.no-modal(); padding:6px 10px; margin: 0 5px;}
+    .radio input[type="radio"], .radio-inline input[type="radio"],
+    .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {margin: 5px;}
+    legend,.accordion-toggle{padding: 8px 10px;background: #ddd;margin-bottom: 10px; display: block;}
+}
+.calendar .button{display: table-cell;}
+.jmodedit{background: #777;color: #fff; height: auto !important; width: 40px !important;}
+[class^="icon-"], [class*=" icon-"]{font-family:@FontAwesome; font-style: normal;}
+.icon-calendar:before {content: "\f073";}
+.icon-edit:before {content: "\f044";}
+.icon-remove:before {content: "\f00d";}
+.icon-search:before {content: "\f002";}
+
+
+// 10.Component Xmaps
+// --------------------------
+
+#xmap{    margin: 20px ;
+    ul {
+        li{ list-style: none;background: url(../images/point.png) repeat-x 0 13px;
+            a,span{background: white; display: inline-block; padding: 0 10px;.linkGray();
+                &:before{content: "";font-family: FontAwesome;font-size: 14px;margin-right: 8px;}
+            }
+        }
+        ul.level_1 { margin-left: 20px;
+            li{padding: 0;
+
+            }
+        }
+    }
+}

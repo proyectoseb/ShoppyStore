@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.2" client="site" method="upgrade">
+	<name>SJ Extra Slider for Content</name>
+	<creationDate>Feb 2014</creationDate>
+	<author>YouTech Company</author>
+	<copyright>Copyright (c) 2014 YouTech Company</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@ytcvn.com</authorEmail>
+	<authorUrl>http://www.smartaddons.com</authorUrl>
+	<version>3.1.0</version>
+	<description>TPL_YTFRAMEWORK_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_sj_extraslider">mod_sj_extraslider.php</filename>
+		<filename>index.html</filename>
+		<folder>assets</folder>
+		<folder>core</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages/>
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				<field name="item_link_target" type="radio" class="btn-group" default="_self" label="Open Link"
+					description="The Type shows when you click on the link">
+					<option value="_blank">New Window</option>
+					<option value="_self">Same Window</option>
+				</field>
+				<field name="button_page" type="list" default="" label="Button page" description=" button page">
+					<option value="top">Top</option>
+					<option value="under">Under</option>
+				</field>
+				<field name="theme" type="list" default="style4" label="Articles Style" description="">
+					<option value="style1">Layout1</option>
+					<option value="style2">Layout2</option>
+					<option value="style4">Layout3</option>
+					<option value="style7">Layout4</option>
+					<option value="style9">Layout5</option>
+					<option value="style10">Layout6</option>
+					<option value="style11">Layout7</option>
+				</field>
+				<field name="header1" type="spacer" class="text"
+				       label="For devices have screen width from 1200px to greater."
+						/>
+				<field name="nb-column1" type="list" default="3" label="# Column"
+				       description="For devices have screen width from 1200px to greater.">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</field>
+				<field name="header2" type="spacer" class="text"
+				       label="For devices have screen width from 768px up to 1199px."
+						/>
+				<field name="nb-column2" type="list" default="3" label="# Column"
+				       description="For devices have screen width from 768px up to 1199px.">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</field>
+				<field name="header3" type="spacer" class="text"
+				       label="For devices have screen width from 480px up to 767px."
+						/>
+				<field name="nb-column3" type="list" default="2" label="# Column"
+				       description="For devices have screen width from 480px up to 767px.">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</field>
+				<field name="header4" type="spacer" class="text"
+				       label="For devices have screen width less than or equal 479px"
+						/>
+				<field name="nb-column4" type="list" default="1" label="# Column"
+				       description="For devices have screen width less than or equal 479px.">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+				</field>
+				<field name="items_page" type="text" default="6" label="Items on Page"
+				       description="Items on Page. 1 is minimum."/>
+			</fieldset>
+
+			<fieldset name="source" label="Source Options">
+				<field name="catid" type="category" extension="com_content" multiple="true" size="10" default=""
+				       label="Data Source" description="Select category"/>
+				<field name="show_child_category_articles" type="radio" class="btn-group" default="0"
+				       label="Child Category Articles" description="Include or Exclude Articles from Child Categories.">
+					<option value="1">Include</option>
+					<option value="0">Exclude</option>
+				</field>
+				<field name="levels" type="text" default="1" label="Category Depth"
+				       description="The number of child category levels to return."/>
+				<field name="show_front" type="radio" default="show" class="btn-group" label="Featured Articles"
+				       description="Select to Show, Hide, or Only display Featured Articles.">
+					<option value="show">Show</option>
+					<option value="hide">Hide</option>
+					<option value="only">Onlly</option>
+				</field>
+				<field name="article_ordering" type="list" default="a.title" label="Article Field to Order By"
+				       description="Select which field you would like Articles to be ordered by. Featured Ordering should only be used when Filtering Option for Featured Articles is set to 'Only'.">
+					<option value="a.ordering">Article Manager Order</option>
+					<option value="fp.ordering">Featured Articles Order</option>
+					<option value="a.hits">Hits</option>
+					<option value="a.title">Title</option>
+					<option value="a.id">ID</option>
+					<option value="a.alias">Alias</option>
+					<option value="a.created">Created Date</option>
+					<option value="modified">Modified Date</option>
+					<option value="publish_up">Start Publishing Date</option>
+					<option value="a.publish_down">Finish Publishing Date</option>
+				</field>
+				<field name="article_ordering_direction" type="list" default="ASC" label="Ordering Direction"
+				       description="Select the direction you would like Articles to be ordered by.">
+					<option value="DESC">Descending</option>
+					<option value="ASC">Ascending</option>
+				</field>
+				<field name="count" type="text" default="10" label="#Count"
+				       description="The number of articles to display. The default value of 0 will display all articles."/>
+			</fieldset>
+
+			<fieldset name="Content_options" label="Articles Options">
+				<field name="title_slider_display" type="radio" class="btn-group" default="1"
+				       label="Show Title of Slider" description="">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="title_slider" type="text" default="Latest News" label="Title of Slider"
+				       description="Display Title of Slider"/>
+				<field name="item_title_display" type="radio" class="btn-group" default="1" label="Show Title"
+				       description="Select Yes if you would like the title to be displayed.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="item_title_max_characs" type="text" default="20" label="Title Limit"
+				       description="Please enter in a numeric character limit value. The title will be trimmed to the number of characters you enter."/>
+				<field name="show_introtext" type="radio" class="btn-group" default="1" label="Show Introtext"
+				       description="Select Yes if you would like the introtext to be displayed.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="introtext_limit" type="text" default="100" label="Introtext Limit"
+				       description="Please enter in a numeric character limit value. The introtext will be trimmed to the number of characters you enter."/>
+				<field name="item_tag_display" type="radio" class="btn-group" default="1" label="TAGS_DISPLAY_LABEl" description="TAGS_DISPLAY_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="item_readmore_display" type="radio" class="btn-group" default="1" label="Show Read More"
+				       description="">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="item_readmore_text" type="text" default="Readmore" label="Read More Text" description=""/>
+			</fieldset>
+
+			<fieldset name="image_options" label="Image Options">
+				<field name="imgcfg_from_image_intro" label="Image Intro" class="btn-group"
+					description="Get Images From Image Intro of Articles" type="radio" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="imgcfg_from_image_fulltext" label="Image Fulltext" class="btn-group"
+				       description="Get Images From Image Fulltext of Articles" type="radio" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="imgcfg_from_inline_introtext" label="Inline Introtext" class="btn-group"
+				       description="Get Images From Inline Introtext of Articles" type="radio" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="imgcfg_from_inline_fulltext" label="Inline Fulltext" class="btn-group"
+				       description="Get images From Inline Fulltext of Articles" type="radio" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="imgcfg_from_external" label="Extend Folder" class="btn-group"
+				       description="Get images From Extend Folder" type="radio" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="imgcfg_external_url" type="text" default="/images" label="Extend Folder"
+				       description="Extend Folder"/>
+				<field name="imgcfg_order" type="text" default="image_intro" label="Priority"
+				       description="order of priority"/>
+
+				<field name="imgcfg_function" type="list" label="Resize Mode">
+					<option value="none">None</option>
+					<option value="resize_center">Center</option>
+					<option value="resize_fill">Fill</option>
+					<option value="resize_fit">Fit</option>
+					<option value="resize_stretch">Stretch</option>
+				</field>
+				<field name="imgcfg_type" type="list" default="" label="Image Type" description="image type output">
+					<option value="">Default</option>
+					<option value="1">GIF</option>
+					<option value="2">JPEG</option>
+					<option value="3">PNG</option>
+				</field>
+				<field name="imgcfg_transparency" label="Keep Transparency" class="btn-group"
+				       description="Keep Transparency" type="radio" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="imgcfg_width" type="text" default="" label="Width" description="Width"/>
+				<field name="imgcfg_height" type="text" default="" label="Height" description="Height"/>
+				<field name="imgcfg_background" type="color" default="" label="Background" description="Background"/>
+				<field name="imgcfg_cache" type="text" default="" label="Cache" description="Cache"/>
+				<field name="imgcfg_cache_url" type="text" default="" label="Cache Url" description="Cache Url"/>
+				<field name="imgcfg_placeholder" label="User Default Image" class="btn-group"
+				       description="User Default Image" type="radio" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="imgcfg_placeholder_path" type="text"
+				       default="modules/mod_sj_extraslider/assets/images/nophoto.jpg" label="Default Image Path"
+				       description="Default Image Path"/>
+			</fieldset>
+			<fieldset name="effect_options" label="Effect Options">
+				<field name="play" type="radio" class="btn-group" default="0" label="Auto Play" description="Auto Play">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="pause_hover" type="radio" class="btn-group" default="hover" label="Stop when hover"
+				       description="Stop when hover">
+					<option value="hover">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="duration" type="text" default="800" label="Speed"
+				       description="Speed of slider. Larger = Slower"/>
+				<field name="swipe_enable" type="radio" default="1" class="btn-group" label="SWIPE_LABEL"
+				       description="SWIPE_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="effect" type="radio" class="btn-group" default="slide" label="Effect" description="Effect">
+					<option value="slide">Slide</option>
+					<option value="fade">Fade</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="include_jquery" type="radio" class="btn-group" default="0" label="Include Jquery"
+				       description="select Yes if you want use for joomla 2.5">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="layout" type="modulelayout" default="basic" class="btn-group"
+				       label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC"/>
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix"
+				       description="Module Class Suffix"/>
+				<field name="pretext" type="textarea" default="" label="Pre-text" description="Intro text of module"
+				       cols="40" rows="4" filter="raw"/>
+				<field name="posttext" type="textarea" default="" label="Post-text" description="Footer text of module"
+				       cols="40" rows="4" filter="raw"/>
+				<field name="owncache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL"
+				       description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+				       description="COM_MODULES_FIELD_CACHE_TIME_DESC"/>
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

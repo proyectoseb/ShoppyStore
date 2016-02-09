@@ -1,0 +1,22 @@
+.yt-dropcap {
+  display: block;
+  float: left;
+  line-height: 100%;
+  margin: -4px 15px 0 0;
+  font-size: 5em;
+}
+.yt-dropcap.square {
+  margin: 5px 15px 0 0;
+  padding : 0 10px;
+}
+.yt-dropcap.round {
+  margin: 5px 15px 0 0;
+  -webkit-border-radius: 15px 0 15px 0;
+  -moz-border-radius: 15px 0 15px 0;
+  border-radius: 15px 0 15px 0;
+  padding : 0 10px;
+}
+.yt-dropcap.default{
+  border-radius: 50%;
+  padding : 0 10px;
+}

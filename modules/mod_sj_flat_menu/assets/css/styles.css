@@ -1,0 +1,147 @@
+.sj-flat-menu {
+	background-color:#FFF;
+	text-align:left;
+}
+
+ul.sj-flat-menu ,
+ul.sj-flat-menu ul {
+	list-style:none ;
+	margin:0;
+	padding:10px 0;
+}
+
+.sj-flat-menu li{
+	padding-left:5px;
+	cursor: pointer;
+	padding: 10px;
+}	
+
+.sj-flat-menu li:hover .fm-item a,
+.sj-flat-menu li.fm-active > .fm-item a{
+    outline-style: none;
+    border: none;
+}
+.sj-flat-menu li:hover .fm-container a{
+	color: #444;
+}
+
+.sj-flat-menu li .fm-item .fm-link {
+	padding-left:5px;
+	position:relative;
+	display: block;
+    margin-right: 25px;
+	float: left;
+}
+
+.flyout-menu li ul{
+	background: #fff;
+    margin: 0;
+    padding: 0;
+    min-width: 260px;
+}
+
+.sj-flat-menu li ul li .fm-item .magamenu-title{
+	display:inline-block;
+    background-size: 6px;
+	top: 0;
+}
+.sj-flat-menu li ul li .fm-item .megamenu-icon{
+	display: none;
+}
+
+.sj-flat-menu li .fm-item .fm-button {
+	width: 15px;
+	height: 22px;
+	margin: 0;
+	overflow: hidden;
+    position:absolute;
+	right:3px;
+	top:0;
+	float: right;
+}
+
+.sj-flat-menu > li .fm-item{
+	position: relative;
+	overflow: hidden;
+}
+
+.sj-flat-menu > li .fm-item .magamenu-title {
+    color: #444;
+    line-height: 26px;
+    outline: none;
+	position: relative;
+	font-size: 13px;
+}
+
+.sj-flat-menu li .fm-item .fm-link .megamenu-icon{
+	float: left;
+	height: 25px;
+	width: 32px;
+}
+.sj-flat-menu li .fm-item .fm-link img{
+	vertical-align:middle;
+	border: 0 none;
+    height: auto;
+}
+.sj-flat-menu li.fm-last,
+.sj-flat-menu li ul li.fm-last{
+    	border: 0;
+}
+
+.flyout-menu li .fm-container{
+	position: absolute; 
+    top: -1px; 
+	display: none;
+	z-index: 1000;
+	padding:0;
+}
+
+.flyout-menu > li{
+	position: relative;
+	z-index: 99;
+}
+
+.flyout-menu li li{
+	position: relative;
+	z-index: 100;
+}
+
+.flyout-menu.horizontal{
+	width:100%;
+}
+
+.accordion-menu li .fm-container{
+	display: none;
+}
+
+.accordion-menu li ul li .fm-item{
+	/* height: 30px;	 */
+	display:inline-block;
+	width:100%;
+}
+
+.accordion-menu li.fm-opened > .fm-item{
+	border-bottom: 1px solid #72d7ff;
+	margin-bottom:-1px;
+}
+/* .sj-flat-menu .fm-opened .fm-container .fm-item,
+.sj-flat-menu .fm-opened .fm-container li{
+	padding-left:5px;
+} */
+
+.sj-flat-menu li .fm-icon {
+	font-size:20px;
+}
+
+.pretext,
+.posttext {
+    margin: 10px 0px 20px 0px ;
+}
+
+.add {
+    background: url("../images/add.png") no-repeat scroll right center center;
+}
+
+.subtract {
+    background: url("../images/subtract.png") no-repeat scroll right center center;
+}

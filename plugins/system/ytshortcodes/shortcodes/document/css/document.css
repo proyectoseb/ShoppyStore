@@ -1,0 +1,34 @@
+
+.yt-responsive-media-yes {
+
+	position: relative;
+
+	padding-bottom: 56.25%;
+
+	height: 0;
+
+	overflow: hidden;
+
+}
+
+.yt-responsive-media-yes iframe,
+
+.yt-responsive-media-yes object,
+
+.yt-responsive-media-yes embed {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100%;
+
+	height: 100%;
+
+}
+
+.yt-document { margin: 0 0 1.5em 0 }
+
+.yt-document iframe { border: none !important }

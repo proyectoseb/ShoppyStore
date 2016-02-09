@@ -1,0 +1,120 @@
+
+@media all and (max-width: 767px) {
+	.flyout-menu.vertical >li,
+	.flyout-menu.horizontal >li{
+		display:block;
+	}
+	
+	.flyout-menu.vertical li ul,
+	.flyout-menu.horizontal li ul{
+		width:auto;
+		border-left:0;
+		border-bottom:0;
+		border-right:0;
+	}
+	.flyout-menu.vertical  li .fm-container{
+		position: relative; 
+		top: 0; 
+		padding-top: 0;
+		display: none;
+		z-index: 1000;
+	}
+	
+	.flyout-menu.vertical  li >.fm-container.direction-left,
+	.flyout-menu.vertical  li >.fm-container.direction-right{
+		left:auto;
+		right:auto;
+	}
+	
+	.flyout-menu.horizontal  li .fm-container{
+		position: relative; 
+		top: 0; 
+		padding-top: 0;
+		display: none;
+		z-index: 1000;
+	}
+	
+}
+
+
+
+@media all and (min-width: 768px) {
+	.flyout-menu.horizontal >li{
+		display:inline-block;
+		border:0;
+	}
+	.flyout-menu.horizontal  li >.fm-container.direction-left{
+		position:absolute;
+		left:0;
+		top:100%;
+		padding-top:0;
+	}
+
+	.flyout-menu.horizontal  li >.fm-container.direction-right{
+		position:absolute;
+		right:0;
+		top:100%;
+		padding-top:0;
+	}
+
+	.flyout-menu.horizontal  li .fm-container  li .fm-container.direction-left{
+		position:absolute;
+		left:100%;
+		top:-1px;
+		padding-top:0;
+	}
+
+	.flyout-menu.horizontal  li .fm-container  li .fm-container.direction-right{
+		position:absolute;
+		right:100%;
+		top:-1px;
+		padding-top:0;
+	}
+	
+	.flyout-menu.vertical  li >.fm-container.direction-left{
+		left:100%;
+	}
+	.flyout-menu.vertical  li >.fm-container.direction-right{
+		right:100%;
+	}
+}
+/*-- css for ie8 --*/
+
+.flyout-menu.lt-ie9.horizontal >li{
+	display:inline-block;
+	border:0;
+}
+.flyout-menu.lt-ie9.horizontal  li >.fm-container.direction-left{
+	position:absolute;
+	left:0;
+	top:100%;
+	padding-top:0;
+}
+
+.flyout-menu.lt-ie9.horizontal  li >.fm-container.direction-right{
+	position:absolute;
+	right:0;
+	top:100%;
+	padding-top:0;
+}
+
+.flyout-menu.lt-ie9.horizontal  li .fm-container  li .fm-container.direction-left{
+	position:absolute;
+	left:100%;
+	top:-1px;
+	padding-top:0;
+}
+
+.flyout-menu.horizontal.lt-ie9  li .fm-container  li .fm-container.direction-right{
+	position:absolute;
+	right:100%;
+	top:-1px;
+	padding-top:0;
+}
+
+.flyout-menu.vertical.lt-ie9  li >.fm-container.direction-left{
+		left:100%;
+}
+.flyout-menu.vertical.lt-ie9  li >.fm-container.direction-right{
+	right:100%;
+}	

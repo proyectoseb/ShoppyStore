@@ -1,0 +1,64 @@
+/*******************************************
+***          YT Framework: less          ***
+*******************************************/
+
+// --* Typo Templates *--------------
+// ----------------------------------------
+/*   1.Headings
+ *   2.Prettify
+ *   3.Specify
+ *   4.Example sites showcase 
+ *   5.Code,Pre
+ */
+
+// 1.Headings 
+h1,h2,h3,h4,h5,h6{margin: 0 0 12px;}
+h1 { font-size: 200%;line-height: 115%; }
+h2 { font-size: 160%;line-height: 110%;  }
+h3 { font-size: 130%;line-height: 110%; }
+h4 { font-size: 110%; }
+h5 { font-size: 91%; }
+h6 { font-size: 84%; }
+
+// 2.Prettify
+.com { color: #93a1a1; }
+.lit { color: #195f91; }
+.pun, .opn, .clo { color: #93a1a1; }
+.fun { color: #dc322f; }
+.str, .atv { color: #D14; }
+.kwd, .prettyprint .tag { color: #1e347b; }
+.typ, .atn, .dec, .var { color: teal; }
+.pln { color: #48484c; }
+.clear{clear: both;}
+.prettyprint {padding: 8px;background-color: #f7f7f9;border: 1px solid #e1e1e8;}
+.prettyprint.linenums {box-shadow: (~"inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0");}
+div.yt-typography div.page-header > h1{
+    color: #666;font-weight: bold;margin: 0 0 15px;line-height: 30px;font-size: 240%;text-transform: none;padding-bottom: 10px;border-bottom: 1px solid #ddd;
+}
+
+// 3.Specify class=linenums on a pre to get line numbering 
+ol.linenums {margin: 0 0 0 33px; /* IE indents via margin-left */ }
+ol.linenums li {padding-left: 12px;color: #bebec5;line-height: 20px;text-shadow: 0 1px 0 #fff;padding: 3px 0 3px 10px;}
+ol.linenums li:nth-last-child(odd){background:#FCFCFC;.box-shadow(~"0 1px 0 rgba(0, 0, 0, 0.05) inset, 0 1px 0 rgba(0, 0, 0, 0.05)");}
+.bs-docs-example {position: relative;margin: 15px 0;padding: 39px 19px 14px;overflow: hidden;background-color: #fff;border: 1px solid #ddd;.border-radius(4px);}
+.bs-docs-example h2.page-header{font-size: 180%;font-weight: bold;border-bottom: 1px solid #ddd;margin: 1.5em 0 1em;padding-bottom: 15px;}
+
+// 4.Echo out a label for the example 
+.bs-docs-example:after {
+  content: "Example";position: absolute;top: -1px;left: -1px;padding: 3px 7px;font-size: 12px;
+  font-weight: bold;background-color: #f5f5f5;border: 1px solid #ddd;color: #333333;.border-radius(4px 0 4px 0);
+}
+
+// 5.Remove spacing between an example and it's code 
+.bs-docs-example + .prettyprint {margin-top: -20px;padding: 4px 0 0 8px;margin-bottom: 15px;overflow: hidden;}
+
+// 6.Example sites showcase 
+.example-sites {margin-left: 20px;}
+.example-sites img {max-width: 100%;margin: 0 auto;}
+.scrollspy-example {height: 200px;overflow: auto;position: relative;}
+
+// 7.Code,Pre
+code, pre{font-family: Menlo,Monaco,Consolas,"Courier New",monospace;}
+code{display: inline-block;}
+span.highlight{color: @white;}
+

@@ -1,0 +1,64 @@
+.main-image a{
+    display: block;
+}
+
+.quickview-pretext {
+	margin: 10px 0px;
+	font-size: 15px;
+}
+
+.quickview-posttext {
+	margin: 10px 0px;
+	font-size: 15px;
+}
+
+.sj_quickview_handler {
+	color: #444;
+	background-color: #fff;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    height: 33px;
+    left: 30%;
+    line-height: 30px;
+    opacity: 0;
+    padding: 0 14px;
+    position: absolute;
+    top: 30%;
+    visibility: hidden;
+	z-index: 2;
+}
+
+
+.sj_quickview_handler:focus {
+	outline: none;
+}
+
+.fancybox-lock .zoomContainer {
+	-webkit-transform: none !important;
+}
+
+.fancybox-lock .zoomContainer .zoomLens,
+.fancybox-lock .zoomContainer .zoomWindow {
+	z-index: 8021 !important;
+}
+
+.quickview-main .product-image-thumbs li:first-child {
+	margin-left: 0;
+}
+
+.quickview-main .product-collateral {
+	display: none;
+}
+
+.products-list li.item .f-fix .sj_quickview_handler {
+	float: left;
+}
+
+.quantity-box .quantity-input {
+	width: 50px;
+}
+
+span.addtocart-button {
+	padding-top: 5px !important;
+}
+

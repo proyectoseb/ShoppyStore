@@ -1,0 +1,101 @@
+.theme-color {
+  background-color: #CCC;
+}
+.theme-color.red {
+  background-color: #dd002b;
+}
+.theme-color.blue {
+  background-color: #0083e8;
+}
+.theme-color.oranges {
+  background-color: #ff6c00;
+}
+.theme-color.green {
+  background-color: #62a400;
+}
+.theme-color.purple {
+  background-color: #8b0dc8;
+}
+.theme-color.violet {
+  background-color: #a31f82;
+}
+@media (min-width: 1200px) {
+  .body-bg .pattern1,
+  #jform_params_bgimage_pattern .pattern1 {
+    background-image: url(../images/pattern/body/pattern1.png);
+  }
+  .body-bg .pattern2,
+  #jform_params_bgimage_pattern .pattern2 {
+    background-image: url(../images/pattern/body/pattern2.png);
+  }
+  .body-bg .pattern3,
+  #jform_params_bgimage_pattern .pattern3 {
+    background-image: url(../images/pattern/body/pattern3.png);
+  }
+  .body-bg .pattern4,
+  #jform_params_bgimage_pattern .pattern4 {
+    background-image: url(../images/pattern/body/pattern4.png);
+  }
+  .body-bg .pattern5,
+  #jform_params_bgimage_pattern .pattern5 {
+    background-image: url(../images/pattern/body/pattern5.png);
+  }
+  .body-bg .pattern6,
+  #jform_params_bgimage_pattern .pattern6 {
+    background-image: url(../images/pattern/body/pattern6.jpg);
+    background-size: auto 100%;
+  }
+  .body-bg .pattern7,
+  #jform_params_bgimage_pattern .pattern7 {
+    background-image: url(../images/pattern/body/pattern7.jpg);
+    background-size: auto 100%;
+  }
+  .body-bg .pattern8,
+  #jform_params_bgimage_pattern .pattern8 {
+    background-image: url(../images/pattern/body/pattern8.jpg);
+    background-size: auto 100%;
+  }
+  #bd.pattern1 {
+    background-image: url(../images/pattern/body/pattern1.png);
+  }
+  #bd.pattern2 {
+    background-image: url(../images/pattern/body/pattern2.png);
+  }
+  #bd.pattern3 {
+    background-image: url(../images/pattern/body/pattern3.png);
+  }
+  #bd.pattern4 {
+    background-image: url(../images/pattern/body/pattern4.png);
+  }
+  #bd.pattern5 {
+    background-image: url(../images/pattern/body/pattern5.png);
+  }
+  #bd.pattern6 {
+    background-image: url(../images/pattern/body/pattern6.jpg);
+    background-attachment: fixed;
+  }
+  #bd.pattern7 {
+    background-image: url(../images/pattern/body/pattern7.jpg);
+    background-attachment: fixed;
+  }
+  #bd.pattern8 {
+    background-image: url(../images/pattern/body/pattern8.jpg);
+    background-attachment: fixed;
+  }
+}
+.pattern-wrap .pattern {
+  height: 22px;
+  width: 30px;
+  float: left;
+  text-indent: -999em;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 3px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.5) inset;
+}
+.pattern-wrap .pattern.active {
+  border: 1px solid rgba(0,0,0,0.4);
+  box-shadow: 0 1px 3px 1px rgba(0,0,0,0.4) inset, 0 0 0 2px rgba(0,0,0,0.08);
+  background-color: #eee;
+}

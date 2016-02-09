@@ -1,0 +1,15 @@
+.qtip.yt-qtip { max-width: 480px !important; }
+.yt-tooltip { display: inline-block; }
+.yt-qtip-size-1 { font-size: 0.8em !important; }
+.yt-qtip-size-2 { font-size: 0.9em !important; }
+.yt-qtip-size-3 { font-size: 1em !important; }
+.yt-qtip-size-4 { font-size: 1.1em !important; }
+.yt-qtip-size-5 { font-size: 1.2em !important; }
+.yt-qtip-size-6 { font-size: 1.3em !important; }
+.yt-tooltip-content { display: none; }
+.yt-tooltip-content > :last-child { margin-bottom: 0; }
+.qtip-content .yt-tooltip-content img,
+.qtip-content .yt-tooltip-content object,
+.qtip-content .yt-tooltip-content iframe,
+.qtip-content .yt-tooltip-content embed { max-width: 430px; }
+.qtip-content .yt-tooltip-content .yt-responsive-media-yes { width: 430px; }

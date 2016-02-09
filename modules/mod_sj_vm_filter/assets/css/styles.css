@@ -1,0 +1,356 @@
+.sj-vm-filter {
+    margin: 0;
+    padding: 0;
+}
+
+.sj-vm-filter .ft-wrap {
+    margin: 0;
+    padding: 0;
+}
+
+.sj-vm-filter .ft-wrap form.ft-form {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sj-vm-filter .ft-wrap .ft-group {
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+.sj-vm-filter .ft-wrap .ft-filtering .ft-content .ft-current-group {
+    margin-top: 5px;
+}
+
+.sj-vm-filter .ft-group .ft-heading {
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 22px;
+    position: relative;
+}
+
+.sj-vm-filter .ft-group .ft-heading .ft-open-close {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -11px;
+    width: 22px;
+    height: 22px;
+}
+
+.sj-vm-filter .ft-group .ft-content {
+    overflow: hidden;
+    margin: 0;
+}
+
+.sj-vm-filter .ft-group.ft-close .ft-content {
+    display: none;
+}
+
+.sj-vm-filter .ft-group.ft-open .ft-content {
+    display: block;
+}
+
+.sj-vm-filter .ft-content .ft-select {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sj-vm-filter .ft-select .ft-option {
+    vertical-align: middle;
+    padding: 8px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.sj-vm-filter .ft-option input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.sj-vm-filter .ft-option .ft-opt-inner {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.sj-vm-filter .ft-option .ft-opt-inner span {
+    /* display:inline; */
+    margin-left: 3px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* .sj-vm-filter .ft-option .ft-opt-close {
+	//display:none;
+} */
+
+.sj-vm-filter .ft-option.ft-cheked .ft-opt-close {
+    background: url("../images/icon-close.png") no-repeat right center transparent;
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-top: -6px;
+    top: 50%;
+}
+
+.sj-vm-filter .ft-option .ft-opt-count {
+    color: #999999;
+}
+
+.sj-vm-filter .ft-option .ft-select {
+    margin: 0 0 0 20px;
+
+}
+
+.sj-vm-filter .ft-content .ft-opt-clearall {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: #fff;
+    border-color: #ccc;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    display: none;
+}
+
+.sj-vm-filter .ft-content .ft-opt-clearall:hover,
+.sj-vm-filter .ft-content .ft-opt-clearall:focus {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    color: #333;
+}
+
+.sj-vm-filter .ft-content.ft-selected .ft-opt-clearall {
+    display: inline-block;
+}
+
+/******************Tab Filter Color****************/
+
+.sj-vm-filter .ft-content-prices ul {
+    overflow: hidden;
+}
+
+.sj-vm-filter .ft-content-prices .ft-opt-inner {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.sj-vm-filter .ft-content-prices .ft-opt-inner span {
+    display: inline-block;
+    overflow: hidden;
+    height: 34px;
+    margin-left: 0;
+    vertical-align: top;
+    font-size: 0;
+    text-align: center;
+}
+
+.sj-vm-filter .ft-content-prices .ft-price-value {
+    float: left;
+}
+
+.sj-vm-filter .ft-content-prices .ft-price-value.ft-price-right {
+    float: right;
+}
+
+.sj-vm-filter .ft-content-prices .ft-opt-inner span.ft-price-label {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.sj-vm-filter .ft-content-prices .ft-price-value input[type="text"] {
+    width: 60px;
+    display: inline-block;
+    border-radius: 0;
+    text-align: center;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    transition: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    height: 30px;
+}
+
+.sj-vm-filter .ft-content-prices .ft-opt-inner .ft-price-curent {
+    border: 1px solid #cdcdcd;
+    background-color: #eeeeee;
+    color: #FF0000;
+    padding: 0 8px;
+    font-size: 16px;
+    line-height: 32px;
+    height: 30px;
+}
+
+.sj-vm-filter .ft-content-prices .ft-slider-price {
+    margin: 10px;
+    height: 6px;
+    overflow: visible !important;
+    width: auto;
+}
+
+.sj-vm-filter .ft-slider-price .ui-widget-header {
+    background: none repeat scroll 0 0 #006699;
+}
+
+.sj-vm-filter .ft-slider-price.ui-slider-horizontal .ui-slider-handle {
+    top: -8px;
+    border-radius: 0;
+}
+
+.sj-vm-filter .ft-slider-price.ui-slider-horizontal .ui-slider-handle:focus {
+    outline: none;
+}
+
+/***************Tab Color Filter****************/
+
+.sj-vm-filter .ft-content-color .ft-select {
+    border-bottom: 1px dashed #ccccdd;
+    display: block;
+    margin: 13px 0;
+    padding-bottom: 15px;
+}
+
+.sj-vm-filter .ft-content-color .ft-select .ft-option {
+    border: none;
+
+}
+
+.sj-vm-filter .ft-content-color .ft-option {
+    display: inline-block;
+    margin: 0 1px;
+    padding: 3px 0;
+    width: 30%;
+
+}
+
+.sj-vm-filter .ft-content-color .ft-option .ft-opt-inner {
+    display: block;
+}
+
+.sj-vm-filter .ft-content-color .ft-option input[type="checkbox"] {
+    display: none;
+}
+
+.sj-vm-filter .ft-content-color .ft-option .ft-color-value {
+    width: 100%;
+    height: 30px;
+    line-height: 24px;
+    color: #999999;
+    display: inline-block;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+}
+
+.sj-vm-filter .ft-content-color .ft-option .ft-color-value .ft-opt-count {
+    margin: 0;
+    color: #660033;
+}
+
+.sj-vm-filter .ft-content-color .ft-option .ft-color-value.ft-checked {
+    background: url("../images/ja.png") no-repeat scroll center center transparent
+}
+
+.sj-vm-filter .ft-filtering .ft-content {
+   
+}
+
+.sj-vm-filter .ft-filtering .ft-current-label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.sj-vm-filter .ft-filtering .ft-current-group {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.sj-vm-filter .ft-filtering .ft-option .ft-opt-inner span {
+    margin-left: 0;
+}
+
+.sj-vm-filter .ft-filtering .ft-select .ft-option {
+    padding: 4px 0;
+}
+
+.sj-vm-filter .ft-filtering .ft-option .ft-opt-close {
+    background: url("../images/icon-close.png") no-repeat right center transparent;
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-top: -6px;
+    top: 50%;
+}
+
+.sj-vm-filter .ft-filtering .ft-option .ft-opt-close:hover {
+    background: url("../images/icon-close-hover.png") no-repeat right center transparent;
+}
+
+.sj-vm-filter .ft-filtering .ft-content .ft-opt-clearall {
+    display: inline-block;
+}
+
+.sj-loading {
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    opacity: 0.7;
+    background-color: #0F0F1E;
+}
+
+.sj-loading .ft-image-loading {
+    background: url("../images/loading.gif") no-repeat scroll center center #0F0F1E;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 50%;
+    margin-left: -32px;
+    top: 50%;
+    margin-top: -32px;
+    z-index: 10000;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+@media all and (max-width: 479px) {
+    .sj-vm-filter .ft-content-prices .ft-price-value input[type="text"] {
+        width: 38px;
+    }
+}

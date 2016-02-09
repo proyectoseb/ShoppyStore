@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+        <name>PLG_SYSTEM_JCH_OPTIMIZE</name>
+        <author>Samuel Marshall</author>
+        <creationDate>March 2015</creationDate>
+        <copyright>Copyright (C) 2014 Samuel Marshall. All rights reserved.</copyright>
+        <license>GNU/GPLv3 http://www.gnu.org/copyleft/gpl.html</license>
+        <authorEmail>sdmarshall73@gmail.com</authorEmail>
+        <authorUrl>http://www.jch-optimize.net</authorUrl>
+        <version>4.2.4</version>
+        <variant>FREE</variant>
+        <description>JCH_OPTIMIZE_DESCRIPTION</description>
+        <files>
+                <filename plugin="jch_optimize">jch_optimize.php</filename>
+                <filename>index.html</filename>
+                <filename>bootstrap.php</filename>
+                
+                <folder>fields</folder>
+                <folder>platform</folder>
+                <folder>jchoptimize</folder>   
+        </files>
+        <languages folder="language">
+                <language tag="en-GB">en-GB/en-GB.plg_system_jch_optimize.ini</language>
+                <language tag="en-GB">en-GB/en-GB.plg_system_jch_optimize.sys.ini</language>
+        </languages>
+        <scriptfile>script.php</scriptfile>
+        <media folder="media" destination="plg_jchoptimize">
+                <folder>css</folder>
+                <folder>js</folder>
+                
+                <folder>assets</folder>
+                <folder>assets2</folder>      
+                <folder>assets3</folder>           
+        </media>
+
+        <config>
+                <fields name="params">
+                        <fieldset name="basic" addfieldpath="/plugins/system/jch_optimize/fields">
+                                <field name="autoorder" 
+                                       type="autoorder" 
+                                       label="JCH_PRO_AUTOORDER_LABEL" 
+                                       description="JCH_PRO_AUTOORDER_DESC" >
+                                </field>
+                                <field name="autosettings" 
+                                       type="autosettings" 
+                                       label="JCH_PRO_AUTOSETTINGS_LABEL" 
+                                       description="JCH_PRO_AUTOSETTINGS_DESC" >
+                                </field>
+                                <field name="group_basic_auto_start"
+                                       type="jchgroup"
+                                       section="start"
+                                       label="JCH_GROUP_AUTO_LABEL"
+                                       description="JCH_GROUP_AUTO_DESC">
+                                </field>
+                                <field name="css"
+                                       type="radio" 
+                                       class="btn-group s1-on s2-on s3-on s4-on s5-on s6-on" 
+                                       default="1" 
+                                       label="CSS_LABEL" 
+                                       description="CSS_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="javascript" 
+                                       type="radio" 
+                                       class="btn-group s1-on s2-on s3-on s4-on s5-on s6-on" 
+                                       default="1" 
+                                       label="JAVASCRIPT_LABEL" 
+                                       description="JAVASCRIPT_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                    <!--            <field name="remove_duplicates" 
+                                       type="radio" 
+                                       class="btn-group s1-on s2-on s3-on s4-on s5-on s6-on" 
+                                       default="1" 
+                                       label="JCH_REMOVE_DUPLICATES_LABEL" 
+                                       description="JCH_REMOVE_DUPLICATES_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>  -->
+                                <field name="gzip" 
+                                       type="radio" 
+                                       class="btn-group s1-off s2-on s3-on s4-on s5-on s6-on" 
+                                       default="0" 
+                                       label="GZIP_LABEL" 
+                                       description="GZIP_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="css_minify" 
+                                       type="radio" 
+                                       class="btn-group s1-off s2-on s3-on s4-on s5-on s6-on" 
+                                       default="0" 
+                                       label="COMPRESS_CSS" 
+                                       description="COMPRESS_CSS_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="js_minify" 
+                                       type="radio" 
+                                       class="btn-group s1-off s2-on s3-on s4-on s5-on s6-on" 
+                                       default="0" 
+                                       label="COMPRESS_JAVASCRIPT" 
+                                       description="COMPRESS_JAVASCRIPT_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="html_minify" 
+                                       type="radio" 
+                                       class="btn-group s1-off s2-on s3-on s4-on s5-on s6-on" 
+                                       default="0" 
+                                       label="COMPRESS_HTML" 
+                                       description="COMPRESS_HTML_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="defer_js" 
+                                       type="radio" 
+                                       class="btn-group s1-off s2-off s3-off s4-off s5-off s6-on" 
+                                       default="0" 
+                                       label="DEFER_JS" 
+                                       description="DEFER_JS_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="bottom_js" 
+                                       type="list"
+                                       class="position-javascript" 
+                                       default="0" 
+                                       label="POSITION_JS_LABEL" 
+                                       description="POSITION_JS_DESCRIPTION">
+                                        <option value="0">JCH_MAINTAIN_EXEC_ORDER</option>
+                                        <option value="2">JCH_COMBINE_ONE_FILE</option>
+                                        <option value="1">JCH_JS_BOTTOM_OF_PAGE</option>
+                                </field>
+                                <field name="group_basic_auto_end"
+                                       type="jchgroup"
+                                       section="end"> 
+                                </field>  
+                                <field name="group_basic_manual_start"
+                                       type="jchgroup"
+                                       section="start"
+                                       label="JCH_GROUP_MANUAL_LABEL"
+                                       description="JCH_GROUP_MANUAL_DESC">
+                                </field>
+                                <field name="html_minify_level" 
+                                       type="list"
+                                       default="0" 
+                                       label="JCH_MINIFY_LEVEL_LABEL" 
+                                       description="JCH_MINIFY_LEVEL_DESCRIPTION">
+                                        <option value="0">JCH_MINIFY_LEVEL_BASIC</option>
+                                        <option value="1">JCH_MINIFY_LEVEL_ADVANCED</option>
+                                        <option value="2">JCH_MINIFY_LEVEL_ULTRA</option>
+                                </field>     
+                                <field name="lifetime" 
+                                               type="text" 
+                                               default="30" 
+                                               label="LIFETIME_LABEL" 
+                                               description="LIFETIME_DESCRIPTION" 
+                                               size="6" >
+                                </field>
+                                <field name="group_basic_manual_end"
+                                       type="jchgroup"
+                                       section="end"> 
+                                </field>
+                        </fieldset>
+                        <fieldset name="advanced">
+                                <field name="group_advanced_auto_start"
+                                       type="jchgroup"
+                                       section="start"
+                                       label="JCH_GROUP_AUTO_LABEL"
+                                       description="JCH_GROUP_AUTO_DESC">
+                                </field>
+                                <field name="excludeAllExtensions" 
+                                       type="radio" 
+                                       class="btn-group s1-on s2-on s3-off s4-off s5-off s6-off" 
+                                       default="1" 
+                                       label="EXCLUDE_ALL_EXTENSIONS_LABEL" 
+                                       description="EXCLUDE_ALL_EXTENSIONS_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="group_advanced_auto_end"
+                                       type="jchgroup"
+                                       section="end">
+                                </field>
+                                <field name="group_advanced_exclude_start"
+                                       type="jchgroup"
+                                       section="start"
+                                       label="JCH_GROUP_EXCLUDE_LABEL"
+                                       description="JCH_GROUP_EXCLUDE_DESC">
+                                </field>
+                                <field name="jchmenu"
+                                       type="jchmenuitem"
+                                       disable="separator,url,alias"
+                                       published="1"
+                                       onchange="Joomla.submitbutton('plugin.apply')"
+                                       label="JCH_MENU_LABEL"
+                                       description="JCH_MENU_DESCRIPTION">
+                                </field>
+                                <field name="excludeCss" 
+                                       type="excludecss"  
+                                       rows="3" 
+                                       default="" 
+                                       cols="20" 
+                                       label="EXCLUDE_CSS_LABEL" 
+                                       description="EXCLUDE_CSS_DESCRIPTION">
+                                </field>
+                                <field name="excludeJs" 
+                                       type="excludejs" 
+                                       rows="3" 
+                                       default="" 
+                                       cols="20" 
+                                       label="EXCLUDE_JS_LABEL" 
+                                       description="EXCLUDE_JS_DESCRIPTION">
+                                </field>
+                                <field name="excludeCssComponents" 
+                                       type="excludecssextns" 
+                                       rows="3" 
+                                       default="" 
+                                       cols="20" 
+                                       label="EXCLUDE_CSS_COMPONENTS_LABEL" 
+                                       description="EXCLUDE_CSS_COMPONENTS_DESCRIPTION">
+                                </field>
+                                <field name="excludeJsComponents" 
+                                       type="excludejsextns" 
+                                       rows="3" 
+                                       default="" 
+                                       cols="20" 
+                                       label="EXCLUDE_JS_COMPONENTS_LABEL" 
+                                       description="EXCLUDE_JS_COMPONENTS_DESCRIPTION">
+                                </field>
+                                <field name="group_advanced_exclude_end"
+                                       type="jchgroup"
+                                       section="end">
+                                </field>
+                                <field name="group_advanced_manual_start"
+                                       type="jchgroup"
+                                       section="start"
+                                       label="JCH_GROUP_MANUAL_LABEL"
+                                       description="JCH_GROUP_MANUAL_DESC">
+                                </field>
+                                <field name="htaccess" 
+                                       type="list" 
+                                       class="btn-group" 
+                                       default="2" 
+                                       label="HTACCESS_LABEL" 
+                                       description="HTACCESS_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                        <option value="3">JYES_WITHOUT_OPTION</option>
+                                        <option value="2">JCH_AUTO</option>
+                                </field>
+                                <field name="debug" 
+                                       type="radio" 
+                                       class="btn-group" 
+                                       default="0" 
+                                       label="JCH_DEBUG_LABEL" 
+                                       description="JCH_DEBUG_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="log" 
+                                       type="radio" 
+                                       class="btn-group" 
+                                       default="0" 
+                                       label="JCH_LOG_LABEL" 
+                                       description="JCH_LOG_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="try_catch" 
+                                       type="radio" 
+                                       class="btn-group" 
+                                       default="0" 
+                                       label="JCH_TRY_CATCH_LABEL" 
+                                       description="JCH_TRY_CATCH_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="group_advanced_manual_end"
+                                       type="jchgroup"
+                                       section="end">
+                                </field>
+                        </fieldset>
+                        <fieldset name="JCH_PRO_OPTIONS"  addfieldpath="/plugins/system/jch_optimize/fields">
+                                <field name="group_pro_download_start"
+                                       type="jchgroup"
+                                       section="start" >
+                                 <!--      label="JCH_GROUP_AUTO_LABEL"
+                                       description="JCH_GROUP_AUTO_DESC"  -->
+                               
+                                </field>
+                                <field name="pro_downloadid" 
+                                       type="ProOnly" 
+                                       default="" 
+                                       label="JCH_DOWNLOADID_LABEL" 
+                                       description="JCH_DOWNLOADID_DESCRIPTION" 
+                                       size="50" >
+                                </field>
+                                <field name="group_pro_download_end"
+                                       type="jchgroup"
+                                       section="end">
+                                </field>
+                                <field name="group_pro_auto_start"
+                                       type="jchgroup"
+                                       section="start"
+                                       label="JCH_GROUP_AUTO_LABEL"
+                                       description="JCH_GROUP_AUTO_DESC">
+                                </field>
+                                <field name="pro_replaceImports" 
+                                       type="ProOnly" 
+                                       class="btn-group s1-on s2-on s3-on s4-on s5-on s6-on" 
+                                       label="JCH_PRO_REPLACEIMPORTS_LABEL" 
+                                       description="JCH_PRO_REPLACEIMPORTS_DESC" 
+                                       default="0" >
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="pro_phpAndExternal" 
+                                       type="ProOnly" 
+                                       class="btn-group s1-on s2-on s3-on s4-on s5-on s6-on" 
+                                       label="JCH_PRO_PHPANDEXTERNAL_LABEL" 
+                                       description="JCH_PRO_PHPANDEXTERNAL_DESC" 
+                                       default="0" >
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="pro_inlineStyle" 
+                                       type="ProOnly" 
+                                       class="btn-group s1-on s2-on s3-on s4-on s5-on s6-on" 
+                                       label="JCH_PRO_INLINESTYLE_LABEL" 
+                                       description="JCH_PRO_INLINESTYLE_DESC" 
+                                       default="0" >
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>                
+                                <field name="pro_inlineScripts"
+                                       type="ProOnly" 
+                                       class="btn-group s1-off s2-off s3-off s4-on s5-on s6-on" 
+                                       label="JCH_PRO_INLINESCRIPTS_LABEL" 
+                                       description="JCH_PRO_INLINESCRIPTS_DESC" 
+                                       default="0" >
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="pro_searchBody" 
+                                       type="ProOnly" 
+                                       class="btn-group s1-off s2-off s3-off s4-off s5-on s6-on" 
+                                       label="JCH_PRO_SEARCHBODY_LABEL" 
+                                       description="JCH_PRO_SEARCHBODY_DESC" 
+                                       default="0" >
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="pro_loadAsynchronous" 
+                                       type="ProOnly" 
+                                       class="btn-group s1-off s2-off s3-off s4-off s5-off s6-on" 
+                                       label="JCH_PRO_LOADASYNCHRONOUS_LABEL" 
+                                       description="JCH_PRO_LOADASYNCHRONOUS_DESC" 
+                                       default="0" >
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="group_pro_auto_end"
+                                       type="jchgroup"
+                                       section="end">
+                                </field>
+                                <field name="group_pro_manual_start"
+                                       type="jchgroup"
+                                       section="start"
+                                       label="JCH_GROUP_MANUAL_LABEL"
+                                       description="JCH_GROUP_MANUAL_DESC">
+                                </field>
+                                <field name="pro_lazyload" 
+                                       type="ProOnly" 
+                                       class="btn-group"
+                                       label="JCH_PRO_LAZYLOAD_LABEL" 
+                                       description="JCH_PRO_LAZYLOAD_DESC" 
+                                       default="0" >
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="pro_optimizeCssDelivery" 
+                                       type="ProOnly" 
+                                       label="JCH_PRO_OPTIMIZECSSDELIVERY_LABEL" 
+                                       description="JCH_PRO_OPTIMIZECSSDELIVERY_DESC" 
+                                       default="0" >
+                                        <option value="0">JCH_OFF</option>
+                                        <option value="200">200</option>
+                                        <option value="400">400</option>
+                                        <option value="600">600</option>
+                                        <option value="800">800</option>
+                                </field>                                
+                                <field name="pro_cookielessdomain" 
+                                       type="ProOnly" 
+                                       default="" 
+                                       label="JCH_PRO_COOKIELESSDOMAIN_LABEL" 
+                                       description="JCH_PRO_COOKIELESSDOMAIN_DESC" 
+                                       size="50" >
+                                </field> 
+                                <field name="group_pro_manual_end"
+                                       type="jchgroup"
+                                       section="end">
+                                </field>   
+                                <field name="group_pro_exclude_start"
+                                       type="jchgroup"
+                                       section="start"
+                                       label="JCH_GROUP_EXCLUDE_LABEL"
+                                       description="JCH_GROUP_EXCLUDE_DESC">
+                                </field>
+                                <field name="pro_excludeLazyLoad" 
+                                       type="ProOnly"  
+                                       rows="3" 
+                                       default="" 
+                                       cols="20" 
+                                       label="JCH_PRO_EXCLUDE_LAZYLOAD_LABEL" 
+                                       description="JCH_PRO_EXCLUDE_LAZYLOAD_DESC">
+                                </field>                                                           
+                                <field name="pro_excludeScripts" 
+                                       type="ProOnly"  
+                                       rows="3" 
+                                       default="" 
+                                       cols="20" 
+                                       label="JCH_PRO_EXCLUDE_SCRIPT_LABEL" 
+                                       description="JCH_PRO_EXCLUDE_SCRIPT_DESC">
+                                </field>
+                                <field name="pro_loadFilesAsync" 
+                                       type="ProOnly" 
+                                       rows="3" 
+                                       label="JCH_PRO_LOADFILESASYNC_LABEL" 
+                                       description="JCH_PRO_LOADFILESASYNC_DESC" 
+                                       default="" >
+                                </field>
+                                <field name="group_pro_exclude_end"
+                                       type="jchgroup"
+                                       section="end">
+                                </field> 
+                        </fieldset>
+                        <fieldset name="SPRITE">
+                                <field name="group_csg_manual_start"
+                                       type="jchgroup"
+                                       section="start"
+                                       label="JCH_GROUP_MANUAL_LABEL"
+                                       description="JCH_GROUP_MANUAL_DESC">
+                                </field>
+                                <field name="csg_enable" 
+                                       type="radio" 
+                                       class="btn-group" 
+                                       default="0" 
+                                       label="SPRITE_ENABLE_LABEL" 
+                                       description="SPRITE_ENABLE_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                     <!--           <field name="csg_file_output" 
+                                       type="spriteformat" 
+                                       label="FILE_OUTPUT_LABEL" 
+                                       description="FILE_OUTPUT_DESCRIPTION">
+                                </field>  -->
+                                <field name="csg_direction" 
+                                       type="list" 
+                                       default="vertical" 
+                                       label="SPRITE_DIRECTION_LABEL" 
+                                       description="SPRITE_DIRECTION_DESCRIPTION">
+                                        <option value="vertical">VERTICAL</option>
+                                        <option value="horizontal">HORIZONTAL</option>
+                                </field>
+                                <field name="csg_wrap_images" 
+                                       type="radio" 
+                                       class="btn-group" 
+                                       default="0" 
+                                       label="WRAP_IMAGES_LABEL" 
+                                       description="WRAP_IMAGES_DESCRIPTION">
+                                        <option value="0">JNO</option>
+                                        <option value="1">JYES</option>
+                                </field>
+                                <field name="group_csg_manual_end"
+                                       type="jchgroup"
+                                       section="end">
+                                </field> 
+                                <field name="group_csg_exclude_start"
+                                       type="jchgroup"
+                                       section="start"
+                                       label="JCH_GROUP_EXCLUDE_LABEL"
+                                       description="JCH_GROUP_EXCLUDE_DESC">
+                                </field>
+                                <field name="csg_exclude_images" 
+                                       type="excludeimages"  
+                                       rows="3" 
+                                       default="" 
+                                       cols="20" 
+                                       label="EXCLUDE_IMAGES_LABEL" 
+                                       description="EXCLUDE_IMAGES_DESCRIPTION">
+                                </field>
+                                <field name="csg_include_images" 
+                                       type="includeimages"  
+                                       rows="3" 
+                                       default="" 
+                                       cols="20" 
+                                       label="INCLUDE_IMAGES_LABEL" 
+                                       description="INCLUDE_IMAGES_DESCRIPTION">
+                                </field>
+                                <field name="group_csg_exclude_end"
+                                       type="jchgroup"
+                                       section="end">
+                                </field> 
+
+                        </fieldset>
+                        <fieldset name="JCH_OPTIMIZE_IMAGES">
+                                <field name="group_optimize_images_start"
+                                       type="jchgroup"
+                                       section="start" >
+                                </field>
+                                <field name="kraken_api_key" 
+                                       type="text" 
+                                       default=""
+                                       size="50"
+                                       label="JCH_KRAKEN_API_KEY_LABEL" 
+                                       description="JCH_KRAKEN_API_KEY_DESCRIPTION">
+                                </field>
+                                <field name="kraken_api_secret" 
+                                       type="text" 
+                                       default=""
+                                       size="50"
+                                       label="JCH_KRAKEN_API_SECRET_LABEL" 
+                                       description="JCH_KRAKEN_API_SECRET_DESCRIPTION">
+                                </field>
+                                <field name="kraken_optimization_level" 
+                                       type="list"
+                                       default="0"
+                                       label="JCH_KRAKEN_OPTIMIZATION_LEVEL_LABEL" 
+                                       description="JCH_KRAKEN_OPTIMIZATION_LEVEL_DESCRIPTION">
+                                        <option value="0">JCH_KRAKEN_NON_LOSSY</option>
+                                        <option value="1">JCH_KRAKEN_LOSSY</option>
+                                </field>
+                                <field name="kraken_quality" 
+                                       type="text" 
+                                       default=""
+                                       size="5"
+                                       label="JCH_KRAKEN_QUALITY_LABEL" 
+                                       description="JCH_KRAKEN_QUALITY_DESCRIPTION">
+                                </field>
+                                <field name="group_optimize_images_end"
+                                       type="jchgroup"
+                                       section="end">
+                                </field> 
+                                <field name="pro_optimize_images"
+                                       type="ProOnly"
+                                       label="JCH_OPTIMIZE_IMAGES_LABEL" 
+                                       description="JCH_OPTIMIZE_IMAGES_DESCRIPTION" >
+                                </field>
+                        </fieldset>
+                </fields>
+        </config>
+        <updateservers>
+                <server type="extension" priority="1"
+                        name="JCH Optimize Updates"><![CDATA[https://www.jch-optimize.net/index.php?option=com_ars&view=update&task=stream&format=xml&id=2&file=extension.xml]]></server>
+        </updateservers>
+</extension>

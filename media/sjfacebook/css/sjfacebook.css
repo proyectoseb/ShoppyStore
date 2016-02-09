@@ -1,0 +1,129 @@
+.pre-text-facebook,.post-text-facebook{
+	margin:10px 0;
+}
+.sj_facebook-nav{
+	display: block;
+}
+.fan_box {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.fan_box .profileimage {
+	display: none;
+	width: 40;
+	height: 40;
+	margin: 0 0 4px;
+	padding: 0 10px 0 0;
+}
+
+.fan_box .full_widget {
+	border: none;
+	background: transparent;
+	color:;
+}
+
+.fan_box .full_widget .connect_top {
+	background: #BBBBBB none repeat scroll 0 0;
+	color: #3B5998;
+	padding: 10px 10px 8px;
+}
+
+.fan_box .full_widget .connect_top a {
+	color: #3B5998;
+}
+
+.fan_box .full_widget .connect_widget_facebook_logo_menubar {
+	background-color: #C6CEDD;
+	border: 1px #9F9FFF solid;
+}
+
+.fan_box .connect_widget td.connect_widget_vertical_center a.connect_widget_like_button
+	{
+	background-color: #BBEBFD;
+	margin-right: 7px;
+}
+
+.fan_box .connect_widget .connect_widget_interactive_area {
+	
+}
+
+.connect_widget_like_button .liketext {
+	color: #3B5998;
+}
+
+.fan_box .page_stream,.fan_box .page_stream_short {
+	border-top: #dfdfdf solid 1px;
+	background: #f1f1f1 none repeat scroll 0 0;
+	height: 250px;
+	overflow: auto;
+	padding: 0 10px;
+	position: relative;
+	text-align: center;
+}
+
+.fan_box .UIIntentionalStory span,.UIIntentionalStory_Message,.UIIntentionalStory .location
+	{
+	color: #7C568C;
+	font-size: 13px;
+	font-weight: normal;
+	overflow: hidden;
+}
+
+.fan_box .UIIntentionalStory span a,.UIIntentionalStory_Message a {
+	color: #445533;
+}
+
+.UIIntentionalStory_Names a {
+	display: none;
+	font-weight: bold;
+}
+
+.UIIntentionalStory_Info {
+	clear: left;
+	display: none;
+	margin-top: 1px;
+	min-height: 16px;
+	padding: 2px 0 0;
+}
+
+.UIIntentionalStory_Time,.UIIntentionalStory_Time a {
+	color: #7C568C !important;
+}
+
+.UIIntentionalStory {
+	border-top: 1px solid #85DB18;
+}
+
+.UIIntentionalStory .UIStoryAttachment_MediaSingle {
+	clear: both;
+	padding-right: 10px;
+}
+
+.fan_box .connections {
+	border-top: none;
+	background: transparent; none repeat scroll 0 0;
+	color: #493F0B;
+	min-height: 100px;
+	float: left;
+}
+
+.fan_box .connections a {
+	color: #493F0B
+}
+
+.fan_box .connections_grid .grid_item .name {
+	color: #493F0B;
+	font-size: 10px;
+}
+
+.fan_box .connections_grid .grid_item {
+	font-family: Tahoma, Geneva, sans-serif;
+	float: left;
+	overflow: hidden;
+	padding: 0 3px 3px 3px;
+	width: 50px;
+}
+
+.fan_box .connections_grid .grid_item img {
+	border: 1px solid;
+}

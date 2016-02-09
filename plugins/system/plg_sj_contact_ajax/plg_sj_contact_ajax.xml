@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.2.1" type="plugin" group="system" method="upgrade">
+	<name>plg_system_sj_contact_ajax</name>
+	<author>YouTech Company</author>
+	<creationDate>March 2013</creationDate>
+	<copyright>Copyright (c) 2009-2013 YouTech Company. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@ytcvn.com</authorEmail>
+	<authorUrl>http://www.smartaddons.com</authorUrl>
+	<version>1.0.1</version>
+	<description>TPL_YTFRAMEWORK_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="plg_sj_contact_ajax">plg_sj_contact_ajax.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+		<folder>assets</folder>
+	</files>
+	<languages folder="language/en-GB">
+		<language tag="en-GB">en-GB.plg_system_plg_sj_contact_ajax.ini</language>
+		<language tag="en-GB">en-GB.plg_system_plg_sj_contact_ajax.sys.ini</language>
+	</languages>
+	<config>
+	</config>
+</extension>

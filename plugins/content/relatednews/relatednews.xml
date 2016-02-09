@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" group="content" method="upgrade">
+	<name>Sj Related News</name>
+	<creationDate>November 2012</creationDate>
+	<author>YouTech Company</author>
+	<copyright>Copyright (c) 2012 YouTech Company</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@ytcvn.com</authorEmail>
+	<authorUrl>http://www.smartaddons.com</authorUrl>
+	<version>1.0</version>
+	<description>SJ_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="relatednews">relatednews.php</filename>
+		<filename>index.html</filename>
+		<folder>assets</folder>
+		<folder>core</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages />
+	<config>
+		<fields name="params" addfieldpath="/plugins/content/relatednews/core/elements">
+		
+			<fieldset name="basic">
+				<field name="depends" type="category" extension="com_content"
+					multiple="true" size="10" default="" label="Depend on" description="Select category" placeholder="Select category"/>
+
+				<field name="title" type="text" default="Related Items:"
+					label="Title" description="Title for Related Items" />
+			</fieldset>
+			
+			<fieldset name="filter" label="Filter Options">
+				<field name="show_child_category_articles" type="radio" class="btn-group"
+					default="0" label="Child Category Articles"
+					description="Include or Exclude Articles from Child Categories.">
+					<option value="1">Include</option>
+					<option value="0">Exclude</option>
+				</field>
+				<field name="levels" type="text" default="1" label="Category Depth"
+					description="The number of child category levels to return." />
+				<field name="show_front" type="radio" default="show" class="btn-group"
+					label="Featured Articles" description="Select to Show, Hide, or Only display Featured Articles.">
+					<option value="show">Show</option>
+					<option value="hide">Hide</option>
+					<option value="only">Onlly</option>
+				</field>
+				<field name="article_ordering" type="list" default="a.title"
+					label="Article Field to Order By"
+					description="Select which field you would like Articles to be ordered by. Featured Ordering should only be used when Filtering Option for Featured Articles is set to 'Only'.">
+					<option value="a.ordering">Article Manager Order</option>
+					<option value="fp.ordering">Featured Articles Order</option>
+					<option value="a.hits">Hits</option>
+					<option value="a.title">Title</option>
+					<option value="a.id">ID</option>
+					<option value="a.alias">Alias</option>
+					<option value="a.created">Created Date</option>
+					<option value="modified">Modified Date</option>
+					<option value="publish_up">Start Publishing Date</option>
+					<option value="a.publish_down">Finish Publishing Date</option>
+				</field>
+				<field name="article_ordering_direction" type="list" default="ASC"
+					label="Ordering Direction"
+					description="Select the direction you would like Articles to be ordered by.">
+					<option value="DESC">Descending</option>
+					<option value="ASC">Ascending</option>
+				</field>
+				<field name="count" type="text" default="10" label="Count"
+					description="The number of articles to display. The default value of 0 will display all articles." />
+			</fieldset>
+			<fieldset name="Content_options" label="Articles Options">
+				<field name="item_title_max_characs" type="text" default="50"
+					label="Title Limit"
+					description="Please enter in a numeric character limit value. The title will be trimmed to the number of characters you enter." />
+				<field name="item_image_display" type="radio" class="btn-group"
+					default="1" label="Show image" description="Show image">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="item_date_display" type="list" default="1"
+					label="Display date created" description="Display date created">
+					<option value="0">No</option>
+					<option value="1">Before title</option>
+					<option value="2">After title</option>
+				</field>
+			</fieldset>
+
+            <fieldset name="image_options" label="Image Options">
+                <field name="imgcfg_from_image_intro" label="Image Intro" class="btn-group" description="Get Images From Image Intro of Articles" type="radio" default="1">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+                <field name="imgcfg_from_image_fulltext" label="Image Fulltext" class="btn-group" description="Get Images From Image Fulltext of Articles" type="radio" default="1">
+                     <option value="1">Yes</option>
+                     <option value="0">No</option>
+                </field> 
+                <field name="imgcfg_from_inline_introtext" label="Inline Introtext" class="btn-group" description="Get Images From Inline Introtext of Articles" type="radio" default="1">
+                     <option value="1">Yes</option>
+                     <option value="0">No</option>
+                </field>
+                <field name="imgcfg_from_inline_fulltext" label="Inline Fulltext" class="btn-group" description="Get images From Inline Fulltext of Articles" type="radio" default="1">
+                     <option value="1">Yes</option>
+                     <option value="0">No</option>
+                </field>
+                <field name="imgcfg_from_external" label="Extend Path" class="btn-group" description="Get images From Extend Folder" type="radio" default="1">
+                     <option value="1">Yes</option>
+                     <option value="0">No</option>
+                </field>
+                <field name="imgcfg_external_url" type="text" default="images" label="Extend Folder" description="Extend Folder"/>
+                <field name="imgcfg_order" type="text" default="image_intro, image_fulltext, inline_introtext, inline_fulltext, external" label="Priority" description="order of priority" />
+                <field name="imgcfg_function" type="list" label="Resize Mode" default="resize_stretch">
+                     <option value="none">None</option>
+                     <option value="resize_center">Center</option>
+                     <option value="resize_fill">Fill</option>
+                     <option value="resize_fit">Fit</option>
+                     <option value="resize_stretch">Stretch</option>
+                </field>
+                <field name="imgcfg_type" type="list" default="" label="Output Format" description="image type output">
+                     <option value="">Default</option>
+                     <option value="1">GIF</option>
+                     <option value="2">JPEG</option>
+                     <option value="3">PNG</option>
+                </field>
+                <field name="imgcfg_transparency" label="Keep Transparency" class="btn-group" description="Keep Transparency" type="radio" default="1">
+                     <option value="1">Yes</option>
+                     <option value="0">No</option>
+                </field>
+                <field name="imgcfg_width" type="text" default="16" label="Width" description="Width" />
+                <field name="imgcfg_height" type="text" default="16" label="Height" description="Height" />
+                <field name="imgcfg_background" type="color" default="" label="Background" description="Background" />
+                <field name="imgcfg_cache" type="text" default="cache/resized" label="Cache Folder" description="Cache Folder" />
+                <field name="imgcfg_cache_url" type="text" default="cache/resized/" label="Cache Url" description="Cache Url" />
+                <field name="imgcfg_placeholder" label="Use Nophoto" class="btn-group" description="Use Nophoto" type="radio" default="1">
+                     <option value="1">Yes</option>
+                     <option value="0">No</option>
+                </field>
+                <field name="imgcfg_placeholder_path" type="text" default="plugins/content/relatednews/assets/images/nophoto.png" label="Nophoto Image Path" description="Nophoto Image Path"/>                               
+            </fieldset> 
+
+			<fieldset name="advanced">
+				<field name="item_link_target" type="list" class="btn-group"
+					default="_self" label="Open Link" description="The Type shows when you click on the link">
+					<option value="_blank">New Window</option>
+					<option value="_self">Same Window</option>
+					<option value="_windowopen">Popup window</option>
+				</field>
+				<field name="usecss" type="radio" class="btn-group" default="1"
+					label="Use default css" description="Readmore display">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

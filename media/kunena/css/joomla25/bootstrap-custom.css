@@ -1,0 +1,3562 @@
+#kunena.admin .clearfix {
+  *zoom: 1;
+}
+#kunena.admin .clearfix:before,
+#kunena.admin .clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .clearfix:after {
+  clear: both;
+}
+#kunena.admin .hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+#kunena.admin .input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#kunena.admin .row {
+  margin-left: -20px;
+  *zoom: 1;
+  *zoom: 1;
+}
+#kunena.admin .row:before,
+#kunena.admin .row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .row:after {
+  clear: both;
+}
+#kunena.admin [class*="span"] {
+  float: left;
+  margin-left: 20px;
+}
+#kunena.admin .container,
+#kunena.admin .navbar-static-top .container,
+#kunena.admin .navbar-fixed-top .container,
+#kunena.admin .navbar-fixed-bottom .container {
+  width: 940px;
+}
+#kunena.admin .span12 {
+  width: 940px;
+}
+#kunena.admin .span11 {
+  width: 860px;
+}
+#kunena.admin .span10 {
+  width: 780px;
+}
+#kunena.admin .span9 {
+  width: 700px;
+}
+#kunena.admin .span8 {
+  width: 620px;
+}
+#kunena.admin .span7 {
+  width: 540px;
+}
+#kunena.admin .span6 {
+  width: 460px;
+}
+#kunena.admin .span5 {
+  width: 380px;
+}
+#kunena.admin .span4 {
+  width: 300px;
+}
+#kunena.admin .span3 {
+  width: 220px;
+}
+#kunena.admin .span2 {
+  width: 140px;
+}
+#kunena.admin .span1 {
+  width: 60px;
+}
+#kunena.admin .offset12 {
+  margin-left: 980px;
+}
+#kunena.admin .offset11 {
+  margin-left: 900px;
+}
+#kunena.admin .offset10 {
+  margin-left: 820px;
+}
+#kunena.admin .offset9 {
+  margin-left: 740px;
+}
+#kunena.admin .offset8 {
+  margin-left: 660px;
+}
+#kunena.admin .offset7 {
+  margin-left: 580px;
+}
+#kunena.admin .offset6 {
+  margin-left: 500px;
+}
+#kunena.admin .offset5 {
+  margin-left: 420px;
+}
+#kunena.admin .offset4 {
+  margin-left: 340px;
+}
+#kunena.admin .offset3 {
+  margin-left: 260px;
+}
+#kunena.admin .offset2 {
+  margin-left: 180px;
+}
+#kunena.admin .offset1 {
+  margin-left: 100px;
+}
+#kunena.admin .row-fluid {
+  width: 100%;
+  *zoom: 1;
+  *zoom: 1;
+}
+#kunena.admin .row-fluid:before,
+#kunena.admin .row-fluid:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .row-fluid:after {
+  clear: both;
+}
+#kunena.admin .row-fluid [class*="span"] {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 2.1276595744681%;
+  *margin-left: 2.0744680851064%;
+}
+#kunena.admin .row-fluid [class*="span"]:first-child {
+  margin-left: 0;
+}
+#kunena.admin .row-fluid .span12 {
+  width: 100%;
+  *width: 99.946808510638%;
+}
+#kunena.admin .row-fluid .span11 {
+  width: 91.489361702128%;
+  *width: 91.436170212766%;
+}
+#kunena.admin .row-fluid .span10 {
+  width: 82.978723404255%;
+  *width: 82.925531914894%;
+}
+#kunena.admin .row-fluid .span9 {
+  width: 74.468085106383%;
+  *width: 74.414893617021%;
+}
+#kunena.admin .row-fluid .span8 {
+  width: 65.957446808511%;
+  *width: 65.904255319149%;
+}
+#kunena.admin .row-fluid .span7 {
+  width: 57.446808510638%;
+  *width: 57.393617021277%;
+}
+#kunena.admin .row-fluid .span6 {
+  width: 48.936170212766%;
+  *width: 48.882978723404%;
+}
+#kunena.admin .row-fluid .span5 {
+  width: 40.425531914894%;
+  *width: 40.372340425532%;
+}
+#kunena.admin .row-fluid .span4 {
+  width: 31.914893617021%;
+  *width: 31.86170212766%;
+}
+#kunena.admin .row-fluid .span3 {
+  width: 23.404255319149%;
+  *width: 23.351063829787%;
+}
+#kunena.admin .row-fluid .span2 {
+  width: 14.893617021277%;
+  *width: 14.840425531915%;
+}
+#kunena.admin .row-fluid .span1 {
+  width: 6.3829787234043%;
+  *width: 6.3297872340426%;
+}
+#kunena.admin .row-fluid .offset12 {
+  margin-left: 104.25531914894%;
+  *margin-left: 104.14893617021%;
+}
+#kunena.admin .row-fluid .offset12:first-child {
+  margin-left: 102.12765957447%;
+  *margin-left: 102.02127659574%;
+}
+#kunena.admin .row-fluid .offset11 {
+  margin-left: 95.744680851064%;
+  *margin-left: 95.63829787234%;
+}
+#kunena.admin .row-fluid .offset11:first-child {
+  margin-left: 93.617021276596%;
+  *margin-left: 93.510638297872%;
+}
+#kunena.admin .row-fluid .offset10 {
+  margin-left: 87.234042553191%;
+  *margin-left: 87.127659574468%;
+}
+#kunena.admin .row-fluid .offset10:first-child {
+  margin-left: 85.106382978723%;
+  *margin-left: 85%;
+}
+#kunena.admin .row-fluid .offset9 {
+  margin-left: 78.723404255319%;
+  *margin-left: 78.617021276596%;
+}
+#kunena.admin .row-fluid .offset9:first-child {
+  margin-left: 76.595744680851%;
+  *margin-left: 76.489361702128%;
+}
+#kunena.admin .row-fluid .offset8 {
+  margin-left: 70.212765957447%;
+  *margin-left: 70.106382978723%;
+}
+#kunena.admin .row-fluid .offset8:first-child {
+  margin-left: 68.085106382979%;
+  *margin-left: 67.978723404255%;
+}
+#kunena.admin .row-fluid .offset7 {
+  margin-left: 61.702127659574%;
+  *margin-left: 61.595744680851%;
+}
+#kunena.admin .row-fluid .offset7:first-child {
+  margin-left: 59.574468085106%;
+  *margin-left: 59.468085106383%;
+}
+#kunena.admin .row-fluid .offset6 {
+  margin-left: 53.191489361702%;
+  *margin-left: 53.085106382979%;
+}
+#kunena.admin .row-fluid .offset6:first-child {
+  margin-left: 51.063829787234%;
+  *margin-left: 50.957446808511%;
+}
+#kunena.admin .row-fluid .offset5 {
+  margin-left: 44.68085106383%;
+  *margin-left: 44.574468085106%;
+}
+#kunena.admin .row-fluid .offset5:first-child {
+  margin-left: 42.553191489362%;
+  *margin-left: 42.446808510638%;
+}
+#kunena.admin .row-fluid .offset4 {
+  margin-left: 36.170212765957%;
+  *margin-left: 36.063829787234%;
+}
+#kunena.admin .row-fluid .offset4:first-child {
+  margin-left: 34.042553191489%;
+  *margin-left: 33.936170212766%;
+}
+#kunena.admin .row-fluid .offset3 {
+  margin-left: 27.659574468085%;
+  *margin-left: 27.553191489362%;
+}
+#kunena.admin .row-fluid .offset3:first-child {
+  margin-left: 25.531914893617%;
+  *margin-left: 25.425531914894%;
+}
+#kunena.admin .row-fluid .offset2 {
+  margin-left: 19.148936170213%;
+  *margin-left: 19.042553191489%;
+}
+#kunena.admin .row-fluid .offset2:first-child {
+  margin-left: 17.021276595745%;
+  *margin-left: 16.914893617021%;
+}
+#kunena.admin .row-fluid .offset1 {
+  margin-left: 10.63829787234%;
+  *margin-left: 10.531914893617%;
+}
+#kunena.admin .row-fluid .offset1:first-child {
+  margin-left: 8.5106382978723%;
+  *margin-left: 8.4042553191489%;
+}
+#kunena.admin [class*="span"].hide,
+#kunena.admin .row-fluid [class*="span"].hide {
+  display: none;
+}
+#kunena.admin [class*="span"].pull-right,
+#kunena.admin .row-fluid [class*="span"].pull-right {
+  float: right;
+}
+#kunena.admin .container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+  *zoom: 1;
+}
+#kunena.admin .container:before,
+#kunena.admin .container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .container:after {
+  clear: both;
+}
+#kunena.admin .container-fluid {
+  padding-right: 20px;
+  padding-left: 20px;
+  *zoom: 1;
+  *zoom: 1;
+}
+#kunena.admin .container-fluid:before,
+#kunena.admin .container-fluid:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .container-fluid:after {
+  clear: both;
+}
+#kunena.admin p {
+  margin: 0 0 10px;
+}
+#kunena.admin .lead {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+}
+#kunena.admin small {
+  font-size: 85%;
+}
+#kunena.admin strong {
+  font-weight: bold;
+}
+#kunena.admin em {
+  font-style: italic;
+}
+#kunena.admin cite {
+  font-style: normal;
+}
+#kunena.admin .muted {
+  color: #999;
+}
+#kunena.admin h1,
+#kunena.admin h2,
+#kunena.admin h3,
+#kunena.admin h4,
+#kunena.admin h5,
+#kunena.admin h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+#kunena.admin h1 small,
+#kunena.admin h2 small,
+#kunena.admin h3 small,
+#kunena.admin h4 small,
+#kunena.admin h5 small,
+#kunena.admin h6 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999;
+}
+#kunena.admin h1 {
+  font-size: 36px;
+  line-height: 40px;
+}
+#kunena.admin h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+#kunena.admin h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+#kunena.admin h4 {
+  font-size: 18px;
+  line-height: 20px;
+}
+#kunena.admin h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+#kunena.admin h6 {
+  font-size: 12px;
+  line-height: 20px;
+}
+#kunena.admin h1 small {
+  font-size: 24px;
+}
+#kunena.admin h2 small {
+  font-size: 18px;
+}
+#kunena.admin h3 small {
+  font-size: 14px;
+}
+#kunena.admin h4 small {
+  font-size: 14px;
+}
+#kunena.admin .page-header {
+  padding-bottom: 9px;
+  margin: 20px 0 30px;
+  border-bottom: 1px solid #eee;
+}
+#kunena.admin ul,
+#kunena.admin ol {
+  padding: 0;
+  margin: 0 0 10px 25px;
+}
+#kunena.admin ul ul,
+#kunena.admin ul ol,
+#kunena.admin ol ol,
+#kunena.admin ol ul {
+  margin-bottom: 0;
+}
+#kunena.admin li {
+  line-height: 20px;
+}
+#kunena.admin ul.unstyled,
+#kunena.admin ol.unstyled {
+  margin-left: 0;
+  list-style: none;
+}
+#kunena.admin dl {
+  margin-bottom: 20px;
+}
+#kunena.admin dt,
+#kunena.admin dd {
+  line-height: 20px;
+}
+#kunena.admin dt {
+  font-weight: bold;
+}
+#kunena.admin dd {
+  margin-left: 10px;
+}
+#kunena.admin .dl-horizontal dt {
+  float: left;
+  width: 120px;
+  clear: left;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#kunena.admin .dl-horizontal dd {
+  margin-left: 130px;
+}
+#kunena.admin hr {
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+#kunena.admin abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #999;
+}
+#kunena.admin abbr.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+#kunena.admin blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eee;
+}
+#kunena.admin blockquote p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+#kunena.admin blockquote small {
+  display: block;
+  line-height: 20px;
+  color: #999;
+}
+#kunena.admin blockquote small:before {
+  content: '\2014 \00A0';
+}
+#kunena.admin blockquote.pull-right {
+  float: right;
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eee;
+  border-left: 0;
+}
+#kunena.admin blockquote.pull-right p,
+#kunena.admin blockquote.pull-right small {
+  text-align: right;
+}
+#kunena.admin blockquote.pull-right small:before {
+  content: '';
+}
+#kunena.admin blockquote.pull-right small:after {
+  content: '\00A0 \2014';
+}
+#kunena.admin q:before,
+#kunena.admin q:after,
+#kunena.admin blockquote:before,
+#kunena.admin blockquote:after {
+  content: "";
+}
+#kunena.admin address {
+  display: block;
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 20px;
+}
+#kunena.admin code,
+#kunena.admin pre {
+  padding: 0 3px 2px;
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+  color: #333;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#kunena.admin code {
+  padding: 2px 4px;
+  color: #d14;
+  background-color: #f7f7f9;
+  border: 1px solid #e1e1e8;
+}
+#kunena.admin pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.15);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#kunena.admin pre.prettyprint {
+  margin-bottom: 20px;
+}
+#kunena.admin pre code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border: 0;
+}
+#kunena.admin .pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+#kunena.admin form {
+  margin: 0 0 20px;
+}
+#kunena.admin fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+#kunena.admin legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 40px;
+  color: #333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+#kunena.admin legend small {
+  font-size: 15px;
+  color: #999;
+}
+#kunena.admin label,
+#kunena.admin input,
+#kunena.admin button,
+#kunena.admin select,
+#kunena.admin textarea {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+}
+#kunena.admin input,
+#kunena.admin button,
+#kunena.admin select,
+#kunena.admin textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#kunena.admin label {
+  display: block;
+  margin-bottom: 5px;
+}
+#kunena.admin select,
+#kunena.admin textarea,
+#kunena.admin input[type="text"],
+#kunena.admin input[type="password"],
+#kunena.admin input[type="datetime"],
+#kunena.admin input[type="datetime-local"],
+#kunena.admin input[type="date"],
+#kunena.admin input[type="month"],
+#kunena.admin input[type="time"],
+#kunena.admin input[type="week"],
+#kunena.admin input[type="number"],
+#kunena.admin input[type="email"],
+#kunena.admin input[type="url"],
+#kunena.admin input[type="search"],
+#kunena.admin input[type="tel"],
+#kunena.admin input[type="color"],
+#kunena.admin .uneditable-input {
+  display: inline-block;
+  height: 20px;
+  padding: 4px 6px;
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#kunena.admin input,
+#kunena.admin textarea {
+  width: 210px;
+}
+#kunena.admin textarea {
+  height: auto;
+}
+#kunena.admin textarea,
+#kunena.admin input[type="text"],
+#kunena.admin input[type="password"],
+#kunena.admin input[type="datetime"],
+#kunena.admin input[type="datetime-local"],
+#kunena.admin input[type="date"],
+#kunena.admin input[type="month"],
+#kunena.admin input[type="time"],
+#kunena.admin input[type="week"],
+#kunena.admin input[type="number"],
+#kunena.admin input[type="email"],
+#kunena.admin input[type="url"],
+#kunena.admin input[type="search"],
+#kunena.admin input[type="tel"],
+#kunena.admin input[type="color"],
+#kunena.admin .uneditable-input {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border linear .2s, box-shadow linear .2s;
+  -moz-transition: border linear .2s, box-shadow linear .2s;
+  -o-transition: border linear .2s, box-shadow linear .2s;
+  transition: border linear .2s, box-shadow linear .2s;
+}
+#kunena.admin textarea:focus,
+#kunena.admin input[type="text"]:focus,
+#kunena.admin input[type="password"]:focus,
+#kunena.admin input[type="datetime"]:focus,
+#kunena.admin input[type="datetime-local"]:focus,
+#kunena.admin input[type="date"]:focus,
+#kunena.admin input[type="month"]:focus,
+#kunena.admin input[type="time"]:focus,
+#kunena.admin input[type="week"]:focus,
+#kunena.admin input[type="number"]:focus,
+#kunena.admin input[type="email"]:focus,
+#kunena.admin input[type="url"]:focus,
+#kunena.admin input[type="search"]:focus,
+#kunena.admin input[type="tel"]:focus,
+#kunena.admin input[type="color"]:focus,
+#kunena.admin .uneditable-input:focus {
+  border-color: rgba(82,168,236,0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+}
+#kunena.admin input[type="radio"],
+#kunena.admin input[type="checkbox"] {
+  margin: 4px 0 0;
+  *margin-top: 0;
+  margin-top: 1px \9;
+  line-height: normal;
+  cursor: pointer;
+}
+#kunena.admin input[type="file"],
+#kunena.admin input[type="image"],
+#kunena.admin input[type="submit"],
+#kunena.admin input[type="reset"],
+#kunena.admin input[type="button"],
+#kunena.admin input[type="radio"],
+#kunena.admin input[type="checkbox"] {
+  width: auto;
+}
+#kunena.admin select,
+#kunena.admin input[type="file"] {
+  height: 30px;
+  *margin-top: 4px;
+  line-height: 30px;
+}
+#kunena.admin select {
+  width: 220px;
+  border: 1px solid #bbb;
+  background-color: #fff;
+}
+#kunena.admin select[multiple],
+#kunena.admin select[size] {
+  height: auto;
+}
+#kunena.admin select:focus,
+#kunena.admin input[type="file"]:focus,
+#kunena.admin input[type="radio"]:focus,
+#kunena.admin input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#kunena.admin .uneditable-input,
+#kunena.admin .uneditable-textarea {
+  color: #999;
+  background-color: #fcfcfc;
+  border-color: #ccc;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.025);
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.025);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.025);
+  cursor: not-allowed;
+}
+#kunena.admin .uneditable-input {
+  overflow: hidden;
+  white-space: nowrap;
+}
+#kunena.admin .uneditable-textarea {
+  width: auto;
+  height: auto;
+}
+#kunena.admin input:-moz-placeholder,
+#kunena.admin textarea:-moz-placeholder {
+  color: #999;
+}
+#kunena.admin input:-ms-input-placeholder,
+#kunena.admin textarea:-ms-input-placeholder {
+  color: #999;
+}
+#kunena.admin input::-webkit-input-placeholder,
+#kunena.admin textarea::-webkit-input-placeholder {
+  color: #999;
+}
+#kunena.admin .radio,
+#kunena.admin .checkbox {
+  min-height: 18px;
+  padding-left: 18px;
+}
+#kunena.admin .radio input[type="radio"],
+#kunena.admin .checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: -18px;
+}
+#kunena.admin .controls > .radio:first-child,
+#kunena.admin .controls > .checkbox:first-child {
+  padding-top: 5px;
+}
+#kunena.admin .radio.inline,
+#kunena.admin .checkbox.inline {
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+#kunena.admin .radio.inline + .radio.inline,
+#kunena.admin .checkbox.inline + .checkbox.inline {
+  margin-left: 10px;
+}
+#kunena.admin .input-mini {
+  width: 60px;
+}
+#kunena.admin .input-small {
+  width: 90px;
+}
+#kunena.admin .input-medium {
+  width: 150px;
+}
+#kunena.admin .input-large {
+  width: 210px;
+}
+#kunena.admin .input-xlarge {
+  width: 270px;
+}
+#kunena.admin .input-xxlarge {
+  width: 530px;
+}
+#kunena.admin input[class*="span"],
+#kunena.admin select[class*="span"],
+#kunena.admin textarea[class*="span"],
+#kunena.admin .uneditable-input[class*="span"],
+#kunena.admin .row-fluid input[class*="span"],
+#kunena.admin .row-fluid select[class*="span"],
+#kunena.admin .row-fluid textarea[class*="span"],
+#kunena.admin .row-fluid .uneditable-input[class*="span"] {
+  float: none;
+  margin-left: 0;
+}
+#kunena.admin .input-append input[class*="span"],
+#kunena.admin .input-append .uneditable-input[class*="span"],
+#kunena.admin .input-prepend input[class*="span"],
+#kunena.admin .input-prepend .uneditable-input[class*="span"],
+#kunena.admin .row-fluid input[class*="span"],
+#kunena.admin .row-fluid select[class*="span"],
+#kunena.admin .row-fluid textarea[class*="span"],
+#kunena.admin .row-fluid .uneditable-input[class*="span"],
+#kunena.admin .row-fluid .input-prepend [class*="span"],
+#kunena.admin .row-fluid .input-append [class*="span"] {
+  display: inline-block;
+}
+#kunena.admin input,
+#kunena.admin textarea,
+#kunena.admin .uneditable-input {
+  margin-left: 0;
+}
+#kunena.admin .controls-row [class*="span"] + [class*="span"] {
+  margin-left: 20px;
+}
+#kunena.admin input.span12, textarea.span12, .uneditable-input.span12 {
+  width: 926px;
+}
+#kunena.admin input.span11, textarea.span11, .uneditable-input.span11 {
+  width: 846px;
+}
+#kunena.admin input.span10, textarea.span10, .uneditable-input.span10 {
+  width: 766px;
+}
+#kunena.admin input.span9, textarea.span9, .uneditable-input.span9 {
+  width: 686px;
+}
+#kunena.admin input.span8, textarea.span8, .uneditable-input.span8 {
+  width: 606px;
+}
+#kunena.admin input.span7, textarea.span7, .uneditable-input.span7 {
+  width: 526px;
+}
+#kunena.admin input.span6, textarea.span6, .uneditable-input.span6 {
+  width: 446px;
+}
+#kunena.admin input.span5, textarea.span5, .uneditable-input.span5 {
+  width: 366px;
+}
+#kunena.admin input.span4, textarea.span4, .uneditable-input.span4 {
+  width: 286px;
+}
+#kunena.admin input.span3, textarea.span3, .uneditable-input.span3 {
+  width: 206px;
+}
+#kunena.admin input.span2, textarea.span2, .uneditable-input.span2 {
+  width: 126px;
+}
+#kunena.admin input.span1, textarea.span1, .uneditable-input.span1 {
+  width: 46px;
+}
+#kunena.admin .controls-row {
+  *zoom: 1;
+  *zoom: 1;
+}
+#kunena.admin .controls-row:before,
+#kunena.admin .controls-row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .controls-row:after {
+  clear: both;
+}
+#kunena.admin .controls-row [class*="span"] {
+  float: left;
+}
+#kunena.admin input[disabled],
+#kunena.admin select[disabled],
+#kunena.admin textarea[disabled],
+#kunena.admin input[readonly],
+#kunena.admin select[readonly],
+#kunena.admin textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #eee;
+}
+#kunena.admin input[type="radio"][disabled],
+#kunena.admin input[type="checkbox"][disabled],
+#kunena.admin input[type="radio"][readonly],
+#kunena.admin input[type="checkbox"][readonly] {
+  background-color: transparent;
+}
+#kunena.admin .control-group.warning > label,
+#kunena.admin .control-group.warning .help-block,
+#kunena.admin .control-group.warning .help-inline {
+  color: #c09853;
+}
+#kunena.admin .control-group.warning .checkbox,
+#kunena.admin .control-group.warning .radio,
+#kunena.admin .control-group.warning input,
+#kunena.admin .control-group.warning select,
+#kunena.admin .control-group.warning textarea {
+  color: #c09853;
+  border-color: #c09853;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+#kunena.admin .control-group.warning .checkbox:focus,
+#kunena.admin .control-group.warning .radio:focus,
+#kunena.admin .control-group.warning input:focus,
+#kunena.admin .control-group.warning select:focus,
+#kunena.admin .control-group.warning textarea:focus {
+  border-color: #a47e3c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 6px #dbc59e;
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 6px #dbc59e;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 6px #dbc59e;
+}
+#kunena.admin .control-group.warning .input-prepend .add-on,
+#kunena.admin .control-group.warning .input-append .add-on {
+  color: #c09853;
+  background-color: #fcf8e3;
+  border-color: #c09853;
+}
+#kunena.admin .control-group.error > label,
+#kunena.admin .control-group.error .help-block,
+#kunena.admin .control-group.error .help-inline {
+  color: #b94a48;
+}
+#kunena.admin .control-group.error .checkbox,
+#kunena.admin .control-group.error .radio,
+#kunena.admin .control-group.error input,
+#kunena.admin .control-group.error select,
+#kunena.admin .control-group.error textarea {
+  color: #b94a48;
+  border-color: #b94a48;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+#kunena.admin .control-group.error .checkbox:focus,
+#kunena.admin .control-group.error .radio:focus,
+#kunena.admin .control-group.error input:focus,
+#kunena.admin .control-group.error select:focus,
+#kunena.admin .control-group.error textarea:focus {
+  border-color: #953b39;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 6px #d59392;
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 6px #d59392;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 6px #d59392;
+}
+#kunena.admin .control-group.error .input-prepend .add-on,
+#kunena.admin .control-group.error .input-append .add-on {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #b94a48;
+}
+#kunena.admin .control-group.success > label,
+#kunena.admin .control-group.success .help-block,
+#kunena.admin .control-group.success .help-inline {
+  color: #468847;
+}
+#kunena.admin .control-group.success .checkbox,
+#kunena.admin .control-group.success .radio,
+#kunena.admin .control-group.success input,
+#kunena.admin .control-group.success select,
+#kunena.admin .control-group.success textarea {
+  color: #468847;
+  border-color: #468847;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+}
+#kunena.admin .control-group.success .checkbox:focus,
+#kunena.admin .control-group.success .radio:focus,
+#kunena.admin .control-group.success input:focus,
+#kunena.admin .control-group.success select:focus,
+#kunena.admin .control-group.success textarea:focus {
+  border-color: #356635;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 6px #7aba7b;
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 6px #7aba7b;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 6px #7aba7b;
+}
+#kunena.admin .control-group.success .input-prepend .add-on,
+#kunena.admin .control-group.success .input-append .add-on {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #468847;
+}
+#kunena.admin input:focus:required:invalid,
+#kunena.admin textarea:focus:required:invalid,
+#kunena.admin select:focus:required:invalid {
+  color: #b94a48;
+  border-color: #ee5f5b;
+}
+#kunena.admin input:focus:required:invalid:focus,
+#kunena.admin textarea:focus:required:invalid:focus,
+#kunena.admin select:focus:required:invalid:focus {
+  border-color: #e9322d;
+  -webkit-box-shadow: 0 0 6px #f8b9b7;
+  -moz-box-shadow: 0 0 6px #f8b9b7;
+  box-shadow: 0 0 6px #f8b9b7;
+}
+#kunena.admin .form-actions {
+  padding: 19px 20px 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+  *zoom: 1;
+  *zoom: 1;
+}
+#kunena.admin .form-actions:before,
+#kunena.admin .form-actions:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .form-actions:after {
+  clear: both;
+}
+#kunena.admin .help-block,
+#kunena.admin .help-inline {
+  color: #595959;
+}
+#kunena.admin .help-block {
+  display: block;
+  margin-bottom: 10px;
+}
+#kunena.admin .help-inline {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+#kunena.admin .input-append,
+#kunena.admin .input-prepend {
+  margin-bottom: 5px;
+  font-size: 0;
+  white-space: nowrap;
+}
+#kunena.admin .input-append input,
+#kunena.admin .input-append select,
+#kunena.admin .input-append .uneditable-input,
+#kunena.admin .input-prepend input,
+#kunena.admin .input-prepend select,
+#kunena.admin .input-prepend .uneditable-input {
+  position: relative;
+  margin-bottom: 0;
+  *margin-left: 0;
+  font-size: 14px;
+  vertical-align: top;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+#kunena.admin .input-append input:focus,
+#kunena.admin .input-append select:focus,
+#kunena.admin .input-append .uneditable-input:focus,
+#kunena.admin .input-prepend input:focus,
+#kunena.admin .input-prepend select:focus,
+#kunena.admin .input-prepend .uneditable-input:focus {
+  z-index: 2;
+}
+#kunena.admin .input-append .add-on,
+#kunena.admin .input-prepend .add-on {
+  display: inline-block;
+  width: auto;
+  height: 20px;
+  min-width: 16px;
+  padding: 4px 5px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+#kunena.admin .input-append .add-on,
+#kunena.admin .input-append .btn,
+#kunena.admin .input-prepend .add-on,
+#kunena.admin .input-prepend .btn {
+  margin-left: -1px;
+  vertical-align: top;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#kunena.admin .input-append .active,
+#kunena.admin .input-prepend .active {
+  background-color: #a9dba9;
+  border-color: #46a546;
+}
+#kunena.admin .input-prepend .add-on,
+#kunena.admin .input-prepend .btn {
+  margin-right: -1px;
+}
+#kunena.admin .input-prepend .add-on:first-child,
+#kunena.admin .input-prepend .btn:first-child {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+#kunena.admin .input-append input,
+#kunena.admin .input-append select,
+#kunena.admin .input-append .uneditable-input {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+#kunena.admin .input-append .add-on:last-child,
+#kunena.admin .input-append .btn:last-child {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+#kunena.admin .input-prepend.input-append input,
+#kunena.admin .input-prepend.input-append select,
+#kunena.admin .input-prepend.input-append .uneditable-input {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#kunena.admin .input-prepend.input-append .add-on:first-child,
+#kunena.admin .input-prepend.input-append .btn:first-child {
+  margin-right: -1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+#kunena.admin .input-prepend.input-append .add-on:last-child,
+#kunena.admin .input-prepend.input-append .btn:last-child {
+  margin-left: -1px;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+#kunena.admin input.search-query {
+  padding-right: 14px;
+  padding-right: 4px \9;
+  padding-left: 14px;
+  padding-left: 4px \9;
+  margin-bottom: 0;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+#kunena.admin .form-search .input-append .search-query,
+#kunena.admin .form-search .input-prepend .search-query {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#kunena.admin .form-search .input-append .search-query {
+  -webkit-border-radius: 14px 0 0 14px;
+  -moz-border-radius: 14px 0 0 14px;
+  border-radius: 14px 0 0 14px;
+}
+#kunena.admin .form-search .input-append .btn {
+  -webkit-border-radius: 0 14px 14px 0;
+  -moz-border-radius: 0 14px 14px 0;
+  border-radius: 0 14px 14px 0;
+}
+#kunena.admin .form-search .input-prepend .search-query {
+  -webkit-border-radius: 0 14px 14px 0;
+  -moz-border-radius: 0 14px 14px 0;
+  border-radius: 0 14px 14px 0;
+}
+#kunena.admin .form-search .input-prepend .btn {
+  -webkit-border-radius: 14px 0 0 14px;
+  -moz-border-radius: 14px 0 0 14px;
+  border-radius: 14px 0 0 14px;
+}
+#kunena.admin .form-search input,
+#kunena.admin .form-search textarea,
+#kunena.admin .form-search select,
+#kunena.admin .form-search .help-inline,
+#kunena.admin .form-search .uneditable-input,
+#kunena.admin .form-search .input-prepend,
+#kunena.admin .form-search .input-append,
+#kunena.admin .form-inline input,
+#kunena.admin .form-inline textarea,
+#kunena.admin .form-inline select,
+#kunena.admin .form-inline .help-inline,
+#kunena.admin .form-inline .uneditable-input,
+#kunena.admin .form-inline .input-prepend,
+#kunena.admin .form-inline .input-append,
+#kunena.admin .form-horizontal input,
+#kunena.admin .form-horizontal textarea,
+#kunena.admin .form-horizontal select,
+#kunena.admin .form-horizontal .help-inline,
+#kunena.admin .form-horizontal .uneditable-input,
+#kunena.admin .form-horizontal .input-prepend,
+#kunena.admin .form-horizontal .input-append {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+#kunena.admin .form-search .hide,
+#kunena.admin .form-inline .hide,
+#kunena.admin .form-horizontal .hide {
+  display: none;
+}
+#kunena.admin .form-search label,
+#kunena.admin .form-inline label,
+#kunena.admin .form-search .btn-group,
+#kunena.admin .form-inline .btn-group {
+  display: inline-block;
+}
+#kunena.admin .form-search .input-append,
+#kunena.admin .form-inline .input-append,
+#kunena.admin .form-search .input-prepend,
+#kunena.admin .form-inline .input-prepend {
+  margin-bottom: 0;
+}
+#kunena.admin .form-search .radio,
+#kunena.admin .form-search .checkbox,
+#kunena.admin .form-inline .radio,
+#kunena.admin .form-inline .checkbox {
+  padding-left: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+#kunena.admin .form-search .radio input[type="radio"],
+#kunena.admin .form-search .checkbox input[type="checkbox"],
+#kunena.admin .form-inline .radio input[type="radio"],
+#kunena.admin .form-inline .checkbox input[type="checkbox"] {
+  float: left;
+  margin-right: 3px;
+  margin-left: 0;
+}
+#kunena.admin .control-group {
+  margin-bottom: 10px;
+}
+#kunena.admin legend + .control-group {
+  margin-top: 20px;
+  -webkit-margin-top-collapse: separate;
+}
+#kunena.admin .form-horizontal .control-group {
+  margin-bottom: 20px;
+  *zoom: 1;
+  *zoom: 1;
+}
+#kunena.admin .form-horizontal .control-group:before,
+#kunena.admin .form-horizontal .control-group:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .form-horizontal .control-group:after {
+  clear: both;
+}
+#kunena.admin .form-horizontal .control-label {
+  float: left;
+  width: 140px;
+  padding-top: 5px;
+  text-align: right;
+}
+#kunena.admin .form-horizontal .controls {
+  *display: inline-block;
+  *padding-left: 20px;
+  margin-left: 160px;
+  *margin-left: 0;
+}
+#kunena.admin .form-horizontal .controls:first-child {
+  *padding-left: 160px;
+}
+#kunena.admin .form-horizontal .help-block {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#kunena.admin .form-horizontal .form-actions {
+  padding-left: 160px;
+}
+#kunena.admin table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#kunena.admin .table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#kunena.admin .table th,
+#kunena.admin .table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+#kunena.admin .table th {
+  font-weight: bold;
+}
+#kunena.admin .table thead th {
+  vertical-align: bottom;
+}
+#kunena.admin .table caption + thead tr:first-child th,
+#kunena.admin .table caption + thead tr:first-child td,
+#kunena.admin .table colgroup + thead tr:first-child th,
+#kunena.admin .table colgroup + thead tr:first-child td,
+#kunena.admin .table thead:first-child tr:first-child th,
+#kunena.admin .table thead:first-child tr:first-child td {
+  border-top: 0;
+}
+#kunena.admin .table tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+#kunena.admin .table-condensed th,
+#kunena.admin .table-condensed td {
+  padding: 4px 5px;
+}
+#kunena.admin .table-bordered {
+  border: 1px solid #ddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#kunena.admin .table-bordered th,
+#kunena.admin .table-bordered td {
+  border-left: 1px solid #ddd;
+}
+#kunena.admin .table-bordered caption + thead tr:first-child th,
+#kunena.admin .table-bordered caption + tbody tr:first-child th,
+#kunena.admin .table-bordered caption + tbody tr:first-child td,
+#kunena.admin .table-bordered colgroup + thead tr:first-child th,
+#kunena.admin .table-bordered colgroup + tbody tr:first-child th,
+#kunena.admin .table-bordered colgroup + tbody tr:first-child td,
+#kunena.admin .table-bordered thead:first-child tr:first-child th,
+#kunena.admin .table-bordered tbody:first-child tr:first-child th,
+#kunena.admin .table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+#kunena.admin .table-bordered thead:first-child tr:first-child th:first-child,
+#kunena.admin .table-bordered tbody:first-child tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+#kunena.admin .table-bordered thead:first-child tr:first-child th:last-child,
+#kunena.admin .table-bordered tbody:first-child tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+#kunena.admin .table-bordered thead:last-child tr:last-child th:first-child,
+#kunena.admin .table-bordered tbody:last-child tr:last-child td:first-child,
+#kunena.admin .table-bordered tfoot:last-child tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 4px;
+  -moz-border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+}
+#kunena.admin .table-bordered thead:last-child tr:last-child th:last-child,
+#kunena.admin .table-bordered tbody:last-child tr:last-child td:last-child,
+#kunena.admin .table-bordered tfoot:last-child tr:last-child td:last-child {
+  -webkit-border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+#kunena.admin .table-bordered caption + thead tr:first-child th:first-child,
+#kunena.admin .table-bordered caption + tbody tr:first-child td:first-child,
+#kunena.admin .table-bordered colgroup + thead tr:first-child th:first-child,
+#kunena.admin .table-bordered colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+#kunena.admin .table-bordered caption + thead tr:first-child th:last-child,
+#kunena.admin .table-bordered caption + tbody tr:first-child td:last-child,
+#kunena.admin .table-bordered colgroup + thead tr:first-child th:last-child,
+#kunena.admin .table-bordered colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+  -moz-border-right-topleft: 4px;
+}
+#kunena.admin .table-striped tbody tr:nth-child(odd) td,
+#kunena.admin .table-striped tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9;
+}
+#kunena.admin .table-hover tbody tr:hover td,
+#kunena.admin .table-hover tbody tr:hover th {
+  background-color: #f5f5f5;
+}
+#kunena.admin table [class*=span],
+#kunena.admin .row-fluid table [class*=span] {
+  display: table-cell;
+  float: none;
+  margin-left: 0;
+}
+#kunena.admin table .span1 {
+  float: none;
+  width: 44px;
+  margin-left: 0;
+}
+#kunena.admin table .span2 {
+  float: none;
+  width: 124px;
+  margin-left: 0;
+}
+#kunena.admin table .span3 {
+  float: none;
+  width: 204px;
+  margin-left: 0;
+}
+#kunena.admin table .span4 {
+  float: none;
+  width: 284px;
+  margin-left: 0;
+}
+#kunena.admin table .span5 {
+  float: none;
+  width: 364px;
+  margin-left: 0;
+}
+#kunena.admin table .span6 {
+  float: none;
+  width: 444px;
+  margin-left: 0;
+}
+#kunena.admin table .span7 {
+  float: none;
+  width: 524px;
+  margin-left: 0;
+}
+#kunena.admin table .span8 {
+  float: none;
+  width: 604px;
+  margin-left: 0;
+}
+#kunena.admin table .span9 {
+  float: none;
+  width: 684px;
+  margin-left: 0;
+}
+#kunena.admin table .span10 {
+  float: none;
+  width: 764px;
+  margin-left: 0;
+}
+#kunena.admin table .span11 {
+  float: none;
+  width: 844px;
+  margin-left: 0;
+}
+#kunena.admin table .span12 {
+  float: none;
+  width: 924px;
+  margin-left: 0;
+}
+#kunena.admin table .span13 {
+  float: none;
+  width: 1004px;
+  margin-left: 0;
+}
+#kunena.admin table .span14 {
+  float: none;
+  width: 1084px;
+  margin-left: 0;
+}
+#kunena.admin table .span15 {
+  float: none;
+  width: 1164px;
+  margin-left: 0;
+}
+#kunena.admin table .span16 {
+  float: none;
+  width: 1244px;
+  margin-left: 0;
+}
+#kunena.admin table .span17 {
+  float: none;
+  width: 1324px;
+  margin-left: 0;
+}
+#kunena.admin table .span18 {
+  float: none;
+  width: 1404px;
+  margin-left: 0;
+}
+#kunena.admin table .span19 {
+  float: none;
+  width: 1484px;
+  margin-left: 0;
+}
+#kunena.admin table .span20 {
+  float: none;
+  width: 1564px;
+  margin-left: 0;
+}
+#kunena.admin table .span21 {
+  float: none;
+  width: 1644px;
+  margin-left: 0;
+}
+#kunena.admin table .span22 {
+  float: none;
+  width: 1724px;
+  margin-left: 0;
+}
+#kunena.admin table .span23 {
+  float: none;
+  width: 1804px;
+  margin-left: 0;
+}
+#kunena.admin table .span24 {
+  float: none;
+  width: 1884px;
+  margin-left: 0;
+}
+#kunena.admin .table tbody tr.success td {
+  background-color: #dff0d8;
+}
+#kunena.admin .table tbody tr.error td {
+  background-color: #f2dede;
+}
+#kunena.admin .table tbody tr.info td {
+  background-color: #d9edf7;
+}
+#kunena.admin .dropup,
+#kunena.admin .dropdown {
+  position: relative;
+}
+#kunena.admin .dropdown-toggle {
+  *margin-bottom: -3px;
+}
+#kunena.admin .dropdown-toggle:active,
+#kunena.admin .open .dropdown-toggle {
+  outline: 0;
+}
+#kunena.admin .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 4px solid #000;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+}
+#kunena.admin .dropdown .caret {
+  margin-top: 8px;
+  margin-left: 2px;
+}
+#kunena.admin .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+#kunena.admin .dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+#kunena.admin .dropdown-menu .divider {
+  *width: 100%;
+  height: 1px;
+  margin: 9px 1px;
+  *margin: -5px 0 5px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+#kunena.admin .dropdown-menu a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 20px;
+  color: #333;
+  white-space: nowrap;
+}
+#kunena.admin .dropdown-menu li > a:hover,
+#kunena.admin .dropdown-menu li > a:focus,
+#kunena.admin .dropdown-submenu:hover > a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #08c;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top,#08c,#0077b3);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#0077b3));
+  background-image: -webkit-linear-gradient(top,#08c,#0077b3);
+  background-image: -o-linear-gradient(top,#08c,#0077b3);
+  background-image: linear-gradient(to bottom,#08c,#0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0076b2', GradientType=0);
+}
+#kunena.admin .dropdown-menu .active > a,
+#kunena.admin .dropdown-menu .active > a:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #08c;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top,#08c,#0077b3);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#0077b3));
+  background-image: -webkit-linear-gradient(top,#08c,#0077b3);
+  background-image: -o-linear-gradient(top,#08c,#0077b3);
+  background-image: linear-gradient(to bottom,#08c,#0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0076b2', GradientType=0);
+}
+#kunena.admin .dropdown-menu .disabled > a,
+#kunena.admin .dropdown-menu .disabled > a:hover {
+  color: #999;
+}
+#kunena.admin .dropdown-menu .disabled > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  cursor: default;
+}
+#kunena.admin .open {
+  *z-index: 1000;
+}
+#kunena.admin .open > .dropdown-menu {
+  display: block;
+}
+#kunena.admin .pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+#kunena.admin .dropup .caret,
+#kunena.admin .navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px solid #000;
+  content: "\2191";
+}
+#kunena.admin .dropup .dropdown-menu,
+#kunena.admin .navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+#kunena.admin .dropdown-submenu {
+  position: relative;
+}
+#kunena.admin .dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+#kunena.admin .dropdown-submenu:hover .dropdown-menu {
+  display: block;
+}
+#kunena.admin .dropdown-submenu > a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+#kunena.admin .dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+#kunena.admin .dropdown .dropdown-menu .nav-header {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#kunena.admin .typeahead {
+  margin-top: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#kunena.admin .well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+  -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+}
+#kunena.admin .well blockquote {
+  border-color: #ddd;
+  border-color: rgba(0,0,0,0.15);
+}
+#kunena.admin .well-large {
+  padding: 24px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+#kunena.admin .well-small {
+  padding: 9px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#kunena.admin .fade {
+  opacity: 0;
+  -webkit-transition: opacity .15s linear;
+  -moz-transition: opacity .15s linear;
+  -o-transition: opacity .15s linear;
+  transition: opacity .15s linear;
+}
+#kunena.admin .fade.in {
+  opacity: 1;
+}
+#kunena.admin .collapse {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  overflow: visible \9;
+  -webkit-transition: height .35s ease;
+  -moz-transition: height .35s ease;
+  -o-transition: height .35s ease;
+  transition: height .35s ease;
+}
+#kunena.admin .collapse.in {
+  height: auto;
+}
+#kunena.admin .close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+#kunena.admin .close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+#kunena.admin button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+#kunena.admin .btn {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 4px 14px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 20px;
+  *line-height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  color: #333;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+  background-color: #f5f5f5;
+  background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+  background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+  background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe5e5e5', GradientType=0);
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  *background-color: #e6e6e6;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  border: 1px solid #bbb;
+  *border: 0;
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  *margin-left: .3em;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+}
+#kunena.admin .btn:hover,
+#kunena.admin .btn:active,
+#kunena.admin .btn.active,
+#kunena.admin .btn.disabled,
+#kunena.admin .btn[disabled] {
+  color: #333;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+#kunena.admin .btn:active,
+#kunena.admin .btn.active {
+  background-color: #cccccc \9;
+}
+#kunena.admin .btn:first-child {
+  *margin-left: 0;
+}
+#kunena.admin .btn:hover {
+  color: #333;
+  text-decoration: none;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+  background-position: 0 -15px;
+  -webkit-transition: background-position .1s linear;
+  -moz-transition: background-position .1s linear;
+  -o-transition: background-position .1s linear;
+  transition: background-position .1s linear;
+}
+#kunena.admin .btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+#kunena.admin .btn.active,
+#kunena.admin .btn:active {
+  background-color: #e6e6e6;
+  background-color: #d9d9d9 \9;
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+}
+#kunena.admin .btn.disabled,
+#kunena.admin .btn[disabled] {
+  cursor: default;
+  background-color: #e6e6e6;
+  background-image: none;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#kunena.admin .btn-large {
+  padding: 9px 14px;
+  font-size: 16px;
+  line-height: normal;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#kunena.admin .btn-large [class^="icon-"] {
+  margin-top: 2px;
+}
+#kunena.admin .btn-small {
+  padding: 3px 9px;
+  font-size: 12px;
+  line-height: 18px;
+}
+#kunena.admin .btn-small [class^="icon-"] {
+  margin-top: 0;
+}
+#kunena.admin .btn-mini {
+  padding: 2px 6px;
+  font-size: 11px;
+  line-height: 16px;
+}
+#kunena.admin .btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#kunena.admin .btn-block + .btn-block {
+  margin-top: 5px;
+}
+#kunena.admin .btn-primary.active,
+#kunena.admin .btn-warning.active,
+#kunena.admin .btn-danger.active,
+#kunena.admin .btn-success.active,
+#kunena.admin .btn-info.active,
+#kunena.admin .btn-inverse.active {
+  color: rgba(255,255,255,0.75);
+}
+#kunena.admin .btn {
+  border-color: #c5c5c5;
+  border-color: rgba(0,0,0,0.15) rgba(0,0,0,0.15) rgba(0,0,0,0.25);
+}
+#kunena.admin .btn-primary {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #006dcc;
+  background-image: -moz-linear-gradient(top,#08c,#0044cc);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#08c),to(#0044cc));
+  background-image: -webkit-linear-gradient(top,#08c,#0044cc);
+  background-image: -o-linear-gradient(top,#08c,#0044cc);
+  background-image: linear-gradient(to bottom,#08c,#0044cc);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0043cc', GradientType=0);
+  border-color: #0044cc #0044cc #002a80;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  *background-color: #0044cc;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#kunena.admin .btn-primary:hover,
+#kunena.admin .btn-primary:active,
+#kunena.admin .btn-primary.active,
+#kunena.admin .btn-primary.disabled,
+#kunena.admin .btn-primary[disabled] {
+  color: #fff;
+  background-color: #0044cc;
+  *background-color: #003bb3;
+}
+#kunena.admin .btn-primary:active,
+#kunena.admin .btn-primary.active {
+  background-color: #003399 \9;
+}
+#kunena.admin .btn-warning {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #faa732;
+  background-image: -moz-linear-gradient(top,#fbb450,#f89406);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#fbb450),to(#f89406));
+  background-image: -webkit-linear-gradient(top,#fbb450,#f89406);
+  background-image: -o-linear-gradient(top,#fbb450,#f89406);
+  background-image: linear-gradient(to bottom,#fbb450,#f89406);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffab44f', endColorstr='#fff89406', GradientType=0);
+  border-color: #f89406 #f89406 #ad6704;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  *background-color: #f89406;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#kunena.admin .btn-warning:hover,
+#kunena.admin .btn-warning:active,
+#kunena.admin .btn-warning.active,
+#kunena.admin .btn-warning.disabled,
+#kunena.admin .btn-warning[disabled] {
+  color: #fff;
+  background-color: #f89406;
+  *background-color: #df8505;
+}
+#kunena.admin .btn-warning:active,
+#kunena.admin .btn-warning.active {
+  background-color: #c67605 \9;
+}
+#kunena.admin .btn-danger {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #da4f49;
+  background-image: -moz-linear-gradient(top,#ee5f5b,#bd362f);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ee5f5b),to(#bd362f));
+  background-image: -webkit-linear-gradient(top,#ee5f5b,#bd362f);
+  background-image: -o-linear-gradient(top,#ee5f5b,#bd362f);
+  background-image: linear-gradient(to bottom,#ee5f5b,#bd362f);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+  border-color: #bd362f #bd362f #802420;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  *background-color: #bd362f;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#kunena.admin .btn-danger:hover,
+#kunena.admin .btn-danger:active,
+#kunena.admin .btn-danger.active,
+#kunena.admin .btn-danger.disabled,
+#kunena.admin .btn-danger[disabled] {
+  color: #fff;
+  background-color: #bd362f;
+  *background-color: #a9302a;
+}
+#kunena.admin .btn-danger:active,
+#kunena.admin .btn-danger.active {
+  background-color: #942a25 \9;
+}
+#kunena.admin .btn-success {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #5bb75b;
+  background-image: -moz-linear-gradient(top,#62c462,#51a351);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#62c462),to(#51a351));
+  background-image: -webkit-linear-gradient(top,#62c462,#51a351);
+  background-image: -o-linear-gradient(top,#62c462,#51a351);
+  background-image: linear-gradient(to bottom,#62c462,#51a351);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff51a351', GradientType=0);
+  border-color: #51a351 #51a351 #387038;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  *background-color: #51a351;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#kunena.admin .btn-success:hover,
+#kunena.admin .btn-success:active,
+#kunena.admin .btn-success.active,
+#kunena.admin .btn-success.disabled,
+#kunena.admin .btn-success[disabled] {
+  color: #fff;
+  background-color: #51a351;
+  *background-color: #499249;
+}
+#kunena.admin .btn-success:active,
+#kunena.admin .btn-success.active {
+  background-color: #408140 \9;
+}
+#kunena.admin .btn-info {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #49afcd;
+  background-image: -moz-linear-gradient(top,#5bc0de,#2f96b4);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#5bc0de),to(#2f96b4));
+  background-image: -webkit-linear-gradient(top,#5bc0de,#2f96b4);
+  background-image: -o-linear-gradient(top,#5bc0de,#2f96b4);
+  background-image: linear-gradient(to bottom,#5bc0de,#2f96b4);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  *background-color: #2f96b4;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#kunena.admin .btn-info:hover,
+#kunena.admin .btn-info:active,
+#kunena.admin .btn-info.active,
+#kunena.admin .btn-info.disabled,
+#kunena.admin .btn-info[disabled] {
+  color: #fff;
+  background-color: #2f96b4;
+  *background-color: #2a85a0;
+}
+#kunena.admin .btn-info:active,
+#kunena.admin .btn-info.active {
+  background-color: #24748c \9;
+}
+#kunena.admin .btn-inverse {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #363636;
+  background-image: -moz-linear-gradient(top,#444,#222);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#444),to(#222));
+  background-image: -webkit-linear-gradient(top,#444,#222);
+  background-image: -o-linear-gradient(top,#444,#222);
+  background-image: linear-gradient(to bottom,#444,#222);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+  border-color: #222 #222 #000000;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  *background-color: #222;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+#kunena.admin .btn-inverse:hover,
+#kunena.admin .btn-inverse:active,
+#kunena.admin .btn-inverse.active,
+#kunena.admin .btn-inverse.disabled,
+#kunena.admin .btn-inverse[disabled] {
+  color: #fff;
+  background-color: #222;
+  *background-color: #151515;
+}
+#kunena.admin .btn-inverse:active,
+#kunena.admin .btn-inverse.active {
+  background-color: #090909 \9;
+}
+#kunena.admin button.btn,
+#kunena.admin input[type="submit"].btn {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+#kunena.admin button.btn::-moz-focus-inner,
+#kunena.admin input[type="submit"].btn::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+#kunena.admin button.btn.btn-large,
+#kunena.admin input[type="submit"].btn.btn-large {
+  *padding-top: 7px;
+  *padding-bottom: 7px;
+}
+#kunena.admin button.btn.btn-small,
+#kunena.admin input[type="submit"].btn.btn-small {
+  *padding-top: 3px;
+  *padding-bottom: 3px;
+}
+#kunena.admin button.btn.btn-mini,
+#kunena.admin input[type="submit"].btn.btn-mini {
+  *padding-top: 1px;
+  *padding-bottom: 1px;
+}
+#kunena.admin .btn-link,
+#kunena.admin .btn-link:active {
+  background-color: transparent;
+  background-image: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#kunena.admin .btn-link {
+  border-color: transparent;
+  cursor: pointer;
+  color: #08c;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#kunena.admin .btn-link:hover {
+  color: #005580;
+  text-decoration: underline;
+  background-color: transparent;
+}
+#kunena.admin .btn-group {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap;
+  *margin-left: .3em;
+}
+#kunena.admin .btn-group:first-child {
+  *margin-left: 0;
+}
+#kunena.admin .btn-group + .btn-group {
+  margin-left: 5px;
+}
+#kunena.admin .btn-toolbar {
+  font-size: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#kunena.admin .btn-toolbar .btn-group {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+#kunena.admin .btn-toolbar .btn + .btn,
+#kunena.admin .btn-toolbar .btn-group + .btn,
+#kunena.admin .btn-toolbar .btn + .btn-group {
+  margin-left: 5px;
+}
+#kunena.admin .btn-group > .btn {
+  position: relative;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#kunena.admin .btn-group > .btn + .btn {
+  margin-left: -1px;
+}
+#kunena.admin .btn-group > .btn,
+#kunena.admin .btn-group > .dropdown-menu {
+  font-size: 14px;
+}
+#kunena.admin .btn-group > .btn-mini {
+  font-size: 11px;
+}
+#kunena.admin .btn-group > .btn-small {
+  font-size: 12px;
+}
+#kunena.admin .btn-group > .btn-large {
+  font-size: 16px;
+}
+#kunena.admin .btn-group > .btn:first-child {
+  margin-left: 0;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+}
+#kunena.admin .btn-group > .btn:last-child,
+#kunena.admin .btn-group > .dropdown-toggle {
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+}
+#kunena.admin .btn-group > .btn.large:first-child {
+  margin-left: 0;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+  border-top-left-radius: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  border-bottom-left-radius: 6px;
+}
+#kunena.admin .btn-group > .btn.large:last-child,
+#kunena.admin .btn-group > .large.dropdown-toggle {
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-radius-topright: 6px;
+  border-top-right-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+  border-bottom-right-radius: 6px;
+}
+#kunena.admin .btn-group > .btn:hover,
+#kunena.admin .btn-group > .btn:focus,
+#kunena.admin .btn-group > .btn:active,
+#kunena.admin .btn-group > .btn.active {
+  z-index: 2;
+}
+#kunena.admin .btn-group .dropdown-toggle:active,
+#kunena.admin .btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+#kunena.admin .btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-box-shadow: inset 1px 0 0 rgba(255,255,255,.125), inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 1px 0 0 rgba(255,255,255,.125), inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 1px 0 0 rgba(255,255,255,.125), inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+  *padding-top: 5px;
+  *padding-bottom: 5px;
+}
+#kunena.admin .btn-group > .btn-mini + .dropdown-toggle {
+  padding-left: 5px;
+  padding-right: 5px;
+  *padding-top: 2px;
+  *padding-bottom: 2px;
+}
+#kunena.admin .btn-group > .btn-small + .dropdown-toggle {
+  *padding-top: 5px;
+  *padding-bottom: 4px;
+}
+#kunena.admin .btn-group > .btn-large + .dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+  *padding-top: 7px;
+  *padding-bottom: 7px;
+}
+#kunena.admin .btn-group.open .dropdown-toggle {
+  background-image: none;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+}
+#kunena.admin .btn-group.open .btn.dropdown-toggle {
+  background-color: #e6e6e6;
+}
+#kunena.admin .btn-group.open .btn-primary.dropdown-toggle {
+  background-color: #0044cc;
+}
+#kunena.admin .btn-group.open .btn-warning.dropdown-toggle {
+  background-color: #f89406;
+}
+#kunena.admin .btn-group.open .btn-danger.dropdown-toggle {
+  background-color: #bd362f;
+}
+#kunena.admin .btn-group.open .btn-success.dropdown-toggle {
+  background-color: #51a351;
+}
+#kunena.admin .btn-group.open .btn-info.dropdown-toggle {
+  background-color: #2f96b4;
+}
+#kunena.admin .btn-group.open .btn-inverse.dropdown-toggle {
+  background-color: #222;
+}
+#kunena.admin .btn .caret {
+  margin-top: 8px;
+  margin-left: 0;
+}
+#kunena.admin .btn-mini .caret,
+#kunena.admin .btn-small .caret,
+#kunena.admin .btn-large .caret {
+  margin-top: 6px;
+}
+#kunena.admin .btn-large .caret {
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-top-width: 5px;
+}
+#kunena.admin .dropup .btn-large .caret {
+  border-bottom: 5px solid #000;
+  border-top: 0;
+}
+#kunena.admin .btn-primary .caret,
+#kunena.admin .btn-warning .caret,
+#kunena.admin .btn-danger .caret,
+#kunena.admin .btn-info .caret,
+#kunena.admin .btn-success .caret,
+#kunena.admin .btn-inverse .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+#kunena.admin .btn-group-vertical {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+#kunena.admin .btn-group-vertical .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#kunena.admin .btn-group-vertical .btn + .btn {
+  margin-left: 0;
+  margin-top: -1px;
+}
+#kunena.admin .btn-group-vertical .btn:first-child {
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+#kunena.admin .btn-group-vertical .btn:last-child {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+#kunena.admin .btn-group-vertical .btn-large:first-child {
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+}
+#kunena.admin .btn-group-vertical .btn-large:last-child {
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+}
+#kunena.admin .nav {
+  margin-left: 0;
+  margin-bottom: 20px;
+  list-style: none;
+}
+#kunena.admin .nav > li > a {
+  display: block;
+}
+#kunena.admin .nav > li > a:hover {
+  text-decoration: none;
+  background-color: #eee;
+}
+#kunena.admin .nav > .pull-right {
+  float: right;
+}
+#kunena.admin .nav-header {
+  display: block;
+  padding: 3px 15px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #999;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  text-transform: uppercase;
+}
+#kunena.admin .nav li + .nav-header {
+  margin-top: 9px;
+}
+#kunena.admin .nav-list {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0;
+}
+#kunena.admin .nav-list > li > a,
+#kunena.admin .nav-list .nav-header {
+  margin-left: -15px;
+  margin-right: -15px;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+#kunena.admin .nav-list > li > a {
+  padding: 3px 15px;
+}
+#kunena.admin .nav-list > .active > a,
+#kunena.admin .nav-list > .active > a:hover {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.2);
+  background-color: #08c;
+}
+#kunena.admin .nav-list [class^="icon-"] {
+  margin-right: 2px;
+}
+#kunena.admin .nav-list .divider {
+  *width: 100%;
+  height: 1px;
+  margin: 9px 1px;
+  *margin: -5px 0 5px;
+  overflow: hidden;
+  background-color: #e5e5e5;
+  border-bottom: 1px solid #fff;
+}
+#kunena.admin .nav-tabs,
+#kunena.admin .nav-pills {
+  *zoom: 1;
+  *zoom: 1;
+}
+#kunena.admin .nav-tabs:before,
+#kunena.admin .nav-tabs:after,
+#kunena.admin .nav-pills:before,
+#kunena.admin .nav-pills:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .nav-tabs:after,
+#kunena.admin .nav-pills:after {
+  clear: both;
+}
+#kunena.admin .nav-tabs > li,
+#kunena.admin .nav-pills > li {
+  float: left;
+}
+#kunena.admin .nav-tabs > li > a,
+#kunena.admin .nav-pills > li > a {
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: 2px;
+  line-height: 14px;
+}
+#kunena.admin .nav-tabs {
+  border-bottom: 1px solid #ddd;
+}
+#kunena.admin .nav-tabs > li {
+  margin-bottom: -1px;
+}
+#kunena.admin .nav-tabs > li > a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 20px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+#kunena.admin .nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+#kunena.admin .nav-tabs > .active > a,
+#kunena.admin .nav-tabs > .active > a:hover {
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+#kunena.admin .nav-pills > li > a {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#kunena.admin .nav-pills > .active > a,
+#kunena.admin .nav-pills > .active > a:hover {
+  color: #fff;
+  background-color: #08c;
+}
+#kunena.admin .nav-stacked > li {
+  float: none;
+}
+#kunena.admin .nav-stacked > li > a {
+  margin-right: 0;
+}
+#kunena.admin .nav-tabs.nav-stacked {
+  border-bottom: 0;
+}
+#kunena.admin .nav-tabs.nav-stacked > li > a {
+  border: 1px solid #ddd;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#kunena.admin .nav-tabs.nav-stacked > li:first-child > a {
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+}
+#kunena.admin .nav-tabs.nav-stacked > li:last-child > a {
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+}
+#kunena.admin .nav-tabs.nav-stacked > li > a:hover {
+  border-color: #ddd;
+  z-index: 2;
+}
+#kunena.admin .nav-pills.nav-stacked > li > a {
+  margin-bottom: 3px;
+}
+#kunena.admin .nav-pills.nav-stacked > li:last-child > a {
+  margin-bottom: 1px;
+}
+#kunena.admin .nav-tabs .dropdown-menu {
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+}
+#kunena.admin .nav-pills .dropdown-menu {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+#kunena.admin .nav .dropdown-toggle .caret {
+  border-top-color: #08c;
+  border-bottom-color: #08c;
+  margin-top: 6px;
+}
+#kunena.admin .nav .dropdown-toggle:hover .caret {
+  border-top-color: #005580;
+  border-bottom-color: #005580;
+}
+#kunena.admin .nav-tabs .dropdown-toggle .caret {
+  margin-top: 8px;
+}
+#kunena.admin .nav .active .dropdown-toggle .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+}
+#kunena.admin .nav-tabs .active .dropdown-toggle .caret {
+  border-top-color: #555;
+  border-bottom-color: #555;
+}
+#kunena.admin .nav > .dropdown.active > a:hover {
+  cursor: pointer;
+}
+#kunena.admin .nav-tabs .open .dropdown-toggle,
+#kunena.admin .nav-pills .open .dropdown-toggle,
+#kunena.admin .nav > li.dropdown.open.active > a:hover {
+  color: #fff;
+  background-color: #999;
+  border-color: #999;
+}
+#kunena.admin .nav li.dropdown.open .caret,
+#kunena.admin .nav li.dropdown.open.active .caret,
+#kunena.admin .nav li.dropdown.open a:hover .caret {
+  border-top-color: #fff;
+  border-bottom-color: #fff;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#kunena.admin .tabs-stacked .open > a:hover {
+  border-color: #999;
+}
+#kunena.admin .tabbable {
+  *zoom: 1;
+  *zoom: 1;
+}
+#kunena.admin .tabbable:before,
+#kunena.admin .tabbable:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .tabbable:after {
+  clear: both;
+}
+#kunena.admin .tab-content {
+  overflow: auto;
+}
+#kunena.admin .tabs-below > .nav-tabs,
+#kunena.admin .tabs-right > .nav-tabs,
+#kunena.admin .tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+#kunena.admin .tab-content > .tab-pane,
+#kunena.admin .pill-content > .pill-pane {
+  display: none;
+}
+#kunena.admin .tab-content > .active,
+#kunena.admin .pill-content > .active {
+  display: block;
+}
+#kunena.admin .tabs-below > .nav-tabs {
+  border-top: 1px solid #ddd;
+}
+#kunena.admin .tabs-below > .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+#kunena.admin .tabs-below > .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+#kunena.admin .tabs-below > .nav-tabs > li > a:hover {
+  border-bottom-color: transparent;
+  border-top-color: #ddd;
+}
+#kunena.admin .tabs-below > .nav-tabs > .active > a,
+#kunena.admin .tabs-below > .nav-tabs > .active > a:hover {
+  border-color: transparent #ddd #ddd #ddd;
+}
+#kunena.admin .tabs-left > .nav-tabs > li,
+#kunena.admin .tabs-right > .nav-tabs > li {
+  float: none;
+}
+#kunena.admin .tabs-left > .nav-tabs > li > a,
+#kunena.admin .tabs-right > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+#kunena.admin .tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+#kunena.admin .tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+#kunena.admin .tabs-left > .nav-tabs > li > a:hover {
+  border-color: #eee #ddd #eee #eee;
+}
+#kunena.admin .tabs-left > .nav-tabs .active > a,
+#kunena.admin .tabs-left > .nav-tabs .active > a:hover {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #fff;
+}
+#kunena.admin .tabs-right > .nav-tabs {
+  float: right;
+  margin-left: 19px;
+  border-left: 1px solid #ddd;
+}
+#kunena.admin .tabs-right > .nav-tabs > li > a {
+  margin-left: -1px;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+}
+#kunena.admin .tabs-right > .nav-tabs > li > a:hover {
+  border-color: #eee #eee #eee #ddd;
+}
+#kunena.admin .tabs-right > .nav-tabs .active > a,
+#kunena.admin .tabs-right > .nav-tabs .active > a:hover {
+  border-color: #ddd #ddd #ddd transparent;
+  *border-left-color: #fff;
+}
+#kunena.admin .nav > .disabled > a {
+  color: #999;
+}
+#kunena.admin .nav > .disabled > a:hover {
+  text-decoration: none;
+  background-color: transparent;
+  cursor: default;
+}
+#kunena.admin .pagination {
+  height: 40px;
+  margin: 20px 0;
+}
+#kunena.admin .pagination ul {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-left: 0;
+  margin-bottom: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+#kunena.admin .pagination li {
+  display: inline;
+}
+#kunena.admin .pagination a,
+#kunena.admin .pagination span {
+  float: left;
+  padding: 0 14px;
+  line-height: 38px;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-left-width: 0;
+}
+#kunena.admin .pagination a:hover,
+#kunena.admin .pagination .active a,
+#kunena.admin .pagination .active span {
+  background-color: #f5f5f5;
+}
+#kunena.admin .pagination .active a,
+#kunena.admin .pagination .active span {
+  color: #999;
+  cursor: default;
+}
+#kunena.admin .pagination .disabled span,
+#kunena.admin .pagination .disabled a,
+#kunena.admin .pagination .disabled a:hover {
+  color: #999;
+  background-color: transparent;
+  cursor: default;
+}
+#kunena.admin .pagination li:first-child a,
+#kunena.admin .pagination li:first-child span {
+  border-left-width: 1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+#kunena.admin .pagination li:last-child a,
+#kunena.admin .pagination li:last-child span {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+#kunena.admin .pagination-centered {
+  text-align: center;
+}
+#kunena.admin .pagination-right {
+  text-align: right;
+}
+#kunena.admin .modal-open .dropdown-menu {
+  z-index: 2050;
+}
+#kunena.admin .modal-open .dropdown.open {
+  *z-index: 2050;
+}
+#kunena.admin .modal-open .popover {
+  z-index: 2060;
+}
+#kunena.admin .modal-open .tooltip {
+  z-index: 2080;
+}
+#kunena.admin .modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+#kunena.admin .modal-backdrop.fade {
+  opacity: 0;
+}
+#kunena.admin .modal-backdrop,
+#kunena.admin .modal-backdrop.fade.in {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+#kunena.admin .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 1050;
+  overflow: auto;
+  width: 560px;
+  margin: -250px 0 0 -280px;
+  background-color: #fff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0,0,0,0.3);
+  *border: 1px solid #999;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+  box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#kunena.admin .modal.fade {
+  -webkit-transition: opacity .3s linear, top .3s ease-out;
+  -moz-transition: opacity .3s linear, top .3s ease-out;
+  -o-transition: opacity .3s linear, top .3s ease-out;
+  transition: opacity .3s linear, top .3s ease-out;
+  top: -25%;
+}
+#kunena.admin .modal.fade.in {
+  top: 50%;
+}
+#kunena.admin .modal-header {
+  padding: 9px 15px;
+  border-bottom: 1px solid #eee;
+}
+#kunena.admin .modal-header .close {
+  margin-top: 2px;
+}
+#kunena.admin .modal-header h3 {
+  margin: 0;
+  line-height: 30px;
+}
+#kunena.admin .modal-body {
+  overflow-y: auto;
+  max-height: 400px;
+  padding: 15px;
+}
+#kunena.admin .modal-form {
+  margin-bottom: 0;
+}
+#kunena.admin .modal-footer {
+  padding: 14px 15px 15px;
+  margin-bottom: 0;
+  text-align: right;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: inset 0 1px 0 #fff;
+  -moz-box-shadow: inset 0 1px 0 #fff;
+  box-shadow: inset 0 1px 0 #fff;
+  *zoom: 1;
+  *zoom: 1;
+}
+#kunena.admin .modal-footer:before,
+#kunena.admin .modal-footer:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .modal-footer:after {
+  clear: both;
+}
+#kunena.admin .modal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+#kunena.admin .modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+#kunena.admin .label,
+#kunena.admin .badge {
+  font-size: 11.844px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #fff;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #999;
+}
+#kunena.admin .label {
+  padding: 1px 4px 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+#kunena.admin .badge {
+  padding: 1px 9px 2px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+#kunena.admin a.label:hover,
+#kunena.admin a.badge:hover {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+#kunena.admin .label-important,
+#kunena.admin .badge-important {
+  background-color: #b94a48;
+}
+#kunena.admin .label-important[href],
+#kunena.admin .badge-important[href] {
+  background-color: #953b39;
+}
+#kunena.admin .label-warning,
+#kunena.admin .badge-warning {
+  background-color: #f89406;
+}
+#kunena.admin .label-warning[href],
+#kunena.admin .badge-warning[href] {
+  background-color: #c67605;
+}
+#kunena.admin .label-success,
+#kunena.admin .badge-success {
+  background-color: #468847;
+}
+#kunena.admin .label-success[href],
+#kunena.admin .badge-success[href] {
+  background-color: #356635;
+}
+#kunena.admin .label-info,
+#kunena.admin .badge-info {
+  background-color: #3a87ad;
+}
+#kunena.admin .label-info[href],
+#kunena.admin .badge-info[href] {
+  background-color: #2d6987;
+}
+#kunena.admin .label-inverse,
+#kunena.admin .badge-inverse {
+  background-color: #333;
+}
+#kunena.admin .label-inverse[href],
+#kunena.admin .badge-inverse[href] {
+  background-color: #1a1a1a;
+}
+#kunena.admin .btn .label,
+#kunena.admin .btn .badge {
+  position: relative;
+  top: -1px;
+}
+#kunena.admin .btn-mini .label,
+#kunena.admin .btn-mini .badge {
+  top: 0;
+}
+@-webkit-keyframes progress-bar-stripes {
+  #kunena.admin from {
+    background-position: 40px 0;
+  }
+  #kunena.admin to {
+    background-position: 0 0;
+  }
+}
+@-moz-keyframes progress-bar-stripes {
+  #kunena.admin from {
+    background-position: 40px 0;
+  }
+  #kunena.admin to {
+    background-position: 0 0;
+  }
+}
+@-ms-keyframes progress-bar-stripes {
+  #kunena.admin from {
+    background-position: 40px 0;
+  }
+  #kunena.admin to {
+    background-position: 0 0;
+  }
+}
+@-o-keyframes progress-bar-stripes {
+  #kunena.admin from {
+    background-position: 0 0;
+  }
+  #kunena.admin to {
+    background-position: 40px 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  #kunena.admin from {
+    background-position: 40px 0;
+  }
+  #kunena.admin to {
+    background-position: 0 0;
+  }
+}
+#kunena.admin .progress {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  background-image: -moz-linear-gradient(top,#f5f5f5,#f9f9f9);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#f5f5f5),to(#f9f9f9));
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f9f9f9);
+  background-image: -o-linear-gradient(top,#f5f5f5,#f9f9f9);
+  background-image: linear-gradient(to bottom,#f5f5f5,#f9f9f9);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#fff9f9f9', GradientType=0);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#kunena.admin .progress .bar {
+  width: 0%;
+  height: 100%;
+  color: #fff;
+  float: left;
+  font-size: 12px;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #0e90d2;
+  background-image: -moz-linear-gradient(top,#149bdf,#0480be);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#149bdf),to(#0480be));
+  background-image: -webkit-linear-gradient(top,#149bdf,#0480be);
+  background-image: -o-linear-gradient(top,#149bdf,#0480be);
+  background-image: linear-gradient(to bottom,#149bdf,#0480be);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff149bdf', endColorstr='#ff0480be', GradientType=0);
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+  -moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: width .6s ease;
+  -moz-transition: width .6s ease;
+  -o-transition: width .6s ease;
+  transition: width .6s ease;
+}
+#kunena.admin .progress .bar + .bar {
+  -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.15), inset 0 -1px 0 rgba(0,0,0,.15);
+  -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.15), inset 0 -1px 0 rgba(0,0,0,.15);
+  box-shadow: inset 1px 0 0 rgba(0,0,0,.15), inset 0 -1px 0 rgba(0,0,0,.15);
+}
+#kunena.admin .progress-striped .bar {
+  background-color: #149bdf;
+  background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(.25,rgba(255,255,255,0.15)),color-stop(.25,transparent),color-stop(.5,transparent),color-stop(.5,rgba(255,255,255,0.15)),color-stop(.75,rgba(255,255,255,0.15)),color-stop(.75,transparent),to(transparent));
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: -moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  -webkit-background-size: 40px 40px;
+  -moz-background-size: 40px 40px;
+  -o-background-size: 40px 40px;
+  background-size: 40px 40px;
+}
+#kunena.admin .progress.active .bar {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -moz-animation: progress-bar-stripes 2s linear infinite;
+  -ms-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+#kunena.admin .progress-danger .bar,
+#kunena.admin .progress .bar-danger {
+  background-color: #dd514c;
+  background-image: -moz-linear-gradient(top,#ee5f5b,#c43c35);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ee5f5b),to(#c43c35));
+  background-image: -webkit-linear-gradient(top,#ee5f5b,#c43c35);
+  background-image: -o-linear-gradient(top,#ee5f5b,#c43c35);
+  background-image: linear-gradient(to bottom,#ee5f5b,#c43c35);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffc43c35', GradientType=0);
+}
+#kunena.admin .progress-danger.progress-striped .bar,
+#kunena.admin .progress-striped .bar-danger {
+  background-color: #ee5f5b;
+  background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(.25,rgba(255,255,255,0.15)),color-stop(.25,transparent),color-stop(.5,transparent),color-stop(.5,rgba(255,255,255,0.15)),color-stop(.75,rgba(255,255,255,0.15)),color-stop(.75,transparent),to(transparent));
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: -moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+}
+#kunena.admin .progress-success .bar,
+#kunena.admin .progress .bar-success {
+  background-color: #5eb95e;
+  background-image: -moz-linear-gradient(top,#62c462,#57a957);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#62c462),to(#57a957));
+  background-image: -webkit-linear-gradient(top,#62c462,#57a957);
+  background-image: -o-linear-gradient(top,#62c462,#57a957);
+  background-image: linear-gradient(to bottom,#62c462,#57a957);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff62c462', endColorstr='#ff57a957', GradientType=0);
+}
+#kunena.admin .progress-success.progress-striped .bar,
+#kunena.admin .progress-striped .bar-success {
+  background-color: #62c462;
+  background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(.25,rgba(255,255,255,0.15)),color-stop(.25,transparent),color-stop(.5,transparent),color-stop(.5,rgba(255,255,255,0.15)),color-stop(.75,rgba(255,255,255,0.15)),color-stop(.75,transparent),to(transparent));
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: -moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+}
+#kunena.admin .progress-info .bar,
+#kunena.admin .progress .bar-info {
+  background-color: #4bb1cf;
+  background-image: -moz-linear-gradient(top,#5bc0de,#339bb9);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#5bc0de),to(#339bb9));
+  background-image: -webkit-linear-gradient(top,#5bc0de,#339bb9);
+  background-image: -o-linear-gradient(top,#5bc0de,#339bb9);
+  background-image: linear-gradient(to bottom,#5bc0de,#339bb9);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff339bb9', GradientType=0);
+}
+#kunena.admin .progress-info.progress-striped .bar,
+#kunena.admin .progress-striped .bar-info {
+  background-color: #5bc0de;
+  background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(.25,rgba(255,255,255,0.15)),color-stop(.25,transparent),color-stop(.5,transparent),color-stop(.5,rgba(255,255,255,0.15)),color-stop(.75,rgba(255,255,255,0.15)),color-stop(.75,transparent),to(transparent));
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: -moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+}
+#kunena.admin .progress-warning .bar,
+#kunena.admin .progress .bar-warning {
+  background-color: #faa732;
+  background-image: -moz-linear-gradient(top,#fbb450,#f89406);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#fbb450),to(#f89406));
+  background-image: -webkit-linear-gradient(top,#fbb450,#f89406);
+  background-image: -o-linear-gradient(top,#fbb450,#f89406);
+  background-image: linear-gradient(to bottom,#fbb450,#f89406);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffab44f', endColorstr='#fff89406', GradientType=0);
+}
+#kunena.admin .progress-warning.progress-striped .bar,
+#kunena.admin .progress-striped .bar-warning {
+  background-color: #fbb450;
+  background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(.25,rgba(255,255,255,0.15)),color-stop(.25,transparent),color-stop(.5,transparent),color-stop(.5,rgba(255,255,255,0.15)),color-stop(.75,rgba(255,255,255,0.15)),color-stop(.75,transparent),to(transparent));
+  background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: -moz-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: -o-linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+  background-image: linear-gradient(45deg,rgba(255,255,255,0.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,0.15) 50%,rgba(255,255,255,0.15) 75%,transparent 75%,transparent);
+}
+#kunena.admin .pull-right {
+  float: right;
+}
+#kunena.admin .pull-left {
+  float: left;
+}
+#kunena.admin .hide {
+  display: none;
+}
+#kunena.admin .show {
+  display: block;
+}
+#kunena.admin .invisible {
+  visibility: hidden;
+}
+#kunena.admin .affix {
+  position: fixed;
+}
+#kunena.admin .clearfix {
+  *zoom: 1;
+}
+#kunena.admin .clearfix:before,
+#kunena.admin .clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+#kunena.admin .clearfix:after {
+  clear: both;
+}
+#kunena.admin .hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+#kunena.admin .input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#kunena.admin .small {
+  font-size: 11px;
+}
+#kunena.admin iframe,
+#kunena.admin svg {
+  max-width: 100%;
+}
+#kunena.admin .nowrap {
+  white-space: nowrap;
+}
+#kunena.admin .center,
+#kunena.admin .table td.center,
+#kunena.admin .table th.center {
+  text-align: center;
+}
+#kunena.admin a.disabled,
+#kunena.admin a.disabled:hover {
+  color: #999999;
+  background-color: transparent;
+  cursor: default;
+  text-decoration: none;
+}
+#kunena.admin .hero-unit {
+  text-align: center;
+}
+#kunena.admin .hero-unit .lead {
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 27px;
+}
+#kunena.admin .btn .caret {
+  margin-bottom: 7px;
+}
+#kunena.admin .blog-row-rule,
+#kunena.admin .blog-item-rule {
+  border: 0;
+}
+#kunena.admin body.modal {
+  padding-top: 0;
+}
+#kunena.admin .row-even,
+#kunena.admin .row-odd {
+  padding: 5px;
+  width: 99%;
+  border-bottom: 1px solid #ddd;
+}
+#kunena.admin .row-odd {
+  background-color: transparent;
+}
+#kunena.admin .row-even {
+  background-color: #f9f9f9;
+}
+#kunena.admin .blog-row-rule,
+#kunena.admin .blog-item-rule {
+  border: 0;
+}
+#kunena.admin .row-fluid .row-reveal {
+  visibility: hidden;
+}
+#kunena.admin .row-fluid:hover .row-reveal {
+  visibility: visible;
+}
+#kunena.admin .btn-wide {
+  width: 80%;
+}
+#kunena.admin .nav-list > li.offset > a {
+  padding-left: 30px;
+  font-size: 12px;
+}
+#kunena.admin .blog-row-rule,
+#kunena.admin .blog-item-rule {
+  border: 0;
+}
+#kunena.admin .row-fluid .offset1 {
+  margin-left: 8.382978723%;
+}
+#kunena.admin .row-fluid .offset2 {
+  margin-left: 16.89361702%;
+}
+#kunena.admin .row-fluid .offset3 {
+  margin-left: 25.404255317%;
+}
+#kunena.admin .row-fluid .offset4 {
+  margin-left: 33.914893614%;
+}
+#kunena.admin .row-fluid .offset5 {
+  margin-left: 42.425531911%;
+}
+#kunena.admin .row-fluid .offset6 {
+  margin-left: 50.93617020799999%;
+}
+#kunena.admin .row-fluid .offset7 {
+  margin-left: 59.446808505%;
+}
+#kunena.admin .row-fluid .offset8 {
+  margin-left: 67.95744680199999%;
+}
+#kunena.admin .row-fluid .offset9 {
+  margin-left: 76.468085099%;
+}
+#kunena.admin .row-fluid .offset10 {
+  margin-left: 84.97872339599999%;
+}
+#kunena.admin .row-fluid .offset11 {
+  margin-left: 91.489361693%;
+}
+#kunena.admin .navbar .nav > li > a.btn {
+  padding: 4px 10px;
+  line-height: 18px;
+}
+#kunena.admin .nav-tabs.nav-dark {
+  border-bottom: 1px solid #333;
+  text-shadow: 1px 1px 1px #000;
+}
+#kunena.admin .nav-tabs.nav-dark > li > a {
+  color: #F8F8F8;
+}
+#kunena.admin .nav-tabs.nav-dark > li > a:hover {
+  border-color: #333 #333 #111;
+  background-color: #777777;
+}
+#kunena.admin .nav-tabs.nav-dark > .active > a,
+#kunena.admin .nav-tabs.nav-dark > .active > a:hover {
+  color: #ffffff;
+  background-color: #555555;
+  border: 1px solid #222;
+  border-bottom-color: transparent;
+}
+#kunena.admin .thumbnail.pull-left {
+  margin: 0 10px 10px 0;
+}
+#kunena.admin .thumbnail.pull-right {
+  margin: 0 0 10px 10px;
+}
+#kunena.admin .width-10 {
+  width: 10px;
+}
+#kunena.admin .width-20 {
+  width: 20px;
+}
+#kunena.admin .width-30 {
+  width: 30px;
+}
+#kunena.admin .width-40 {
+  width: 40px;
+}
+#kunena.admin .width-50 {
+  width: 50px;
+}
+#kunena.admin .width-60 {
+  width: 60px;
+}
+#kunena.admin .width-70 {
+  width: 70px;
+}
+#kunena.admin .width-80 {
+  width: 80px;
+}
+#kunena.admin .width-90 {
+  width: 90px;
+}
+#kunena.admin .width-100 {
+  width: 100px;
+}
+#kunena.admin .height-10 {
+  height: 10px;
+}
+#kunena.admin .height-20 {
+  height: 20px;
+}
+#kunena.admin .height-30 {
+  height: 30px;
+}
+#kunena.admin .height-40 {
+  height: 40px;
+}
+#kunena.admin .height-50 {
+  height: 50px;
+}
+#kunena.admin .height-60 {
+  height: 60px;
+}
+#kunena.admin .height-70 {
+  height: 70px;
+}
+#kunena.admin .height-80 {
+  height: 80px;
+}
+#kunena.admin .height-90 {
+  height: 90px;
+}
+#kunena.admin .height-100 {
+  height: 100px;
+}
+#kunena.admin hr.hr-condensed {
+  margin: 10px 0;
+}
+#kunena.admin .list-striped,
+#kunena.admin .row-striped {
+  list-style: none;
+  line-height: 18px;
+  text-align: left;
+  vertical-align: middle;
+  border-top: 1px solid #ddd;
+  margin-left: 0;
+}
+#kunena.admin .list-striped li,
+#kunena.admin .list-striped dd,
+#kunena.admin .row-striped .row,
+#kunena.admin .row-striped .row-fluid {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+#kunena.admin .list-striped li:nth-child(odd),
+#kunena.admin .list-striped dd:nth-child(odd),
+#kunena.admin .row-striped .row:nth-child(odd),
+#kunena.admin .row-striped .row-fluid:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+#kunena.admin .list-striped li:hover,
+#kunena.admin .list-striped dd:hover,
+#kunena.admin .row-striped .row:hover,
+#kunena.admin .row-striped .row-fluid:hover {
+  background-color: #f5f5f5;
+}
+#kunena.admin .row-striped .row-fluid {
+  width: 97%;
+}
+#kunena.admin .row-striped .row-fluid [class*="span"] {
+  min-height: 10px;
+}
+#kunena.admin .row-striped .row-fluid [class*="span"] {
+  margin-left: 8px;
+}
+#kunena.admin .row-striped .row-fluid [class*="span"]:first-child {
+  margin-left: 0;
+}
+#kunena.admin .list-condensed li {
+  padding: 4px 5px;
+}
+#kunena.admin .row-condensed .row,
+#kunena.admin .row-condensed .row-fluid {
+  padding: 4px 5px;
+}
+#kunena.admin .list-bordered,
+#kunena.admin .row-bordered {
+  list-style: none;
+  line-height: 18px;
+  text-align: left;
+  vertical-align: middle;
+  margin-left: 0;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#kunena.admin .radio.btn-group input[type=radio] {
+  display: none;
+}
+#kunena.admin .radio.btn-group > label:first-of-type {
+  margin-left: 0;
+  -webkit-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+#kunena.admin fieldset.radio.btn-group {
+  padding-left: 0;
+}
+#kunena.admin .iframe-bordered {
+  border: 1px solid #ddd;
+}
+#kunena.admin .tab-content {
+  overflow: visible;
+}
+#kunena.admin .tabs-left .tab-content {
+  overflow: auto;
+}
+#kunena.admin .nav-tabs > li > span {
+  display: block;
+  margin-right: 2px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  line-height: 18px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+#kunena.admin .btn-micro {
+  padding: 1px 4px;
+  font-size: 10px;
+  line-height: 8px;
+}
+#kunena.admin .tip-wrap {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  z-index: 100;
+}
+#kunena.admin .page-header {
+  margin: 2px 0px 10px 0px;
+  padding-bottom: 5px;
+}
+#kunena.admin .input-prepend .chzn-container-single .chzn-single {
+  border-color: #ccc;
+  height: 26px;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#kunena.admin .input-prepend .chzn-container-active .chzn-single-with-drop {
+  -webkit-border-radius: 0 3px 0 0;
+  -moz-border-radius: 0 3px 0 0;
+  border-radius: 0 3px 0 0;
+}
+#kunena.admin .input-prepend .chzn-container-single .chzn-drop {
+  border-color: #ccc;
+}
+#kunena.admin .input-prepend > .add-on,
+#kunena.admin .input-append > .add-on {
+  vertical-align: top;
+}
+#kunena.admin .element-invisible {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+#kunena.admin .form-vertical .control-label {
+  float: none;
+  width: auto;
+  padding-right: 0;
+  padding-top: 0;
+  text-align: left;
+}
+#kunena.admin .form-vertical .controls {
+  margin-left: 0;
+}
+#kunena.admin .width-auto {
+  width: auto;
+}
+#kunena.admin .btn-group .chzn-results {
+  white-space: normal;
+}
+#kunena.admin .accordion-body.in:hover {
+  overflow: visible;
+}
+#kunena.admin .invalid {
+  color: #9d261d;
+  font-weight: bold;
+}
+#kunena.admin input.invalid {
+  border: 1px solid #9d261d;
+}
+#kunena.admin .tip-text {
+  text-align: left;
+}

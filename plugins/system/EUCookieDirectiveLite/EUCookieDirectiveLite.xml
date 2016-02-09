@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+    <name>system - EUCookieDirectiveLite</name> 
+    <author>Channel Digital.</author> 
+    <creationDate>2013-11-19</creationDate> 
+    <copyright>All rights reserved by channeldigital.co.uk 2013.</copyright> 
+    <license>GPL 1.0</license> 
+    <authorEmail>info@channeldigital.co.uk</authorEmail> 
+    <authorUrl>www.channeldigital.co.uk</authorUrl> 
+    <version>1.1.1</version> 
+    <description>Displays a cookie acceptance banner at the top of the site to warn about the site using cookies.</description>
+    <files>
+        <filename plugin="EUCookieDirectiveLite">EUCookieDirectiveLite.php</filename>
+        <filename>EUCookieDirectiveLite/images/info_icon.png</filename>
+        <filename>EUCookieDirectiveLite/images/continue_button.png</filename>
+        <filename>EUCookieDirectiveLite/EUCookieDirective.js</filename>
+    </files> 
+        <config>
+        <fields name="params">
+            <fieldset name="basic">
+        <field name="width" type="text" default="0" label="Width px (0 = full width)" description="The width of the message on the screen. 0 for 100%" />
+        <field name="warningMessage" type="textarea" rows="3" cols="15" default="We use cookies to improve our website and your experience when using it. Cookies used for the essential operation of this site have already been set." label="Warning Message" description="The message to display to users" />
+        <field name="detailsUrl" type="text" default="index.php?" label="Details URL" description="A link to the details page on this site for more information" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

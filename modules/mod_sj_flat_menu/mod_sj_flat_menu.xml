@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5" client="site"	method="upgrade">
+	<name>Sj Flat Menu</name>
+	<creationDate>September 2013</creationDate>
+	<author>YouTech Company</author>
+	<copyright>Copyright (c) 2013 YouTech Company</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@ytcvn.com</authorEmail>
+	<authorUrl>http://www.smartaddons.com</authorUrl>
+	<version>1.0.0</version>
+	<description>TPL_YTFRAMEWORK_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_sj_flat_menu">mod_sj_flat_menu.php</filename>		
+		<filename>index.html</filename>
+		<folder>assets</folder>
+		<folder>core</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages/>
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_sj_flat_menu/core/fields">
+            <fieldset name="basic" label = "Menu Options">
+                <field name="moduleclass_sfx" type="text" default="" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="menutype" type="menu" label="Select a Menu" description="choose a menu for the module" />                
+				<field name="startlevel" type="list" default="1" label="Start level" description="start level">
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+					<option value="7">J7</option>
+					<option value="8">J8</option>
+					<option value="9">J9</option>
+					<option value="10">J10</option>
+				</field>
+				<field name="endlevel" type="list" default="all" label="End level" description="end level">
+					<option value="1">J1</option>
+					<option value="2">J2</option>
+					<option value="3">J3</option>
+					<option value="4">J4</option>
+					<option value="5">J5</option>
+					<option value="6">J6</option>
+					<option value="7">J7</option>
+					<option value="8">J8</option>
+					<option value="9">J9</option>
+					<option value="10">J10</option>
+					<option value="all">All</option>
+				</field>
+				<field name="type_menu" type="radio" default = "flyout" class="btn-group" label="Menu Type" description="Menu type options">
+					<option value="accordion">Accordion</option>
+					<option value="flyout">Flyout</option>
+				</field>
+				<field name="stype_layout" type="radio" default ="vertical" class="btn-group" label="Style Flyout" description="Horizontal or Vertical">
+					<option value="horizontal">Horizontal</option>
+         			<option value="vertical">Vertical</option>
+				</field>				
+				<field name="event" type="radio" default="click" class="btn-group" label="Sub Menu Activation" description="event for sliding">
+					<option value="click">Click</option>
+                    <option value="mouseover">Hover</option>
+				</field>
+				<field name="duration" type="text" default = "300" label="Animation Duration" description="Animation Duration greater the effect fly slower, and vice versa."/>
+        
+				<field name="showsub" type="hidden" default="true" class="btn-group" label="Show Sub Level" description="show sub level">
+					<option value="false">No</option>
+                    <option value="true">Yes</option>
+				</field>
+				<field name="menu_direction" type="radio" default="left" class="btn-group" label="Sub Menu Direction" description="Flyout submenu direction">
+					<option value="right">Left</option>
+                    <option value="left">Right</option>
+				</field>
+				<field name="link_target" type="list" class="btn-group" default="_self" label="Link Target" description="The Type shows when you click on the link">
+					<option value="_blank">New Window</option>
+					<option value="_self">Same Window</option>
+					<option value="_windowopen">Popup Window</option>
+				</field>				
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="include_jquery" type="radio" class="btn-group" default="0"
+					label="INCLUDE_JQUERY_LABEl" description="INCLUDE_JQUERY_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="pretext" type="textarea" default="" label="PRE_TEXT_LABEL"
+					description="PRE_TEXT_DESC" cols="40" rows="4" filter="raw" />
+				<field name="posttext" type="textarea" default="" label="POST_TEXT_LABEL"
+					description="POST_TEXT_DESC" cols="40" rows="4" filter="raw" />
+				<field name="owncache" type="list" default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			</fieldset>	
+      </fields>
+	</config>
+</extension>

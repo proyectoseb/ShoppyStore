@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade" client="site">
+	<name>SJ Filter for VirtueMart</name>
+	<creationDate>January 2015</creationDate>
+	<author>YouTech Company</author>
+	<copyright>Copyright (c) 2014 YouTech Company</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@ytcvn.com</authorEmail>
+	<authorUrl>http://www.smartaddons.com</authorUrl>
+	<version>2.0.0</version>
+	<description>TPL_YTFRAMEWORK_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_sj_vm_filter">mod_sj_vm_filter.php</filename>
+		<filename>index.html</filename>
+		<folder>assets</folder>
+		<folder>core</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages/>
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_sj_vm_filter/core/fields">
+			<fieldset name="basic">
+				<field name="limit_results" type="text" default="20" label="FILTER_PRODUCTS_ON_PAGE"
+				       description="FILTER_PRODUCTS_ON_PAGE_DESC"/>
+				<field name="area_results" type="text" default="" label="FILTER_AREA_RESULTS"
+				       description="FILTER_AREA_RESULTS_DESC"/>
+			</fieldset>
+
+			<fieldset name="filter_categories" label="FILTER_CATEOGRIES">
+				<field name="display_category" type="radio" class="btn-group" default="1" label="FILTER_DISPLAY_CAT"
+				       description="FILTER_DISPLAY_CAT_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="catids" type="sjvmcategories" multiple="true" size="10" label="FILTER_SELECT_CAT"
+				       description="FILTER_SELECT_CAT_DESC"/>
+				<field name="dsp_countproduct_categories" type="radio" class="btn-group" default="1"
+				       label="FILTER_COUNT_PRODUCT"
+				       description="FILTER_COUNT_PRODUCT_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="openform_categories" type="radio" class="btn-group" default="1"
+				       label="FILTER_OPEN_FORM"
+				       description="FILTER_OPEN_FORM_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="cat_orderby" type="list" class="btn-group" default="1"
+				       label="FILTER_ORDERBY_CAT"
+				       description="FILTER_ORDERBY_CAT_DESC">
+					<option value="1">Name</option>
+					<option value="2">Number Products</option>
+					<option value="3">Ordering</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="filter_manuafactures" label="FILTER_MANUFACTURES">
+				<field name="display_manuafactures" type="radio" class="btn-group" default="1"
+				       label="FILTER_DISPLAY_MANU"
+				       description="FILTER_DISPLAY_MANU_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="dsp_countproduct_manuafactures" type="radio" class="btn-group" default="1"
+				       label="FILTER_COUNT_PRODUCT"
+				       description="FILTER_COUNT_PRODUCT_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="openform_manuafactures" type="radio" class="btn-group" default="1"
+				       label="FILTER_OPEN_FORM"
+				       description="FILTER_OPEN_FORM_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="filter_prices" label="FILTER_PRICES_LABEL">
+				<field name="display_prices" type="radio" class="btn-group" default="1" label="FILTER_PRICES"
+				       description="FILTER_PRICES_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="price_min" type="text" default="" label="FILTER_PRICE_MIN"
+				       description="FILTER_PRICE_MIN_DESC"/>
+				<field name="price_max" type="text" default="" label="FILTER_PRICE_MAX"
+				       description="FILTER_PRICE_MAX"/>
+				<field name="openform_prices" type="radio" class="btn-group" default="1"
+				       label="FILTER_OPEN_FORM"
+				       description="FILTER_OPEN_FORM_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="filter_customfields" label="FILTER_CUSTOMFIELDS">
+				<field name="display_customfields" type="radio" class="btn-group" default="1"
+				       label="FILTER_CUSTOMFIELDS_DIS"
+				       description="FILTER_CUSTOMFIELDS_DIS_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="customids" type="sjvmcustomfields" multiple="true" size="10"
+				       label="FILTER_CUSTOMFIELDS_CUSTOMIDS"
+				       description="FILTER_CUSTOMFIELDS_CUSTOMIDS_DESC"/>
+				<field name="dsp_countproduct_custom" type="radio" class="btn-group" default="1"
+				       label="FILTER_COUNT_PRODUCT"
+				       description="FILTER_COUNT_PRODUCT_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="openform_custom" type="radio" class="btn-group" default="0"
+				       label="FILTER_OPEN_FORM"
+				       description="FILTER_OPEN_FORM_DESC">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text"
+				       label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+				       description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"/>
+				<field name="layout" type="modulelayout"
+				       label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC"/>
+				<field name="include_jquery" type="radio" class="btn-group" default="0"
+				       label="INCLUDE_JQUERY_LABEl" description="INCLUDE_JQUERY_DESC">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="pretext" type="textarea" default="" label="PRE_TEXT_LABEL"
+				       description="PRE_TEXT_DESC" cols="40" rows="4" filter="raw"/>
+				<field name="posttext" type="textarea" default="" label="POST_TEXT_LABEL"
+				       description="POST_TEXT_DESC" cols="40" rows="4" filter="raw"/>
+				<field name="owncache" type="list" default="1"
+				       label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900"
+				       label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

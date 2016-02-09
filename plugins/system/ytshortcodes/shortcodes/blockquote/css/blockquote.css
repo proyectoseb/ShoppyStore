@@ -1,0 +1,23 @@
+.yt-boxquote {
+  font-family: "Segoe UI";
+  font-size: 118%;
+  font-style: italic;
+  line-height: 23px;
+  clear: both;
+  padding: 0 0 0 15px;
+}
+.yt-boxquote.pull-left {
+  margin-right: 20px;
+  clear: none;
+}
+.yt-boxquote.pull-right {
+  margin-left: 20px;
+  text-align: right;
+  clear: none;
+}
+.yt-boxquote small {
+  font-size: 11.4px;
+}
+.yt-boxquote small cite {
+  font-style: italic;
+}

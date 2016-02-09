@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+    <name>SJ Mega Menu</name>
+    <creationDate>November 2012</creationDate>
+    <author>YouTech Company</author>
+    <copyright>Copyright (c) 2009-2012 YouTech Company</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>contact@ytcvn.com</authorEmail>
+    <authorUrl>http://www.smartaddons.com</authorUrl>
+    <version>3.0.1</version>
+    <description>TPL_YTFRAMEWORK_XML_DESCRIPTION</description>
+    <files>
+        <filename module="mod_sj_megamenu_res">mod_sj_megamenu_res.php</filename>
+        <folder>tmpl</folder>
+        <folder>language</folder>
+        <folder>core</folder>
+        <filename>index.html</filename>
+        <filename>mod_sj_megamenu_res.xml</filename>
+    </files>
+    <media destination="megamenu" folder="media">
+        <filename>index.html</filename>
+        <folder>css</folder>
+        <folder>img</folder>
+        <folder>js</folder>
+    </media>
+    <languages />
+    <config>
+        <fields name="params">
+            <fieldset name="menu-option" label="Menu Options">
+                <field name="menutype" type="menu" label="Select Menu" description="Select a menu in the list" />
+                <field name="active" type="menuitem" label="Base Item" description="Select a menu item to always be used as the base for the menu display. You must set the Start Level to the same level or higher than the level of the base item. This will cause the module to be displayed on all assigned pages. If Current is selected the currently active item is used as the base. This causes the module to only display when the parent menu item is active.">
+                    <option value="">JCURRENT</option>
+                </field>
+
+                <field name="startLevel" type="list" default="1" label="Start Level" description="Level to start rendering the menu at. Setting the start and end levels to the same # and setting 'Show Sub-menu Items' to yes will only display that single level.">
+                    <option value="1">J1</option>
+                    <option value="2">J2</option>
+                    <option value="3">J3</option>
+                    <option value="4">J4</option>
+                    <option value="5">J5</option>
+                    <option value="6">J6</option>
+                    <option value="7">J7</option>
+                    <option value="8">J8</option>
+                    <option value="9">J9</option>
+                    <option value="10">J10</option>
+                </field>
+                <field name="endLevel" type="list" default="0" label="End Level" description="Level to stop rendering the menu at. If you choose 'All', all levels will be shown depending on 'Show Sub-menu Items' setting.">
+                    <option value="0">JALL</option>
+                    <option value="1">J1</option>
+                    <option value="2">J2</option>
+                    <option value="3">J3</option>
+                    <option value="4">J4</option>
+                    <option value="5">J5</option>
+                    <option value="6">J6</option>
+                    <option value="7">J7</option>
+                    <option value="8">J8</option>
+                    <option value="9">J9</option>
+                    <option value="10">J10</option>
+                </field>
+                <field name="showAllChildren" type="radio" class="btn-group" default="1" label="Show Sub-menu Items" description="Show sub menu items">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+                <field name="menu_event" type="radio" class="btn-group" default="click" label="Event" description="Show child when hover or click event(use for PC)">
+                    <option value="click">Click</option>
+                    <option value="hover">Hover</option>
+                </field>
+                <field name="css_style" type="radio" class="btn-group" default="0" label="Use Css Style(no Js)" description="Use Css Style(no Js and use for PC)">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option>
+                </field>
+
+                <field name="type_show" type="radio" class="btn-group" default="horizontal" label="Show Module" description="Show Module">
+                    <option value="horizontal">Horizontal</option>
+                    <option value="vertical">Vertical</option>
+                </field>
+            </fieldset>
+
+            <fieldset name="advanced">
+                <field name="tag_id" type="text" default="container_menu" label="Menu Tag ID" description="An ID attribute to assign to the root UL tag of the menu (optional)" />
+                <field name="moduleclass_sfx" type="text"
+                       label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+                       description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC"/>
+                <field name="layout" type="modulelayout" label="Alternative Layout" description="Alternative Layout" />
+                <field name="cache" type="radio" class="btn-group" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+                    <option value="1">JGLOBAL_USE_GLOBAL</option>
+                    <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+                </field>
+                <field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+                <field name="cachemode" type="hidden" default="itemid">
+                    <option value="itemid"></option>
+                </field>
+            </fieldset>
+
+        </fields>
+    </config>
+</extension>

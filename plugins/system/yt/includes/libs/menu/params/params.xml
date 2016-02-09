@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params" addfieldpath="/plugins/system/yt/includes/libs/menu/element">
+		<fieldset name="menuparam" label="YT Menu Params for this Menu Item">
+			<field type="spacer" label="&lt;div style=&quot;font-size:12px;font-weight:bold;color:#0D9FC4;&quot;&gt;GENERAL SETTING&lt;/div&gt;" />		
+			<field name="ytmenu_class" type="text" size="30" default="" label="Mega item Class" description="Add Class Suffixed Mega Item" />
+			<field name="ytext_desc" type="textarea" rows="5" cols="40" default="" label="Description" description="Mega Description for this item" />
+			
+			<field type="spacer" label="&lt;div style=&quot;font-size:12px;font-weight:bold;color:#0D9FC4;&quot;&gt;MEGA CONTENT SETTING&lt;/div&gt;" />				
+			<field name="ytext_cols" type="text" size="30" default="1" label="Number of Columns" description="Columns Description" />		
+			<field name="ytext_width" type="text" size="30" default="" label="Content Width (px)" description="Menu Content Width Description" />
+			<field name="ytext_colwidth" type="text" size="30" default="" label="Column Width (%)" description="Column Width Description" />
+			<field name="ytext_cssid" type="text" size="30" default="" label="Mega Content ID" description="Mega Content ID" />
+			<field name="ytext_contenttype" type="list" default="default" label="Mega Content Type" description="Mega Content Type Description">
+				<option value="menu">Default</option>
+				<option value="megachild">Mega Items</option>
+				<option value="mod">Modules</option>
+				<option value="pos">Positions</option>
+			</field>
+			<field name="ytext_modules" showon="ytext_contenttype==mod" type="modules"   default="" label="Modules"   description="Modules Description" />
+			<field name="ytext_positions" showon="ytext_contenttype==pos" type="positions" default="" label="Positions" description="Positions Description" />
+			<field name="ytext_jshelper" type="jshelper" label=""/>
+		</fieldset>
+	</fields>
+</form>

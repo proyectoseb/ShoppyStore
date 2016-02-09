@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metafile version="3.4" client="administrator">
+	<tag>ja-JP</tag>
+	<name>日本語 (ja-JP)</name>
+	<description>Joomla! 管理画面用日本語ファイルです。</description>
+	<version>3.4.5.1</version>
+	<creationDate>2015-10-22</creationDate>
+	<author>JOOMLA.JP</author>
+	<authorEmail>project@joomla.jp</authorEmail>
+	<authorUrl>www.joomla.jp</authorUrl>
+	<copyright>Copyright (C) 2005 - 2015 Joomla!JP and Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<metadata>
+		<name>Japanese (Japan)</name>
+		<tag>ja-JP</tag>
+		<rtl>0</rtl>
+		<locale>ja-JP.utf8, ja-JP.UTF-8, ja_JP, jpn, ja, Japanese_Japan.UTF8, japanese, jp, JP, JA</locale>
+		<firstDay>1</firstDay>
+		<weekEnd>0,6</weekEnd>
+	</metadata>
+</metafile>

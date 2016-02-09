@@ -1,0 +1,477 @@
+.postext-spextraslider {
+	margin-top: 10px;
+}
+.pretext-spextraslider {
+	margin-bottom: 10px;
+}
+
+.yt-testimonial-slider {
+	margin: 20px 0;
+}
+
+.page-title-extraslider {
+	color: #2E2C2D;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	overflow: hidden;
+	width: 75%;
+	margin: 10px 0 8px 0px;
+}
+
+.yt-testimonial-slider a {
+	text-decoration: none;
+}
+
+.yt-testimonial-slider.preload {
+	height: 250px;
+	overflow: hidden;
+	position: relative
+}
+
+.yt-testimonial-slider .extra-loading {
+	background: url('../img/loading.gif') no-repeat scroll center center transparent;
+	height: 250px;
+	width: 100%;
+}
+
+.yt-testimonial-slider.preload .heading-title,
+.yt-testimonial-slider.preload .owl-controls,
+.yt-testimonial-slider.preload .owl-controls,
+.yt-testimonial-slider.preload .extraslider-inner {
+	display: none !important;
+}
+
+.yt-testimonial-slider .pre-text,
+.yt-testimonial-slider .post-text {
+	margin: 10px 0;
+}
+
+.yt-testimonial-slider .heading-title {
+	text-transform: uppercase;
+	font-weight: bold;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.yt-testimonial-slider .extraslider-inner {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	padding-bottom: 8px;
+}
+
+.yt-testimonial-slider .item {
+	position: relative;
+	display: block;
+}
+
+.yt-testimonial-slider .owl-item {
+	float: left;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap {
+	position: relative;
+	overflow: hidden;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap .item-info .item-content {
+	margin-left: 10px;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap .item-info,
+.yt-testimonial-slider .extraslider-inner .item-wrap .item-info .item-content {
+	overflow: hidden;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap.style1 .item-info {
+	color: #FFF;
+	position: absolute;
+	background: url(../img/background.png) repeat;
+	bottom: 0;
+	left: 0;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap .item-info a {
+	color: #FFF;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap .item-info a:hover {
+	color: #DDD;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap.style2 .item-info {
+	background: #333333;
+	color: #FFF;
+	position: relative;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap-inner {
+	margin: 8px 5px 0 5px;
+	padding: 0 1px;
+	position: relative;
+	overflow: hidden;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap-inner a.new-box {
+	left: -4px;
+	z-index: 2;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap-inner a.sale-box {
+	right: -4px;
+	z-index: 2;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap.last {
+	margin-right: 0px;
+	padding-right: 0px;
+}
+
+.yt-testimonial-slider .extraslider-inner {
+	clear: both;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap img {
+	width: 100%;
+	border: none;
+	box-shadow: #000 0em 0em 0em;
+}
+
+.yt-testimonial-slider .extraslider-inner .item-wrap img:hover {
+	box-shadow: #000 0em 0em 0em;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-description {
+	margin-bottom: 0;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-prices {
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-prices .item-price {
+	color: #FF0000;
+	font-weight: bold;
+	font-family: Georgia;
+	margin-right: 3px;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-per-unit {
+	color: white;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-tags {
+	margin-bottom: 5px;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-votes {
+	padding-left: 10px;
+}
+
+.yt-testimonial-slider .item .item-wrap.style3 .item-votes .hikashop_total_vote {
+	color: #FFF;
+}
+
+.yt-testimonial-slider .item .item-wrap.style5 .item-votes .hikashop_total_vote {
+	color: #FFF;
+}
+
+.yt-testimonial-slider .item .item-wrap.style6 .item-votes .hikashop_total_vote {
+	color: #FFF;
+}
+
+.yt-testimonial-slider .item .item-wrap.style7 .item-votes .hikashop_total_vote {
+	color: #FFF;
+}
+
+.yt-testimonial-slider .item .item-wrap.style4 .item-prices .item-per-unit {
+	color: #000000;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-btn-add {
+	margin-bottom: 5px;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-btn-add form {
+	margin: 0;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-btn-add .hikashop_add_to_cart {
+	display: inline-block;
+	margin: 5px 5px 5px 0px;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-btn-add .hikashop_add_wishlist {
+	display: inline-block;
+	margin: 5px 5px 5px 0px;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-readmore {
+	margin-top: 10px;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-related {
+	text-align: left;
+	color: #FFF;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-related h4 {
+	margin: 5px 0;
+	color: #FFF;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-related ul {
+	text-align: left;
+	margin: 0 10px 0 13px;
+	color: #FFF;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-tags span {
+	color: #FFFFFF;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-tags .tags span a {
+	display: inline-block;
+}
+
+.yt-testimonial-slider .item .item-wrap .item-readmore {
+	text-align: right;
+}
+
+.yt-testimonial-slider .owl-controls .nav-page {
+	list-style: none;
+	margin: 0px;
+	float: left;
+	padding-left: 0;
+}
+
+.yt-testimonial-slider .owl-controls .nav-page .page {
+	float: left;
+	background: none;
+	padding: 0;
+	outline: none;
+}
+
+.yt-testimonial-slider .extraslider-inner .owl-wrapper-outer {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+.yt-testimonial-slider .extraslider-inner .owl-wrapper {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	position: relative;
+
+}
+
+.yt-testimonial-slider .extraslider-inner .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.yt-testimonial-slider .owl-controls {
+	margin-bottom: 8px;
+	text-align: right;
+	float: right;
+	vertical-align: middle;
+	display: inline;
+}
+
+.yt-testimonial-slider .owl-controls .owl-controls {
+	float: left;
+	margin: 0;
+}
+
+.yt-testimonial-slider .owl-controls .owl-prev,
+.yt-testimonial-slider .owl-controls .owl-next {
+	float: left;
+	outline: none;
+	font-size: 100px;
+	line-height: 18px;
+	color: #797575;
+	cursor: pointer;
+	filter: Alpha(Opacity=50);
+	opacity: 0.5;
+	font-family: Arial;
+	height: 20px;
+	vertical-align: middle;
+	position:absolute;
+	top:50%;
+	z-index:10;
+}
+.yt-testimonial-slider .owl-controls .owl-prev{
+	left:12%;
+	
+}
+.yt-testimonial-slider .owl-controls .owl-next{
+	right:12%;
+}
+.yt-testimonial-slider .owl-controls .owl-dots .owl-dot {
+	display: inline-block;
+	zoom: 1;
+}
+
+.yt-testimonial-slider .owl-dots .owl-dot {
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 4px;
+	filter: Alpha(Opacity=50);
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #797575;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.yt-testimonial-slider .owl-dots .owl-dot:hover {
+	filter: Alpha(Opacity=100);
+	opacity: 1;
+	background: #77f9f1;
+}
+
+.yt-testimonial-slider.button-type2 .owl-controls{
+	width: 100%;
+}
+
+.yt-testimonial-slider.button-type2 .owl-nav{
+	float: right;
+	text-align: right;
+	margin-bottom: 8px;
+}
+
+.yt-testimonial-slider.button-type1 .owl-dots{
+	float: left;
+	position:absolute;
+	width:auto;
+	bottom:-20px;
+	left:48%;
+}
+
+.yt-testimonial-slider.button-type2 .owl-dots{
+	text-align: center;
+	margin-top: 10px;
+	display: block;
+}
+
+.yt-testimonial-slider .owl-dots .owl-dot.active {
+	filter: Alpha(Opacity=100);
+	opacity: 1;
+	background: #77f9f1;
+}
+
+.yt-testimonial-slider .owl-dots .owl-dot:focus,
+.yt-testimonial-slider .owl-nav .owl-prev:focus,
+.yt-testimonial-slider .owl-nav .owl-next:focus {
+	outline: none;
+}
+
+.yt-testimonial-slider.button-type2  .owl-dots {
+	text-align: center;
+	margin-top: 10px;
+	display: block;
+}
+
+.yt-testimonial-slider.button-type2 .owl-prev,
+.yt-testimonial-slider.button-type2 .owl-next {
+	background: none repeat scroll 0 0 #797575;
+	border-radius: 50%;
+	color: #FFF;
+	cursor: pointer;
+	float: left;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: 600;
+	height: 20px;
+	line-height: 18px;
+	margin: 0 0 0 4px;
+	opacity: 0.5;
+	outline: medium none;
+	text-align: center;
+	vertical-align: middle;
+	width: 20px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.yt-testimonial-slider .owl-controls .owl-prev:hover,
+.yt-testimonial-slider .owl-controls .owl-next:hover {
+	color: #77f9f1;
+	filter: Alpha(Opacity=100);
+	opacity: 1;
+}
+
+/*css Media*/
+@media all and (max-width: 479px) {
+	.yt-testimonial-slider .extraslider-inner .item-wrap .item-image .quick-view-wrapper-mobile {
+		display: block;
+	}
+
+	.yt-testimonial-slider.preset04-6 .extraslider-inner .item-wrap.style1 .item-info {
+		max-height: 200px;
+	}
+	.image_testimo img{max-width:80%; height:80%;}
+}
+
+@media all and (min-width: 480px) and (max-width: 767px) {
+	.yt-testimonial-slider .extraslider-inner .item-wrap .item-image .quick-view-wrapper-mobile {
+		display: block;
+	}
+
+	.yt-testimonial-slider.preset03-6 .extraslider-inner .item-wrap.style1 .item-info {
+		max-height: 200px;
+	}
+	.image_testimo img{max-width:80%; height:80%;}
+}
+
+@media all and (min-width: 768px) and (max-width: 1199px) {
+	.yt-testimonial-slider .extraslider-inner .item-wrap .item-image .quick-view-wrapper-mobile {
+		display: none;
+	}
+
+	.yt-testimonial-slider.preset02-6 .extraslider-inner .item-wrap.style1 .item-info {
+		max-height: 200px;
+	}
+	.image_testimo img{max-width:80%; height:80%;}
+}
+
+@media all and (min-width: 1200px) {
+	.yt-testimonial-slider .extraslider-inner .item-wrap .item-image .quick-view-wrapper-mobile {
+		display: none;
+	}
+
+	.yt-testimonial-slider.preset01-6 .extraslider-inner .item-wrap.style1 .item-info {
+		max-height: 200px;
+	}
+}
+
+.lang_ar .owl-controls{
+	float: left;
+}
+
+.lang_ar .owl-controls .owl-next{
+	right: 0;
+}
+
+.lang_ar .owl-controls .owl-prev{
+	right: 20px;
+	float: right;
+}
+
+.lang_ar .owl-carousel .owl-stage {
+	float: left;
+}

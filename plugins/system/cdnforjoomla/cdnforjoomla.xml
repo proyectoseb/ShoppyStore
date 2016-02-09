@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.2" type="plugin" group="system" method="upgrade">
+	<name>PLG_SYSTEM_CDNFORJOOMLA</name>
+	<description>PLG_SYSTEM_CDNFORJOOMLA_DESC</description>
+	<version>3.4.0FREE</version>
+	<creationDate>November 2014</creationDate>
+	<author>NoNumber (Peter van Westen)</author>
+	<authorEmail>peter@nonumber.nl</authorEmail>
+	<authorUrl>http://www.nonumber.nl</authorUrl>
+	<copyright>Copyright © 2014 NoNumber All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<!-- Files -->
+	<files>
+		<filename plugin="cdnforjoomla">cdnforjoomla.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+	</files>
+
+	<!-- Parameters -->
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/nnframework/fields">
+			<fieldset name="description">
+				<field name="@loadlanguage_nnframework" type="nn_loadlanguage" extension="plg_system_nnframework" />
+				<field name="@loadlanguage" type="nn_loadlanguage" extension="plg_system_cdnforjoomla" />
+				<field name="@license" type="nn_license" extension="CDN_FOR_JOOMLA" />
+				<field name="@version" type="nn_version" extension="CDN_FOR_JOOMLA" />
+				<field name="@header" type="nn_header"
+					label="CDN_FOR_JOOMLA"
+					description="CDN_FOR_JOOMLA_DESC"
+					url="http://www.nonumber.nl/cdnforjoomla" />
+			</fieldset>
+			<fieldset name="basic">
+				<field name="@block_cdn_1_a" type="nn_block" start="1" />
+				<field name="root" type="text" size="60" default="/" label="CDN_SITE_ROOT" description="CDN_SITE_ROOT_DESC" />
+				<field name="cdn" type="text" size="60" default="" label="CDN_DOMAIN" description="CDN_DOMAIN_DESC" />
+				<field name="@notice_enable_https" type="nn_plaintext" label="CDN_ENABLE_HTTPS" description="CDN_ENABLE_HTTPS_DESC" default="NN_ONLY_AVAILABLE_IN_PRO" />
+				<field name="filetypes" type="nn_checkbox" newlines="1" showcheckall='1' default="*" label="CDN_FILE_TYPES" description="CDN_FILE_TYPES_DESC">
+					<option>CDN_IMAGES</option>
+					<option value="bmp">bmp</option>
+					<option value="gif">gif</option>
+					<option value="jpg-jpeg">jpg / jpeg</option>
+					<option value="ico">ico</option>
+					<option value="png">png</option>
+					<option value="tif-tiff">tif / tiff</option>
+					<option value="svg">svg</option>
+					<option>CDN_DOCUMENTS</option>
+					<option value="doc-docx">doc / docx</option>
+					<option value="odt">odt</option>
+					<option value="pdf">pdf</option>
+					<option value="rtf">rtf</option>
+					<option value="txt">txt</option>
+					<option>CDN_WEB_FILES</option>
+					<option value="css">css</option>
+					<option value="js">js</option>
+				</field>
+				<field name="extratypes" type="text" size="60" default="" label="CDN_EXTRA_FILETYPES" description="CDN_EXTRA_FILETYPES_DESC" />
+				<field name="ignorefiles" type="textarea" cols="40" rows="5" default="" label="CDN_IGNORE_FILES" description="CDN_IGNORE_FILES_DESC" />
+				<field name="enable_in_scripts" type="radio" class="btn-group" default="1" label="CDN_ENABLE_IN_SCRIPTS" description="CDN_ENABLE_IN_SCRIPTS_DESC">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+				<field name="@notice_enable_versioning" type="nn_plaintext" label="CDN_ENABLE_VERSIONING" description="CDN_ENABLE_VERSIONING_DESC" default="NN_ONLY_AVAILABLE_IN_PRO" />
+				<field name="@block_cdn_1_b" type="nn_block" end="1" />
+
+				<field name="@block_cdn_2_a" type="nn_block" start="1" />
+				<field name="@notice_use_extra_2" type="nn_plaintext" label="CDN_USE_EXTRA_2" description="CDN_USE_EXTRA_2_DESC" default="NN_ONLY_AVAILABLE_IN_PRO" />
+				<field name="@notice_use_extra_3" type="nn_plaintext" label="CDN_USE_EXTRA_3" description="CDN_USE_EXTRA_3_DESC" default="NN_ONLY_AVAILABLE_IN_PRO" />
+				<field name="@notice_use_extra_4" type="nn_plaintext" label="CDN_USE_EXTRA_4" description="CDN_USE_EXTRA_4_DESC" default="NN_ONLY_AVAILABLE_IN_PRO" />
+				<field name="@notice_use_extra_5" type="nn_plaintext" label="CDN_USE_EXTRA_5" description="CDN_USE_EXTRA_5_DESC" default="NN_ONLY_AVAILABLE_IN_PRO" />
+				<field name="@block_cdn_2_b" type="nn_block" end="1" />
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

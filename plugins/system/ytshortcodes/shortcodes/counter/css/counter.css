@@ -1,0 +1,31 @@
+.yt-counter-number { line-height: normal; color: #444444;}
+.yt-counter-text { line-height: normal; color: #666666;}
+.yt-counter-wrapper {padding: 15px 30px; margin-bottom: 10px}
+.yt-counter-icon i {color: #444444;}
+.yt-counter-top {
+    text-align: center;
+}
+.yt-counter-left .yt-counter-number {
+	text-align: left;
+}
+.yt-counter-left .yt-counter-desc {
+    float: left;
+    margin-left: 20px;
+}
+.yt-counter-left .yt-counter-icon {
+    float: left;
+    padding-top: 5px;
+}
+
+.yt-counter-right .yt-counter-number {
+	text-align: right;
+}
+.yt-counter-right .yt-counter-desc {
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+}
+.yt-counter-right .yt-counter-icon {
+    float: right;
+    padding-top: 5px;
+}

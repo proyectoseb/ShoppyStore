@@ -1,0 +1,303 @@
+/* ======== Icon List CSS =========== */
+
+.yt-icon-list {
+    padding: 0;
+}
+
+.yt-icon-list.has-connector .icon_list_item  {
+    overflow: hidden;
+}
+
+.yt-icon-list .icon_list_item {
+    padding-bottom: 30px;
+    clear: both;
+    position: relative;
+    margin: 0 0 30px;
+    line-height: normal;
+}
+.yt-icon-list .icon_list_item:last-child {
+    margin: 0 !important;
+}
+.yt-icon-list .icon_list_item .icon_list_icon {
+    font-size: 24px;
+    width: 3em;
+    height: 3em;
+    padding: 20px;
+    line-height: 3em;
+    text-align: center;
+    background: #FFF;
+    z-index: 9;
+    position: relative;
+    -moz-box-sizing: content-box !important;
+    -webkit-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+.yt-icon-list .icon_list_item .icon_list_connector {position: relative;}
+.yt-icon-list .icon_list_item .icon_list_connector:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 0px;
+    margin-left: -1px;
+    height: 900px;
+    border-left: 2px dashed #ddd;
+    z-index: 1;
+}
+
+.yt-icon-list .list-img-icon {
+    display: block;
+    margin: 0 auto;
+    max-height: 100% !important;
+    max-width: 100% !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+.yt-icon-list .icon_list_item .icon_description h3  {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    clear: none !important;
+    line-height: normal;
+}
+.yt-icon-list .icon_list_item .icon_description .icon_description_text {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: 14px;
+    line-height: 20px;
+    display: block;
+}
+
+/*left*/
+.yt-icon-list.yt-icon-align-left .icon_list_item .icon_list_wrapper {
+    float: left;
+}
+/*right*/
+.yt-icon-list.yt-icon-align-right {
+    text-align: right;
+}
+.yt-icon-list.yt-icon-align-right .icon_list_item .icon_list_wrapper {
+    float: right;
+}
+.yt-icon-list.yt-icon-align-right .icon_list_item .icon_list_wrapper {
+    margin-left: 10px;
+}
+
+/*top*/
+.yt-icon-list.yt-icon-align-top {
+    display: flex;
+}
+.yt-icon-list.yt-icon-align-top .icon_list_item {
+    display: table-cell;
+    display:-moz-box;
+    width: 100%;
+}
+.yt-icon-list.yt-icon-align-top .icon_list_item .icon_list_wrapper .icon_list_icon {
+    margin: 0 auto;
+    float: none;
+}
+.yt-icon-list.yt-icon-align-top .icon_list_item .icon_description {
+    text-align: center;
+    margin: 15px 0;
+    padding-bottom:0;
+}
+.yt-icon-list.yt-icon-align-top_left .icon_list_icon,
+.yt-icon-list.yt-icon-align-top_right .icon_list_icon {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.yt-icon-list.yt-icon-align-title .icon_list_icon {
+  float: left;
+  margin-right: 10px;
+  background: none !important;
+}
+.yt-icon-list.yt-icon-align-top_left .icon_list_icon {
+  text-align: left;
+}
+.yt-icon-list.yt-icon-align-top_right {
+  text-align: right;
+}
+
+
+/* description gap style */
+.yt-icon-align-right .description-gap .icon_description {
+    margin-right: 0 !important;
+}
+
+.description-gap .icon_description {
+    margin-left: 0 !important;
+}
+.description-gap .icon_description .icon_description_text {
+    display: inline-block;
+    margin-top: 15px;
+}
+/* animation 1 */
+.yt-il-animation-1 .icon_list_item:hover .icon_list_icon {
+    -webkit-animation-name: wobble-bottom;
+    animation-name: wobble-bottom;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+}
+@-webkit-keyframes wobble-bottom {
+  16.65% { -webkit-transform: skew(-12deg); transform: skew(-12deg); }
+  33.3% { -webkit-transform: skew(10deg); transform: skew(10deg); }
+  49.95% { -webkit-transform: skew(-6deg); transform: skew(-6deg); }
+  66.6% { -webkit-transform: skew(4deg); transform: skew(4deg); }
+  83.25% { -webkit-transform: skew(-2deg); transform: skew(-2deg); }
+  100% { -webkit-transform: skew(0); transform: skew(0); }
+}
+@keyframes wobble-bottom {
+  16.65% { -webkit-transform: skew(-12deg); transform: skew(-12deg); }
+  33.3% { -webkit-transform: skew(10deg); transform: skew(10deg); }
+  49.95% { -webkit-transform: skew(-6deg); transform: skew(-6deg); }
+  66.6% { -webkit-transform: skew(4deg); transform: skew(4deg); }
+  83.25% { -webkit-transform: skew(-2deg); transform: skew(-2deg); }
+  100% { -webkit-transform: skew(0); transform: skew(0); }
+}
+
+/* aniamtion 2 */
+.yt-il-animation-2 .icon_list_item:hover .icon_list_icon{
+    -webkit-animation-name: push;
+    animation-name: push;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+@-webkit-keyframes push {
+  50% { -webkit-transform: scale(0.8); transform: scale(0.8); } 
+  100% { -webkit-transform: scale(1); transform: scale(1); }
+}
+@keyframes push {
+  50% { -webkit-transform: scale(0.8); transform: scale(0.8); } 
+  100% { -webkit-transform: scale(1); transform: scale(1); }
+}
+
+/* animation 3 */
+.yt-il-animation-3 .icon_list_item:hover .icon_list_icon {
+    -webkit-animation-name: pop;
+    animation-name: pop;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+@-webkit-keyframes pop {
+  50% { -webkit-transform: scale(1.2); transform: scale(1.2); }
+}
+@keyframes pop {
+  50% { transform: scale(1.2); transform: scale(1.2); }
+}
+
+/* animation 4 */
+.yt-il-animation-4 .icon_list_item:hover .icon_list_icon {
+    -webkit-animation-name: buzz-out;
+    animation-name: buzz-out;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
+/* effect 4 */
+@-webkit-keyframes buzz-out {
+  10% { -webkit-transform: translateX(3px) rotate(2deg); }
+  20% { -webkit-transform: translateX(-3px) rotate(-2deg); }
+  30% { -webkit-transform: translateX(3px) rotate(2deg); }
+  40% { -webkit-transform: translateX(-3px) rotate(-2deg); }
+  50% { -webkit-transform: translateX(2px) rotate(1deg); }
+  60% { -webkit-transform: translateX(-2px) rotate(-1deg); }
+  70% { -webkit-transform: translateX(2px) rotate(1deg); }
+  80% { -webkit-transform: translateX(-2px) rotate(-1deg); }
+  90% { -webkit-transform: translateX(1px) rotate(0); }
+  100% { -webkit-transform: translateX(-1px) rotate(0); }
+}
+@keyframes buzz-out {
+  10% { transform: translateX(3px) rotate(2deg); }
+  20% { transform: translateX(-3px) rotate(-2deg); }
+  30% { transform: translateX(3px) rotate(2deg); }
+  40% { transform: translateX(-3px) rotate(-2deg); }
+  50% { transform: translateX(2px) rotate(1deg); }
+  60% { transform: translateX(-2px) rotate(-1deg); }
+  70% { transform: translateX(2px) rotate(1deg); }
+  80% { transform: translateX(-2px) rotate(-1deg); }
+  90% { transform: translateX(1px) rotate(0); }
+  100% { transform: translateX(-1px) rotate(0); }
+}
+
+/* animation 5 */
+.yt-il-animation-5 .icon_list_item:hover .icon_list_icon i {
+    -webkit-animation: spinAround 2s linear infinite;
+    -moz-animation: spinAround 2s linear infinite;
+    animation: spinAround 2s linear infinite;
+}
+
+@-webkit-keyframes spinAround {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* animation 6 */
+.yt-il-animation-6 .icon_list_icon i:before {
+    position: absolute;
+    left:0;
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.yt-il-animation-6:hover .icon_list_icon i:before {
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-animation-name: icon-drop;
+    animation-name: icon-drop;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+@-webkit-keyframes icon-drop {
+  0% { opacity: 0; }
+  50% { opacity: 0; -webkit-transform: translateY(-100%); transform: translateY(-100%); }
+  51%, 100% { opacity: 1; }
+}
+
+@keyframes icon-drop {
+  0% { opacity: 0; }
+  50% { opacity: 0; transform: translateY(-100%); }
+  51%, 100% { opacity: 1; }
+}
+

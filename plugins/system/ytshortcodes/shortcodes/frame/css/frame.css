@@ -1,0 +1,32 @@
+.yt-frame,.yt-frame-inner { display: block; }
+.yt-frame-align-left {float: left;margin: 0 1em 1em 0;}
+.yt-frame-align-center {float: none;margin: 1em auto;}
+.yt-frame-align-right {float: right;margin: 0 0 1em 1em;}
+
+.yt-frame img {
+	display: block !important;
+	float: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.yt-frame-style-default {
+	padding: 2px;
+	border: 1px solid #999;
+	background: #fff;
+	-webkit-box-shadow: 1px 1px 4px #ccc;
+	-moz-box-shadow: 1px 1px 4px #ccc;
+	box-shadow: 1px 1px 4px #ccc;
+}
+
+.yt-frame-style-default .yt-frame-inner {
+padding: 2px;
+border: 4px solid #eee;
+}
+
+/* utility style  */
+.no-margin-bottom {
+	margin-bottom: 0;
+}

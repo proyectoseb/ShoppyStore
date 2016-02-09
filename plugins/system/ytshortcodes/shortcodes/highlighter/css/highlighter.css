@@ -1,0 +1,41 @@
+
+.highlighter {
+  margin-top: 34px;
+  overflow: visible;
+}
+.highlighter.prettyprint {
+  border-radius: 0;
+  border: none;
+  position: relative;
+  padding: 15px;
+  background-color: #eee;
+  white-space: pre-wrap;
+}
+.highlighter.prettyprint[class*=" linenums:"] {
+  -webkit-box-shadow: 37px 0 0 #DBE1E7 inset, 40px 0 0 #95A7B9 inset;
+  -moz-box-shadow: 37px 0 0 #DBE1E7 inset, 40px 0 0 #95A7B9 inset;
+  box-shadow: 37px 0 0 #DBE1E7 inset, 40px 0 0 #95A7B9 inset;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: none;
+  position: relative;
+}
+.highlighter:before {
+  width: 100%;
+  background: #A5B5C6;
+  line-height: 30px;
+  content: attr(title);
+  position: absolute;
+  top: -34px;
+  right: 0;
+  z-index: 1;
+  padding: 2px 15px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

@@ -1,0 +1,136 @@
+/*------------------------------------------------------------------------
+ * @package SJ Accordion for Virtuemart
+ * @version 1.1.0
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ * @copyright (c) 2014 YouTech Company. All Rights Reserved.
+ * @author YouTech Company http://www.smartaddons.com
+ *
+ -------------------------------------------------------------------------*/
+.sj-accordion  {
+    margin:20px 0;
+    padding:0;
+    overflow: hidden;
+}
+
+.no-item,
+.acd-posttext,
+.acd-pretext{
+    margin:10px 0;
+}
+
+.sj-accordion .acd-items {
+    padding: 10px;
+    margin:0;
+    background: #222222;
+}
+
+.sj-accordion .acd-items .acd-item {
+    margin:0;
+    padding:0;
+    color:#FFFFFF;
+}
+
+.sj-accordion .acd-items .acd-item .acd-header:hover {
+    color:#CCC;
+}
+
+.sj-accordion .acd-items .acd-item .acd-tags,
+.sj-accordion .acd-items .acd-item .acd-description {
+    padding-bottom:5px;
+}
+
+.sj-accordion .acd-items .acd-item  .acd-tags .tags span {
+    display:inline-block;
+    margin-bottom:2px;
+}
+
+.sj-accordion .acd-items .acd-item .acd-header {
+    cursor: pointer ;
+    border-bottom: 1px dotted #555555;
+    font-size: 14px;
+    margin:0;
+    padding: 5px 10px 5px 20px;
+    background: url(../images/arrow_closed.png) no-repeat scroll left center transparent;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.sj-accordion .acd-items .acd-item.selected .acd-header {
+    background: url(../images/arrow_open.png) no-repeat scroll left center transparent;
+}
+/* .sj-accordion .acd-items .acd-item.selected .acd-content-wrap{
+    height: auto;
+} */
+
+.sj-accordion .acd-items .acd-item .acd-content-wrap{
+    overflow: hidden;
+    height: 0;
+    width:100%;
+}
+
+.sj-accordion .acd-content-wrap .acd-content-wrap-inner {
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    display: block;
+}
+
+.sj-accordion .acd-content-wrap .acd-content-wrap-inner .acd-image img{
+    max-width: 100%;
+    width:100%;
+    border:0;
+    margin:0;
+    padding:0;
+}
+
+.sj-accordion .acd-items .acd-item .acd-content-wrap .acd-content{
+    padding:13px;
+}
+
+.sj-accordion .acd-items .acd-item .acd-content-wrap .acd-content .acd-price{
+    color:#FF0000;
+    font-weight:bold;
+    display: inline-block;
+    padding-right:10px;
+}
+
+.sj-accordion .acd-content-wrap .acd-content-wrap-inner .acd-image{
+    float:left;
+    max-width:30%;
+    margin:0;
+    padding:13px;
+    padding-bottom:5px;
+    overflow: hidden;
+}
+
+
+@media all and (max-width: 479px){
+    .sj-accordion .acd-content-wrap .acd-content-wrap-inner .acd-image{
+        float:none;
+        max-width:100%;
+    }
+
+}
+
+@media all and (mim-width: 480px){
+    .sj-accordion .acd-content-wrap .acd-content-wrap-inner .acd-image{
+        float:left;
+        max-width:30%;
+    }
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.acd-price {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" version="3.4" method="upgrade">
+	<name>Arabic_Unitag_ar_AA</name>
+	<packagename>ar-AA</packagename>
+	<version>3.4.4.1</version>
+	<creationDate>09/09/2015</creationDate>
+	<author>Dr. Ashraf Damra/Abu Nidal</author>
+	<authorEmail>dr.d.ashraf@gmail.com</authorEmail>
+	<authorUrl>http://www.jarabic.com</authorUrl>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<url>http://forum.joomla.org/viewforum.php?f=17</url>
+	<packager>Dr. Ashraf Damra/Abu Nidal</packager>
+	<packagerurl>http://www.jarabic.com</packagerurl>
+	<description><![CDATA[<h3>حزمة اللغة العربية الموحدة لنظام جوملا! 3.4.4 الاصدار 1</h3>]]></description>
+	<files>
+		<file type="language" client="site" id="ar-AA">site_ar-AA.zip</file>
+		<file type="language" client="administrator" id="ar-AA">admin_ar-AA.zip</file>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist_3.xml</server>
+	</updateservers>
+</extension>

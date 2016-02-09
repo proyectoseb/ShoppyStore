@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+    <name>System - Extra Menu Params</name>
+    <author>YouTech Company</author>
+    <creationDate>November 2012</creationDate>
+    <copyright>Copyright (c) 2012 YouTech Company</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>contact@ytcvn.com</authorEmail>
+    <authorUrl>http://www.ytcvn.com</authorUrl>
+    <version>3.0.1</version>
+	<description>YouTech Extra Params plugin for Joomla 3.0.x</description>	
+	<files>
+		<folder plugin="x_menu_params">x_menu_params</folder>
+		<filename plugin="x_menu_params">x_menu_params.php</filename>
+        <filename>index.html</filename> 		
+	</files>
+
+	<fields>
+
+	</fields>
+</extension>

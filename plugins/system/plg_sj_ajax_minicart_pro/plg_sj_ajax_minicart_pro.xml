@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.3" type="plugin" group="system" method="upgrade">
+	<name>Plugin System Sj Ajax Minicart Pro For VirtueMart</name>
+	<author>YouTech Company</author>
+	<creationDate>January 2015</creationDate>
+	<copyright>Copyright (c) 2009-2015 YouTech Company. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@ytcvn.com</authorEmail>
+	<authorUrl>http://www.smartaddons.com</authorUrl>
+	<version>3.0.0</version>
+	<description>TPL_YTFRAMEWORK_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="plg_sj_ajax_minicart_pro">plg_sj_ajax_minicart_pro.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+	</files>
+	<languages folder="language/en-GB">
+		<language tag="en-GB">en-GB.plg_system_plg_sj_ajax_minicart_pro.ini</language>
+		<language tag="en-GB">en-GB.plg_system_plg_sj_ajax_minicart_pro.sys.ini</language>
+	</languages>
+	<config>
+	</config>
+</extension>

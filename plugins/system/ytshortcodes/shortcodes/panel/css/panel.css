@@ -1,0 +1,45 @@
+
+/*		Common class for clickable panels
+---------------------------------------------------------------*/
+
+.yt-panel-clickable {
+	cursor: pointer;
+	-webkit-transition: opacity .2s;
+	-moz-transition: opacity .2s;
+	transition: opacity .2s;
+}
+.yt-panel-clickable:hover {
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+}
+
+/*		Panel
+---------------------------------------------------------------*/
+
+.yt-panel {
+	position: relative;
+	width: 100%;
+	background: inherit;
+	color: inherit;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin-bottom: 25px;
+}
+.yt-panel-content { padding: 1em 1.5em; }
+
+
+/* child element style fix */
+
+.yt-panel .yt-panel-content > h1, 
+.yt-panel .yt-panel-content > h2, 
+.yt-panel .yt-panel-content > h3, 
+.yt-panel .yt-panel-content > h4, 
+.yt-panel .yt-panel-content > h5, 
+.yt-panel .yt-panel-content > h6 {
+	margin-top: 10px;
+}
+.yt-panel .yt-icon-list .icon_list_item { padding-bottom: 0;}
+.yt-panel .yt-icon-list.yt-icon-align-top .icon_list_item { padding-top: 15px;}
+
+.yt-panel .yt-panel-content .yt-icon { margin-bottom: 0; }

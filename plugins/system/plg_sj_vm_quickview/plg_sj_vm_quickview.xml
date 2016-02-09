@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0.0" type="plugin" group="system" method="upgrade">
+	<name>System - SJ QuickView for VirtueMart</name>
+	<author>YouTech Company</author>
+	<creationDate>December 2014</creationDate>
+	<copyright>Copyright (c) 2014 YouTech Company. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@ytcvn.com</authorEmail>
+	<authorUrl>http://www.smartaddons.com</authorUrl>
+	<version>3.0.0</version>
+	<description>TPL_YTFRAMEWORK_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="plg_sj_vm_quickview">plg_sj_vm_quickview.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+		<folder>assets</folder>
+	</files>
+	<languages folder="language/en-GB">
+		<language tag="en-GB">en-GB.plg_system_plg_sj_vm_quickview.ini</language>
+		<language tag="en-GB">en-GB.plg_system_plg_sj_vm_quickview.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="item_class" type="textarea" default=".products-grid li.item, .products-list li.item .f-fix, .product.vm-col"
+					   label="&lt;b&gt;Item Class&lt;/b&gt;"
+					   rows="2"
+					   cols="30"
+					   description="Enter the string class( Note: Class html tag should contain a, And  Mutiple modules: the string separated by character ' , ')"/>
+				<field name="label_button" type="text" default="Quick View" label="Label Button"
+					   description="Enter the string name button"/>
+				<field type="spacer" name="myspacer1" label="&lt;b&gt;PopUp Config&lt;/b&gt;"/>
+				<field name="auto_size" type="radio" class="btn-group" default="1" label="Auto Size"
+					   description="If Yes, then sets both autoHeight and autoWidth to true.">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="spacer" name="myspacer2"
+					   label="&lt;b&gt;PopUp Width, PopUp Height Use When Auto SiZe Config Is No&lt;/b&gt;"/>
+				<field name="popup_width" type="text" default="75%" label="Popup Width"
+					   description="unit(percent), example: 100%."/>
+				<field name="popup_height" type="text" default="90%" label="Popup Height"
+					   description="unit(percent), example: 100%."/>
+				<field name="display_overlay" type="radio" class="btn-group" default="1" label="Display Overlay"
+					   description="Display Overlay">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field name="open_effect" type="radio" class="btn-group" default="elastic" label="Open Effect"
+					   description="Effects when opening overlay">
+					<option value="elastic">Elastic</option>
+					<option value="fade">Fade</option>
+					<option value="none">None</option>
+				</field>
+				<field name="close_effect" type="radio" class="btn-group" default="fade" label="Close Effect"
+					   description="Effects when closing  overlay">
+					<option value="elastic">Elastic</option>
+					<option value="fade">Fade</option>
+					<option value="none">None</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="include_jquery" type="radio" class="btn-group" default="0" label="Include jQuery"
+					   description="Do you want include jQuery?">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+			</fieldset>
+		</fields>
+
+	</config>
+</extension>

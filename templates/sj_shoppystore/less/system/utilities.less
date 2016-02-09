@@ -1,0 +1,81 @@
+/*******************************************
+***          YT Framework: less          ***
+*******************************************/
+// Bootstrap mixins
+
+
+/* Basic Reseting Classes */
+	.link{color: @linkColor;text-decoration: none;
+		&:hover{color: @linkColor2;}
+	}
+	.linkReverse{color: @linkColor2;
+		&:hover{color: @linkColor;}
+	}
+	.linkGray{color: #666 ;
+		&:hover{color: @linkColor;}
+	}
+	.linkGraylighter{color: #999 ;
+		&:hover{color: @linkColor;}
+	}
+	
+        .align-left{text-align: left !important;}
+        .align-right{text-align: right !important;}
+        
+        .align-center{text-align: center !important;}
+        
+	.noitalic {font-style: normal !important;}
+
+	.nobold {font-weight: normal !important;}
+
+	.nomarginall {margin-left: 0 !important;margin-right: 0 !important;margin-top: 0 !important;margin-bottom: 0 !important;}
+
+	.nopaddingall {padding-left: 0 !important;padding-right: 0 !important;padding-top: 0 !important;padding-bottom: 0 !important;}
+
+	.nomargintop {margin-top: 0 !important;}
+	
+	.poscenter {display: table;margin: 0 auto ;}
+	
+	.nomargin{margin: 0 !important}
+	
+	.nomarginbottom {margin-bottom: 0 !important;}
+
+	.nomarginleft {margin-left: 0 !important;}
+
+	.nomarginright {margin-right: 0 !important;}
+
+	.nopaddingtop {padding-top: 0 !important;}
+
+	.nopaddingbottom {padding-bottom: 0 !important;}
+
+	.nopaddingleft {padding-left: 0 !important;}
+
+	.nopaddingright {padding-right: 0 !important;}
+        
+	i.fa-times:before{content: "\f00d"};
+        /* Inline Thumbnails */
+        
+        .thumbnail.pull-left {margin: 0 10px 10px 0;}
+        
+        .thumbnail.pull-right {margin: 0 0 10px 10px;}
+	
+	//Wrapping Long URLs
+	.wrapurl(){
+		width:100%;
+		white-space: pre;           /* CSS 2.0 */
+		white-space: pre-wrap;      /* CSS 2.1 */
+		white-space: pre-line;      /* CSS 3.0 */
+		white-space: -pre-wrap;     /* Opera 4-6 */
+		white-space: -o-pre-wrap;   /* Opera 7 */
+		white-space: -moz-pre-wrap; /* Mozilla */
+		white-space: -hp-pre-wrap;  /* HP Printers */
+		word-wrap: break-word;      /* IE 5+ */
+	}
+	
+	//Long shadow
+	.ico-hits,.ico-user,.ico-clock{width: 20px;height: 12px;background: url("../images/icon/icon_hits2.png") no-repeat;margin: -3px 5px 0 0;vertical-align: middle;display: inline-block;}
+	.ico-user{width: 18px;height: 18px;background: url("../images/icon/icon_author.png")  no-repeat;}
+	.ico-clock{width: 16px;height: 16px;background: url("../images/icon/icon_date2.png")  no-repeat;}
+	.grayshadow{text-shadow: 1px 1px rgb(87, 87, 87), 2px 2px rgb(87, 87, 87), 3px 3px rgb(87, 87, 87), 4px 4px rgb(87, 87, 87), 5px 5px rgb(87, 87, 87), 6px 6px rgb(87, 87, 87), 7px 7px rgb(87, 87, 87), 8px 8px rgb(87, 87, 87), 9px 9px rgb(87, 87, 87), 10px 10px rgb(87, 87, 87), 11px 11px rgb(90, 90, 90), 12px 12px rgb(93, 93, 93), 13px 13px rgb(96, 96, 96), 14px 14px rgb(99, 99, 99), 15px 15px rgb(102, 102, 102);}
+	
+	
+	

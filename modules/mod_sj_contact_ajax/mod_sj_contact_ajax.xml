@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.2.1" method="upgrade">
+	<name>Sj Contact Ajax</name>
+	<creationDate>April 2013</creationDate>
+	<author>YouTech Company</author>
+	<copyright>Copyright (c) 2013 YouTech Company</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@ytcvn.com</authorEmail>
+	<authorUrl>http://www.smartaddons.com</authorUrl>
+	<version>1.0.1</version>
+	<description>TPL_YTFRAMEWORK_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_sj_contact_ajax">mod_sj_contact_ajax.php</filename>
+		<filename>index.html</filename>
+		<folder>assets</folder>
+		<folder>core</folder>
+		<folder>language</folder>
+		<folder>tmpl</folder>
+	</files>
+	<languages />
+	<config>
+
+		<fields name="params" >
+			<fieldset name="basic"
+				addfieldpath="/modules/mod_sj_contact_ajax/core/fields"
+			>
+				<field class="input-append" name="contact_id"
+					type="modal_contacts"
+					description="COM_CONTACT_SELECT_CONTACT_DESC"
+					label="COM_CONTACT_SELECT_CONTACT_LABEL"
+					required="false"
+				/>
+				<field name="email_copy_dis" type="radio" class="btn-group" default="0" label="Send Copy to Submitter" description="Hide or Show checkbox to allow copy of email to be send to submitter">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+				
+				<field name="facebook_dis" type="radio" class="btn-group" default="0" label="Facebook" description="Allow to show Facebook">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+				<field name="facebook_text" type="text" default=""  label="Facebook URL" description="Facebook URL" />
+				
+				<field name="twitter_dis" type="radio" class="btn-group" default="0" label="Twitter" description="Allow to show Twitter">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field> 
+				<field name="twitter_text" type="text" default=""  label="Twitter URL" description="Twitter URL" />
+				
+				<field name="rss_dis" type="radio" class="btn-group" default="0" label="Rss" description="Allow to show Rss">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+				<field name="rss_text" type="text" default=""  label="Rss URL" description="Rss URL" />
+				
+				<field name="linkedin_dis" type="radio" class="btn-group" default="0" label="Linkedin" description="Allow to show Linkedin">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field> 
+				<field name="linkedin_text" type="text" default=""  label="Linkedin URL" description="Linkedin URL" />
+				
+				<field name="google_plus_dis" type="radio" class="btn-group" default="0" label="Google Plus" description="Allow to show Google Plus">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field> 
+				<field name="google_plus_text" type="text" default=""  label="Google Plus URL" description="Google Plus URL" />
+				
+			</fieldset>
+			<fieldset name="captcha" label="Captcha Options">
+				<field name="captcha_dis" type="radio" class="btn-group" default="1" label="Display Captcha" description="Display Captcha">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+				<field name="captcha_type" type="radio" class="btn-group" default="1" label="Captcha Type" description="Captcha Type">
+                    <option value="1">Custom</option>
+                    <option value="0">ReCaptcha</option>
+                </field>
+				<field name="captcha_disable" type="radio" class="btn-group" default="1" label="Hide When Logged In" description="Hide When Logged In">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field>
+			</fieldset>
+			<fieldset name="maps" label="Maps">
+				<field name="maps_display" type="radio" class="btn-group" default="1" label="Display Maps" description="Allow to show Maps">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field> 
+				<field default="500" description="Maps Width" label="Maps Width" name="map_width" type="text"/>
+				<field default="300" description="Maps Height" label="Maps Height" name="map_height" type="text"/>
+				<field name="select_type" type="radio" class="btn-group" default="0" label="Address or Coordinates" description="Address or Coordinates">
+                    <option value="0">Address</option>
+                    <option value="1">Coordinates</option>
+                </field>
+				<field name="address_text" type="text" default="Hanoi, Viet nam"  label="Address Text" description="Address Text" />
+				<field default="21.0333333" description="Latitude" label="Latitude" name="sLat" type="text"/>
+				<field default="105.85000000000002" description="Longitude" label="Longitude" name="sLong" type="text"/>
+				<field default="3" description="Zoom" label="Zoom" name="map_zoom" type="text"/>				
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="fieldMODULECLASSSUFFIX" />
+			    <field name="layout" type="modulelayout" default="basic" class="btn-group" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+                <field name="include_jquery" type="radio" class="btn-group" default="0" label="Include Jquery" description="select Yes if you want use for joomla 2.5">
+                    <option value="1">Yes</option>
+                    <option value="0">No</option>
+                </field> 
+				<field name="owncache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
